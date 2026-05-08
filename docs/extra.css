@@ -20,6 +20,10 @@
   font-size: 11px;
 }
 
+.card.tag-card {
+  max-width: calc(100vw - 3rem);
+}
+
 /* Esimerkki 1: Vaihda brändivärit (light- ja dark-teema erikseen) */
 /*
 html[data-theme="light"] {
