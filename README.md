@@ -66,6 +66,22 @@ Tiedosto `.github/workflows/update-cheatsheet.yml` ajaa joka maanantai klo 04:17
 
 Voit ajaa työnkulun myös käsin **Actions → Update MyCashflow cheat sheet → Run workflow**.
 
+## Tyylien kustomointi (docs/extra.css)
+
+`docs/index.html` on **generoitava artefakti**: viikoittainen workflow korvaa sen
+kokonaan, joten siihen tehdyt manuaaliset CSS-muutokset katoavat.
+
+Sen sijaan kustomointi tehdään tiedostossa `docs/extra.css`. Builder linkittää
+sen automaattisesti generoidun `<style>`-blokin **jälkeen**, joten sen säännöt
+voittavat sisäiset tyylit (sama spesifisyys → myöhempi voittaa).
+
+Workflow ei koskaan kirjoita `docs/extra.css`:n päälle — se commitoi vain
+`docs/index.html`, `docs/.nojekyll` ja `scripts/teemaopas-full.json`.
+
+Esimerkki: muuta brändiväri tummempaan vihreään muokkaamalla GitHubin
+web-editorissa `docs/extra.css` ja committoimalla. Pages päivittyy parin minuutin
+sisällä, eikä viikkopäivitys koske muutoksiin.
+
 ## Aikaleiman logiikka
 
 - HTML:n leima `Päivitetty viimeksi` tulee `--updated-at` -lipusta. CI antaa siihen

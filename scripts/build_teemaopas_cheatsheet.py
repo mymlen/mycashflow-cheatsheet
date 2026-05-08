@@ -574,6 +574,7 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
       .grid {{ grid-template-columns: 1fr; }}
     }}
   </style>
+  <link rel="stylesheet" href="extra.css">
 </head>
 <body>
   <div class="wrap">

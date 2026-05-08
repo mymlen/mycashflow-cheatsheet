@@ -1,0 +1,57 @@
+/*
+ * extra.css
+ * --------------------------------------------------------------
+ * Tähän tiedostoon kirjoitetut tyylit eivät katoa viikoittaisessa
+ * automaattisessa päivityksessä, koska workflow ei kirjoita
+ * docs/extra.css -tiedoston päälle. Tämä CSS ladataan VIIMEISENÄ,
+ * joten sen säännöt voittavat builderin sisäiset tyylit kun
+ * spesifisyys on sama tai korkeampi.
+ *
+ * Käyttöesimerkkejä alla — poista kommentit niiltä, joita haluat
+ * käyttää, ja muokkaa arvoja vapaasti.
+ * --------------------------------------------------------------
+ */
+
+/* Esimerkki 1: Vaihda brändivärit (light- ja dark-teema erikseen) */
+/*
+html[data-theme="light"] {
+  --accent: #0d3a22;
+  --accent-soft: #1a5c3a;
+  --bg: #f3eee2;
+}
+html[data-theme="dark"] {
+  --accent: #6cd49b;
+  --bg: #0a120c;
+}
+*/
+
+/* Esimerkki 2: Korttien pyöristys ja varjostus */
+/*
+.tag-card {
+  border-radius: 18px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04), 0 12px 32px rgba(20, 67, 39, 0.10);
+}
+*/
+
+/* Esimerkki 3: Otsikon typografia */
+/*
+.page-head h1 {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+*/
+
+/* Esimerkki 4: Pillien koko ja muoto */
+/*
+.pill {
+  font-size: 12px;
+  padding: 4px 12px;
+}
+*/
+
+/* Esimerkki 5: Grid neljälle sarakkeelle isoilla näytöillä */
+/*
+@media (min-width: 1500px) {
+  .grid { grid-template-columns: repeat(4, 1fr); }
+}
+*/
