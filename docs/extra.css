@@ -12,6 +12,14 @@
  * --------------------------------------------------------------
  */
 
+.updated-at {
+  display: inline-block;
+  border-top: 1px solid rgba(22, 123, 1, 0.1);
+  padding-top: 10px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
 /* Esimerkki 1: Vaihda brändivärit (light- ja dark-teema erikseen) */
 /*
 html[data-theme="light"] {
