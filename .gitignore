@@ -1,0 +1,4 @@
+scripts/.venv/
+scripts/__pycache__/
+scripts/teemaopas-full.tmp.json
+.DS_Store
