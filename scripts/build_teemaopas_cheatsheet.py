@@ -697,7 +697,7 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
       if (!text) return "";
       return escHtml(text).replace(
         /([a-zäöå0-9.,;:!?])\\s+(?=[A-ZÄÖÅ])/g,
-        "$1<br>"
+        (m, ch) => (ch === "." ? m : ch + "<br>")
       );
     }}
 
