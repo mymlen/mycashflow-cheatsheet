@@ -687,12 +687,30 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
       `).join("")}}</div>`;
     }}
 
-    function openModal({{ name, subtitle, body }}) {{
+    function escHtml(s) {{
+      return String(s).replace(/[&<>"']/g, ch => ({{
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+      }})[ch]);
+    }}
+
+    function visibilityToHtml(text) {{
+      if (!text) return "";
+      return escHtml(text).replace(
+        /([a-zäöå0-9.,;:!?])\\s+(?=[A-ZÄÖÅ])/g,
+        "$1<br>"
+      );
+    }}
+
+    function openModal({{ name, subtitle, body, bodyHtml }}) {{
       attrModalName.textContent = name || "";
       attrModalTag.textContent = subtitle || "";
-      attrModalBody.textContent = body && body.trim()
-        ? body
-        : "Kuvaus puuttuu. Avaa dokumentaatiosivu.";
+      if (bodyHtml && bodyHtml.trim()) {{
+        attrModalBody.innerHTML = bodyHtml;
+      }} else if (body && body.trim()) {{
+        attrModalBody.textContent = body;
+      }} else {{
+        attrModalBody.textContent = "Kuvaus puuttuu. Avaa dokumentaatiosivu.";
+      }}
       attrModal.classList.add("open");
     }}
 
@@ -738,7 +756,7 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
         openModal({{
           name: "Näkyvyys",
           subtitle: tagName || "",
-          body: row.visibility || "",
+          bodyHtml: visibilityToHtml(row.visibility || ""),
         }});
       }}
     }});
