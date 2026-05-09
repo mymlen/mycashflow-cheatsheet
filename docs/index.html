@@ -368,8 +368,15 @@
     function visibilityToHtml(text) {
       if (!text) return "";
       return escHtml(text).replace(
-        /([a-zäöå0-9.,;:!?])\s+(?=[A-ZÄÖÅ])/g,
-        (m, ch) => (ch === "." ? m : ch + "<br><br>")
+        /(\S+)\s+(?=[A-ZÄÖÅ])/g,
+        (m, word) => {
+          const last = word.slice(-1);
+          if (!/[a-zäöå0-9,;:!?]/.test(last) && last !== ".") return m;
+          if (last === ".") return m;
+          const first = word.charAt(0);
+          const br = /[A-ZÄÖÅ]/.test(first) ? "<br>" : "<br><br>";
+          return word + br;
+        }
       );
     }
 
