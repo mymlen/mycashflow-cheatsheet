@@ -29,6 +29,14 @@
   word-wrap: anywhere;
 }
 
+@media screen and (max-width: 1025px) {
+  page-head {
+    flex-flow: column;
+    gap: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 /* Esimerkki 1: Vaihda brändivärit (light- ja dark-teema erikseen) */
 /*
 html[data-theme="light"] {
