@@ -35,6 +35,10 @@
     gap: 0;
     margin-bottom: 1rem;
   }
+
+  .updated-at {
+    width: 100%;
+  }
 }
 
 /* Esimerkki 1: Vaihda brändivärit (light- ja dark-teema erikseen) */
