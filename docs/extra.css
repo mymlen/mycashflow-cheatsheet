@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-  page-head {
+  .page-head {
     flex-flow: column;
     gap: 0;
     margin-bottom: 1rem;
