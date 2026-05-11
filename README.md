@@ -75,8 +75,9 @@ Sen sijaan kustomointi tehdään tiedostossa `docs/extra.css`. Builder linkittä
 sen automaattisesti generoidun `<style>`-blokin **jälkeen**, joten sen säännöt
 voittavat sisäiset tyylit (sama spesifisyys → myöhempi voittaa).
 
-Workflow ei koskaan kirjoita `docs/extra.css`:n päälle — se commitoi vain
-`docs/index.html`, `docs/.nojekyll` ja `scripts/teemaopas-full.json`.
+Workflow ei koskaan kirjoita `docs/extra.css`:n eikä `docs/favicon.png`:n päälle
+— se commitoi vain `docs/index.html`, `docs/.nojekyll` ja
+`scripts/teemaopas-full.json`.
 
 Esimerkki: muuta brändiväri tummempaan vihreään muokkaamalla GitHubin
 web-editorissa `docs/extra.css` ja committoimalla. Pages päivittyy parin minuutin
