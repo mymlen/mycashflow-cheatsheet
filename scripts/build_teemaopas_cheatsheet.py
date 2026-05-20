@@ -469,8 +469,12 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       background: var(--bg); color: var(--text);
     }}
     .wrap {{ max-width: 1280px; margin: 0 auto; padding: 24px; }}
-    h1 {{
-      margin: 0 0 8px; font-size: 30px; font-weight: 900;
+    .logo-title {{
+      display: flex; align-items: center; gap: 12px;
+      margin: 0 0 8px;
+    }}
+    .logo-title h1 {{
+      margin: 0; font-size: 30px; font-weight: 900;
       color: var(--accent); letter-spacing: -0.01em;
     }}
     .sub {{ color: var(--muted); margin-bottom: 4px; font-size: 14px; line-height: 1.5; max-width: 52em; }}
@@ -479,7 +483,7 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       flex: 1; min-width: 0;
     }}
     .page-head__logo {{
-      width: 50px; height: 50px; flex-shrink: 0;
+      width: 35px; height: 35px; flex-shrink: 0;
       object-fit: contain;
     }}
     .updated-at {{
@@ -631,7 +635,7 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
     @media (max-width: 720px) {{
       .toolbar {{ grid-template-columns: 1fr; }}
       .grid {{ grid-template-columns: 1fr; }}
-      h1 {{ font-size: 24px; }}
+      .logo-title h1 {{ font-size: 24px; }}
     }}
   </style>
   <link rel="stylesheet" href="extra.css">
@@ -640,16 +644,18 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
   <div class="wrap">
     <div class="page-head">
       <div class="page-head__brand">
-        <img
-          class="page-head__logo"
-          src="logo.png"
-          width="50"
-          height="50"
-          alt="MyCashflow"
-          decoding="async"
-        />
         <div class="page-head__titles">
-          <h1>{SEO_TITLE}</h1>
+          <div class="logo-title">
+            <img
+              class="page-head__logo"
+              src="logo.png"
+              width="35"
+              height="35"
+              alt="MyCashflow"
+              decoding="async"
+            />
+            <h1>{SEO_TITLE}</h1>
+          </div>
           <p class="sub">{PAGE_SUBTITLE}</p>
           <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">{updated_at_label}</span></div>
         </div>
