@@ -33,9 +33,9 @@
   color: #000;
 }
 
-.page-head__logo {
-  height: 35px;
-  width: 35px;
+.logo-title {
+  display: flex;
+  gap: .5rem;
 }
 
 @media screen and (max-width: 1025px) {
