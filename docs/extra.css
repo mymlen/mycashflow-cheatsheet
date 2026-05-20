@@ -33,14 +33,9 @@
   color: #000;
 }
 
-.page-head__brand {
-  align-items: flex-start;
-}
-
 .page-head__logo {
   height: 35px;
   width: 35px;
-  margin-top: -5px;
 }
 
 @media screen and (max-width: 1025px) {
