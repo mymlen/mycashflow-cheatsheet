@@ -4,8 +4,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MyCashflow cheat sheet</title>
+  <meta name="description" content="MyCashflow cheat sheet – haettava opas kaikkiin MyCashflow Interface-tageihin, attribuutteihin ja näkyvyyksiin. Selkeämpi vaihtoehto viralliselle teemaoppaalle; suomeksi, ilmaiseksi." />
+  <meta name="keywords" content="MyCashflow cheat sheet, MyCashflow, Interface, teemaopas, tagit, attribuutit, verkkokauppa" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="MyCashflow cheat sheet" />
+  <link rel="canonical" href="https://mymlen.github.io/mycashflow-cheatsheet/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fi_FI" />
+  <meta property="og:site_name" content="MyCashflow cheat sheet" />
+  <meta property="og:title" content="MyCashflow cheat sheet" />
+  <meta property="og:description" content="MyCashflow cheat sheet – haettava opas kaikkiin MyCashflow Interface-tageihin, attribuutteihin ja näkyvyyksiin. Selkeämpi vaihtoehto viralliselle teemaoppaalle; suomeksi, ilmaiseksi." />
+  <meta property="og:url" content="https://mymlen.github.io/mycashflow-cheatsheet/" />
+  <meta property="og:image" content="https://mymlen.github.io/mycashflow-cheatsheet/favicon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="MyCashflow cheat sheet" />
+  <meta name="twitter:description" content="MyCashflow cheat sheet – haettava opas kaikkiin MyCashflow Interface-tageihin, attribuutteihin ja näkyvyyksiin. Selkeämpi vaihtoehto viralliselle teemaoppaalle; suomeksi, ilmaiseksi." />
+  <meta name="twitter:image" content="https://mymlen.github.io/mycashflow-cheatsheet/favicon.png" />
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "MyCashflow cheat sheet",
+    "description": "MyCashflow cheat sheet – haettava opas kaikkiin MyCashflow Interface-tageihin, attribuutteihin ja näkyvyyksiin. Selkeämpi vaihtoehto viralliselle teemaoppaalle; suomeksi, ilmaiseksi.",
+    "url": "https://mymlen.github.io/mycashflow-cheatsheet/",
+    "image": "https://mymlen.github.io/mycashflow-cheatsheet/favicon.png",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "fi",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" }
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -53,7 +83,15 @@
       margin: 0 0 8px; font-size: 30px; font-weight: 900;
       color: var(--accent); letter-spacing: -0.01em;
     }
-    .sub { color: var(--muted); margin-bottom: 4px; font-size: 14px; }
+    .sub { color: var(--muted); margin-bottom: 4px; font-size: 14px; line-height: 1.5; max-width: 52em; }
+    .page-head__brand {
+      display: flex; align-items: center; gap: 14px;
+      flex: 1; min-width: 0;
+    }
+    .page-head__logo {
+      width: 50px; height: 50px; flex-shrink: 0;
+      object-fit: contain;
+    }
     .updated-at {
       color: var(--muted); font-size: 12px; margin-bottom: 14px;
       text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
@@ -246,6 +284,7 @@
     @media (max-width: 720px) {
       .toolbar { grid-template-columns: 1fr; }
       .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 24px; }
     }
   </style>
   <link rel="stylesheet" href="extra.css">
@@ -253,10 +292,20 @@
 <body>
   <div class="wrap">
     <div class="page-head">
-      <div class="page-head__titles">
-        <h1>MyCashflow cheat sheet</h1>
-        <div class="sub">Hae tageja, attribuutteja ja kuvausta yhdestä näkymästä.</div>
-        <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">18. toukokuuta 2026</span></div>
+      <div class="page-head__brand">
+        <img
+          class="page-head__logo"
+          src="logo.png"
+          width="50"
+          height="50"
+          alt="MyCashflow"
+          decoding="async"
+        />
+        <div class="page-head__titles">
+          <h1>MyCashflow cheat sheet</h1>
+          <p class="sub">MyCashflow cheat sheet kokoaa kotimaisen verkkokauppa-alusta MyCashflow'n teemaoppaasta löytyvät Interface-tagit yhteen näkymään. Hae ja suodata tageja, attribuutteja ja kuvausta nopeammin kuin viralliselta dokumentaatiosivulta.</p>
+          <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">8. toukokuuta 2026</span></div>
+        </div>
       </div>
       <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false" title="Vaihda tumma / vaalea teema">
         <span class="theme-toggle__icon" aria-hidden="true">🌙</span>

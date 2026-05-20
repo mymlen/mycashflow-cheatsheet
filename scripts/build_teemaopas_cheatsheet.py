@@ -16,6 +16,22 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Julkaistun sivun juuri-URL (canonical, Open Graph). Muuta jos käytät omaa domainia.
+SITE_URL = "https://mymlen.github.io/mycashflow-cheatsheet"
+
+SEO_TITLE = "MyCashflow cheat sheet"
+SEO_DESCRIPTION = (
+    "MyCashflow cheat sheet – haettava opas kaikkiin MyCashflow Interface-tageihin, "
+    "attribuutteihin ja näkyvyyksiin. Selkeämpi vaihtoehto viralliselle teemaoppaalle; "
+    "suomeksi, ilmaiseksi."
+)
+PAGE_SUBTITLE = (
+    "MyCashflow cheat sheet kokoaa kotimaisen verkkokauppa-alusta MyCashflow'n "
+    "teemaoppaasta löytyvät Interface-tagit yhteen näkymään. Hae ja suodata "
+    "tageja, attribuutteja ja kuvausta nopeammin kuin viralliselta "
+    "dokumentaatiosivulta."
+)
+
 
 def norm(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "")).strip()
@@ -330,7 +346,10 @@ def format_updated_at(value: str | None) -> str:
     return f"{dt.day}. {months_fi[dt.month - 1]} {dt.year}"
 
 
-def build_html(dataset: dict, updated_at_label: str) -> str:
+def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -> str:
+    site_url = site_url.rstrip("/")
+    canonical = f"{site_url}/"
+    og_image = f"{site_url}/favicon.png"
     tags = dataset.get("tags_index", [])
     rows = []
     for t in tags:
@@ -374,9 +393,39 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MyCashflow cheat sheet</title>
+  <title>{SEO_TITLE}</title>
+  <meta name="description" content="{SEO_DESCRIPTION}" />
+  <meta name="keywords" content="MyCashflow cheat sheet, MyCashflow, Interface, teemaopas, tagit, attribuutit, verkkokauppa" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="MyCashflow cheat sheet" />
+  <link rel="canonical" href="{canonical}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fi_FI" />
+  <meta property="og:site_name" content="{SEO_TITLE}" />
+  <meta property="og:title" content="{SEO_TITLE}" />
+  <meta property="og:description" content="{SEO_DESCRIPTION}" />
+  <meta property="og:url" content="{canonical}" />
+  <meta property="og:image" content="{og_image}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{SEO_TITLE}" />
+  <meta name="twitter:description" content="{SEO_DESCRIPTION}" />
+  <meta name="twitter:image" content="{og_image}" />
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "{SEO_TITLE}",
+    "description": "{SEO_DESCRIPTION}",
+    "url": "{canonical}",
+    "image": "{og_image}",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "inLanguage": "fi",
+    "offers": {{ "@type": "Offer", "price": "0", "priceCurrency": "EUR" }}
+  }}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -424,7 +473,15 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
       margin: 0 0 8px; font-size: 30px; font-weight: 900;
       color: var(--accent); letter-spacing: -0.01em;
     }}
-    .sub {{ color: var(--muted); margin-bottom: 4px; font-size: 14px; }}
+    .sub {{ color: var(--muted); margin-bottom: 4px; font-size: 14px; line-height: 1.5; max-width: 52em; }}
+    .page-head__brand {{
+      display: flex; align-items: center; gap: 14px;
+      flex: 1; min-width: 0;
+    }}
+    .page-head__logo {{
+      width: 50px; height: 50px; flex-shrink: 0;
+      object-fit: contain;
+    }}
     .updated-at {{
       color: var(--muted); font-size: 12px; margin-bottom: 14px;
       text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
@@ -574,6 +631,7 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
     @media (max-width: 720px) {{
       .toolbar {{ grid-template-columns: 1fr; }}
       .grid {{ grid-template-columns: 1fr; }}
+      h1 {{ font-size: 24px; }}
     }}
   </style>
   <link rel="stylesheet" href="extra.css">
@@ -581,10 +639,20 @@ def build_html(dataset: dict, updated_at_label: str) -> str:
 <body>
   <div class="wrap">
     <div class="page-head">
-      <div class="page-head__titles">
-        <h1>MyCashflow cheat sheet</h1>
-        <div class="sub">Hae tageja, attribuutteja ja kuvausta yhdestä näkymästä.</div>
-        <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">{updated_at_label}</span></div>
+      <div class="page-head__brand">
+        <img
+          class="page-head__logo"
+          src="logo.png"
+          width="50"
+          height="50"
+          alt="MyCashflow"
+          decoding="async"
+        />
+        <div class="page-head__titles">
+          <h1>{SEO_TITLE}</h1>
+          <p class="sub">{PAGE_SUBTITLE}</p>
+          <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">{updated_at_label}</span></div>
+        </div>
       </div>
       <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false" title="Vaihda tumma / vaalea teema">
         <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
@@ -873,6 +941,11 @@ def main() -> None:
         default=None,
         help="ISO-8601 timestamp shown in the 'Päivitetty viimeksi' badge. Defaults to the input file mtime.",
     )
+    ap.add_argument(
+        "--site-url",
+        default=SITE_URL,
+        help="Published site base URL for canonical and Open Graph (no trailing slash).",
+    )
     args = ap.parse_args()
 
     in_path = Path(args.input)
@@ -888,7 +961,11 @@ def main() -> None:
         except OSError:
             updated_iso = None
 
-    html = build_html(dataset, format_updated_at(updated_iso))
+    html = build_html(
+        dataset,
+        format_updated_at(updated_iso),
+        site_url=args.site_url,
+    )
     out_path.write_text(html, encoding="utf-8")
     print(f"Wrote {out_path}")
 
