@@ -29,6 +29,10 @@
   word-wrap: anywhere;
 }
 
+.page-head__titles {
+  color: #000;
+}
+
 @media screen and (max-width: 1025px) {
   .page-head {
     flex-flow: column;
