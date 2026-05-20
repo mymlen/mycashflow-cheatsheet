@@ -29,8 +29,18 @@
   word-wrap: anywhere;
 }
 
-.page-head__titles {
+.page-head__titles h1, .page-head__titles p {
   color: #000;
+}
+
+.page-head__brand {
+  align-items: flex-start;
+}
+
+.page-head__logo {
+  height: 35px;
+  width: 35px;
+  margin-top: -5px;
 }
 
 @media screen and (max-width: 1025px) {
