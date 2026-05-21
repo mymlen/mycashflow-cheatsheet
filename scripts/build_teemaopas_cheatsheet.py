@@ -769,21 +769,6 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       }})[ch]);
     }}
 
-    function attrDescToHtml(text) {{
-      if (!text) return "";
-      const quotedWord = /(\\s|^)([^\\s]*[''\\u2018\\u2019\\u02BC][^\\s]*)/g;
-      let out = "";
-      let last = 0;
-      let m;
-      while ((m = quotedWord.exec(text)) !== null) {{
-        out += escHtml(text.slice(last, m.index + m[1].length));
-        out += "<br>";
-        out += escHtml(m[2]);
-        last = m.index + m[0].length;
-      }}
-      return out + escHtml(text.slice(last));
-    }}
-
     function visibilityToHtml(text) {{
       if (!text) return "";
       return escHtml(text).replace(
@@ -828,7 +813,7 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
         openModal({{
           name: block.name || "",
           subtitle: tagName ? `${{tagName}}-tagin attribuutti` : "",
-          bodyHtml: attrDescToHtml(block.description || ""),
+          body: block.description || "",
         }});
         return;
       }}
