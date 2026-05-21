@@ -45,6 +45,7 @@ class PageRecord:
     sections: dict[str, str] = field(default_factory=dict)
     attribute_blocks: list[dict] = field(default_factory=list)
     tag_scope: str = ""
+    syntax_block: str = ""
     tables_text: list[str] = field(default_factory=list)
     error: str | None = None
 
@@ -119,6 +120,29 @@ def extract_shortdesc(soup: BeautifulSoup) -> str:
     if not el:
         return ""
     return el.get_text(" ", strip=True)
+
+
+def extract_tag_syntax(soup: BeautifulSoup) -> str:
+    """Read code from .section.tag-syntax (Syntaksi block on tag pages)."""
+    section = soup.select_one(".section.tag-syntax, section.tag-syntax, .tag-syntax")
+    if not section:
+        return ""
+
+    code_el = section.select_one("pre code, pre.codeblock code, pre")
+    if not code_el:
+        return ""
+
+    clone = BeautifulSoup(str(code_el), "html.parser")
+    root = clone.find("code") or clone.find("pre")
+    if not root:
+        return ""
+
+    for junk in root.select(
+        ".line-numbers-rows, .line-numbers, span.line-numbers-rows, [aria-hidden='true']"
+    ):
+        junk.decompose()
+
+    return root.get_text("\n", strip=False).strip()
 
 
 def extract_longdesc(soup: BeautifulSoup) -> str:
@@ -250,6 +274,7 @@ def parse_tag_page(soup: BeautifulSoup, url: str) -> PageRecord:
     shortdesc = extract_shortdesc(soup)
     longdesc = extract_longdesc(soup)
     attribute_blocks = extract_attribute_blocks(soup)
+    syntax_block = extract_tag_syntax(soup)
     tag_scope = extract_tag_scope(soup)
     if not tag_scope:
         tag_scope = visibility_h2_section(sections)
@@ -265,6 +290,7 @@ def parse_tag_page(soup: BeautifulSoup, url: str) -> PageRecord:
         longdesc=longdesc,
         sections=sections,
         attribute_blocks=attribute_blocks,
+        syntax_block=syntax_block,
         tag_scope=tag_scope,
         tables_text=tables,
     )
@@ -323,7 +349,10 @@ def run(
                     continue
                 dismiss_cookie_banner(page)
                 try:
-                    page.wait_for_selector(".tag-scope, .shortdesc, .longdesc", timeout=2500)
+                    page.wait_for_selector(
+                        ".tag-scope, .shortdesc, .longdesc, .tag-syntax",
+                        timeout=2500,
+                    )
                 except Exception:
                     pass
                 page.wait_for_timeout(350)
@@ -377,7 +406,10 @@ def run(
                 "visibility": (
                     (p.sections.get("Näkyvyys") or "") or (p.tag_scope or "")
                 )[:4000],
-                "syntax": (p.sections.get("Syntaksi") or "")[:2000],
+                "syntax": (
+                    (p.syntax_block or "") or (p.sections.get("Syntaksi") or "")
+                )[:2000],
+                "syntax_block": (p.syntax_block or "")[:8000],
                 "attributes": (p.sections.get("Attribuutit") or "")[:6000],
                 "attribute_blocks": p.attribute_blocks,
                 "tables_preview": p.tables_text[:2],

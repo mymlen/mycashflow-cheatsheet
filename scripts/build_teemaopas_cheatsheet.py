@@ -147,6 +147,14 @@ def render_longdesc(item: dict) -> str:
     return ""
 
 
+def render_syntax_block(item: dict) -> str:
+    for key in ("syntax_block", "syntax"):
+        candidate = (item.get(key) or "").strip()
+        if candidate:
+            return candidate
+    return ""
+
+
 PURPOSES = [
     "Alennuskupongit ja lahjakortit",
     "Bannerit",
@@ -364,9 +372,13 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
                 if (b.get("name") or "").strip()
             ]
         else:
-            blocks = attr_blocks_from_text(t.get("attributes", ""), t.get("syntax", ""))
+            blocks = attr_blocks_from_text(
+                t.get("attributes", ""),
+                render_syntax_block(t) or t.get("syntax", ""),
+            )
         blocks = merge_global_attrs(blocks)
 
+        syntax_full = render_syntax_block(t)
         primary = purpose_from_url(t.get("url", ""))
         rows.append(
             {
@@ -374,7 +386,8 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
                 "url": t.get("url", ""),
                 "shortdesc": render_shortdesc(tag, t),
                 "longdesc": render_longdesc(t),
-                "syntax": short(t.get("syntax", ""), 280),
+                "syntax_block": syntax_full,
+                "syntax": short(syntax_full, 280),
                 "visibility": render_visibility(t),
                 "attribute_blocks": blocks,
                 "purpose": primary,
@@ -581,19 +594,33 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       background: var(--peach-strong); border-color: var(--accent); color: var(--accent);
     }}
     .tag-card__attr-trigger:disabled {{ cursor: default; opacity: 0.7; }}
+    .tag-card__action-row {{
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px;
+    }}
     .tag-card__description-trigger,
+    .tag-card__syntax-trigger,
     .tag-card__visibility-trigger {{
-      margin-top: 8px; background: var(--highlight); border: 1px solid var(--highlight-strong);
+      background: var(--highlight); border: 1px solid var(--highlight-strong);
       border-radius: 999px; padding: 4px 12px; font-size: 12px; color: var(--accent);
       font-family: inherit; font-weight: 700; cursor: pointer;
       transition: background 120ms ease, border-color 120ms ease;
     }}
     .tag-card__description-trigger:hover,
+    .tag-card__syntax-trigger:hover,
     .tag-card__visibility-trigger:hover {{
       background: var(--highlight-strong); border-color: var(--accent);
     }}
     .tag-card__description-trigger::before {{ content: "Avaa kuvaus"; }}
+    .tag-card__syntax-trigger::before {{ content: "Avaa syntaksi"; }}
     .tag-card__visibility-trigger::before {{ content: "Avaa näkyvyys"; }}
+    .modal-syntax {{
+      margin: 0; padding: 14px 16px; background: var(--chip);
+      border: 1px solid var(--line); border-radius: 10px;
+      overflow-x: auto; font-size: 13px; line-height: 1.45;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      white-space: pre-wrap; word-break: break-word;
+    }}
+    .modal-syntax code {{ font-family: inherit; }}
     .tag-card__docs-link {{
       display: inline-block; margin-top: 14px; color: var(--accent);
       text-decoration: none; font-weight: 700; font-size: 13px;
@@ -769,6 +796,11 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       }})[ch]);
     }}
 
+    function syntaxToHtml(text) {{
+      if (!text) return "";
+      return `<pre class="modal-syntax"><code>${{escHtml(text)}}</code></pre>`;
+    }}
+
     function visibilityToHtml(text) {{
       if (!text) return "";
       return escHtml(text).replace(
@@ -831,6 +863,19 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
         return;
       }}
 
+      const syntaxBtn = e.target.closest("button.tag-card__syntax-trigger");
+      if (syntaxBtn) {{
+        const tagName = syntaxBtn.dataset.tag;
+        const row = data.find(r => r.tag === tagName);
+        if (!row) return;
+        openModal({{
+          name: "Syntaksi",
+          subtitle: tagName || "",
+          bodyHtml: syntaxToHtml(row.syntax_block || ""),
+        }});
+        return;
+      }}
+
       const visBtn = e.target.closest("button.tag-card__visibility-trigger");
       if (visBtn) {{
         const tagName = visBtn.dataset.tag;
@@ -868,7 +913,7 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
         const tag = (r.tag || "").toLowerCase();
         const tagHit = tag.includes(query);
         const restBlob = [
-          r.shortdesc, r.longdesc, r.syntax, r.visibility, r.purpose,
+          r.shortdesc, r.longdesc, r.syntax, r.syntax_block, r.visibility, r.purpose,
           ...((r.purpose_categories || []).join(" ") || ""),
           ...((r.attribute_blocks || []).flatMap(b => [b.name, b.description]))
         ].join(" ").toLowerCase();
@@ -881,7 +926,7 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
           const tag = (r.tag || "").toLowerCase();
           const tagHit = tag.includes(query) ? 1 : 0;
           const restBlob = [
-            r.shortdesc, r.longdesc, r.syntax, r.visibility, r.purpose,
+            r.shortdesc, r.longdesc, r.syntax, r.syntax_block, r.visibility, r.purpose,
             ...((r.purpose_categories || []).join(" ") || ""),
             ...((r.attribute_blocks || []).flatMap(b => [b.name, b.description]))
           ].join(" ").toLowerCase();
@@ -908,10 +953,13 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
             <h3 class="tag-card__heading" id="purpose-${{esc(r.tag)}}">Käyttötarkoitus</h3>
             <p class="tag-card__body">${{esc(r.shortdesc)}}</p>
           </section>
-          ${{r.longdesc ? `
+          ${{(r.longdesc || r.syntax_block) ? `
           <section class="tag-card__section tag-card__section--description" aria-labelledby="desc-${{esc(r.tag)}}">
             <h3 class="tag-card__heading" id="desc-${{esc(r.tag)}}">Kuvaus</h3>
-            <button type="button" class="tag-card__description-trigger" data-tag="${{esc(r.tag)}}"></button>
+            <div class="tag-card__action-row">
+              ${{r.longdesc ? `<button type="button" class="tag-card__description-trigger" data-tag="${{esc(r.tag)}}"></button>` : ""}}
+              ${{r.syntax_block ? `<button type="button" class="tag-card__syntax-trigger" data-tag="${{esc(r.tag)}}"></button>` : ""}}
+            </div>
           </section>` : ""}}
           <section class="tag-card__section tag-card__section--visibility" aria-labelledby="vis-${{esc(r.tag)}}">
             <h3 class="tag-card__heading" id="vis-${{esc(r.tag)}}">Näkyvyys</h3>
