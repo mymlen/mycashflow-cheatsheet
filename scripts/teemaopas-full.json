@@ -1,9 +1,21 @@
 {
   "start_url": "https://support.mycashflow.com/fi/teemaopas",
-  "page_count": 791,
+  "page_count": 788,
   "unique_urls_crawled": 792,
-  "tag_page_count": 610,
+  "tag_page_count": 609,
   "errors": [
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/kampanjan-sivupohja",
+      "error": "TimeoutError('Page.goto: Timeout 45000ms exceeded.\\nCall log:\\n  - navigating to \"https://support.mycashflow.com/fi/teemaopas/kampanjan-sivupohja\", waiting until \"load\"\\n')"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/hakutulossivu",
+      "error": "TimeoutError('Page.goto: Timeout 45000ms exceeded.\\nCall log:\\n  - navigating to \"https://support.mycashflow.com/fi/teemaopas/hakutulossivu\", waiting until \"load\"\\n')"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/marketingpermissions",
+      "error": "TimeoutError('Page.goto: Timeout 45000ms exceeded.\\nCall log:\\n  - navigating to \"https://support.mycashflow.com/fi/teemaopas/marketingpermissions\", waiting until \"load\"\\n')"
+    },
     {
       "url": "https://support.mycashflow.com/fi/teemaopas/yhden-sivun-kassan-osien-paivittaminen-ajax-pyynnoilla.html",
       "error": "HTTP 404"
@@ -2330,34 +2342,6 @@
       "tag": null,
       "shortdesc": "Sivupohjat, joiden avulla muotoillaan erityyppisiä tulostettavia tuote- ja hintalappuja.",
       "longdesc": "Tulosteteema voi sisältää useita vapaavalintaisesti nimettäviä tuotelappujen sivupohjia, jotka sijoitetaan teeman\nlabels/products/\n-kansioon. Kaikki kansiossa sijaitsevat sivupohjat ovat valittavissa tuotelappujen tulostusnäkymässä verkkokaupan hallinnassa.\nLue myös:\n{BarCode}\n-tagin dokumentaatio\nTuotelappujen käyttöohjeet",
-      "sections": {},
-      "attribute_blocks": [],
-      "tag_scope": "",
-      "syntax_block": "",
-      "tables_text": [],
-      "error": null
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/kampanjan-sivupohja",
-      "title": "Kampanja | MyCashflow Ohjekeskus",
-      "h1": "Kampanja",
-      "tag": null,
-      "shortdesc": "Sivu jolla listataan kampanjan tuotteet. Käytössä vain kampanjoilla, joille on luotu kampanjasivu.",
-      "longdesc": "Kampanjasivu luodaan hallintatyökalun kampanjalomakkeen kohdassa\nKampanjasivu\n.\nKampanjasivu on hyödyllinen esimerkiksi, kun asiakkaalle on annettu koodi jolla saa alennusta useita eri tuotteista, jolloin koodin syötettyään asiakas pääsee kampanjasivulle ja näkee alennukset joihin hän on oikeutettu.\nKampanjaan liitetyt tuotteet tulostetaan sivupohjassa käyttämällä\n{CampaignProducts}\n-tagia.",
-      "sections": {},
-      "attribute_blocks": [],
-      "tag_scope": "",
-      "syntax_block": "",
-      "tables_text": [],
-      "error": null
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/hakutulossivu",
-      "title": "Haku | MyCashflow Ohjekeskus",
-      "h1": "Haku",
-      "tag": null,
-      "shortdesc": "Sivu, jossa esitetään verkkokaupan sisäisen hakukoneen tuottamat hakutulokset.",
-      "longdesc": "Sivulla kannattaa esittää hakutulosten lisäksi myös:\nSuodatustyökalut\nja\nsuositellut hakusanat\n(vain maksulliset palvelupaketit)\nAsiakkaan antama\nhakutermi",
       "sections": {},
       "attribute_blocks": [],
       "tag_scope": "",
@@ -9103,35 +9087,6 @@
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nTagia käytetään vain kassan\nmaksunkäsittelysivulla\n.",
       "syntax_block": "{CheckoutPaymentMethodProcess}",
       "tables_text": [],
-      "error": null
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/marketingpermissions",
-      "title": "{MarketingPermissions} | MyCashflow Ohjekeskus",
-      "h1": "{MarketingPermissions}",
-      "tag": "{MarketingPermissions}",
-      "shortdesc": "Tulostaa valintaruudun, jonka avulla asiakas voi halutessaan antaa luvan markkinointiviestien lähettämiseen.",
-      "longdesc": "",
-      "sections": {},
-      "attribute_blocks": [
-        {
-          "name": "before: / after:",
-          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
-        },
-        {
-          "name": "escape:",
-          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
-        },
-        {
-          "name": "or:",
-          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
-        }
-      ],
-      "tag_scope": "Toimii näkyvyydessä:\ntilaus\nVaadittu näkyvyys on aina asetettu seuraavissa sivupohjissa:\nSivupohjat\nKiitos tilauksesta -sivu\n/checkout/thanks.html\nTagin sisältö kuuluu\n{Content}\n-tagin tulostukseen\nasiakastilin sivuilla\n.",
-      "syntax_block": "{MarketingPermissions}",
-      "tables_text": [
-        "Sivupohjat\nKiitos tilauksesta -sivu\n/checkout/thanks.html"
-      ],
       "error": null
     },
     {
@@ -33041,34 +32996,6 @@
         }
       ],
       "tables_preview": []
-    },
-    {
-      "tag": "{MarketingPermissions}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/marketingpermissions",
-      "shortdesc": "Tulostaa valintaruudun, jonka avulla asiakas voi halutessaan antaa luvan markkinointiviestien lähettämiseen.",
-      "longdesc": "",
-      "tag_scope": "Toimii näkyvyydessä:\ntilaus\nVaadittu näkyvyys on aina asetettu seuraavissa sivupohjissa:\nSivupohjat\nKiitos tilauksesta -sivu\n/checkout/thanks.html\nTagin sisältö kuuluu\n{Content}\n-tagin tulostukseen\nasiakastilin sivuilla\n.",
-      "visibility": "Toimii näkyvyydessä:\ntilaus\nVaadittu näkyvyys on aina asetettu seuraavissa sivupohjissa:\nSivupohjat\nKiitos tilauksesta -sivu\n/checkout/thanks.html\nTagin sisältö kuuluu\n{Content}\n-tagin tulostukseen\nasiakastilin sivuilla\n.",
-      "syntax": "{MarketingPermissions}",
-      "syntax_block": "{MarketingPermissions}",
-      "attributes": "",
-      "attribute_blocks": [
-        {
-          "name": "before: / after:",
-          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
-        },
-        {
-          "name": "escape:",
-          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
-        },
-        {
-          "name": "or:",
-          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
-        }
-      ],
-      "tables_preview": [
-        "Sivupohjat\nKiitos tilauksesta -sivu\n/checkout/thanks.html"
-      ]
     },
     {
       "tag": "{CheckoutShippingMethod}",
