@@ -79,15 +79,26 @@ jobs:
               f.write("skip=false\n")
           PY
 
+      - name: Update changelog from scrape diff
+        if: steps.gate.outputs.skip != 'true'
+        working-directory: scripts
+        run: |
+          mkdir -p ../docs
+          python update_changelog.py \
+            --old teemaopas-full.json \
+            --new teemaopas-full.tmp.json \
+            --out ../docs/changelog.json \
+            --date "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
       - name: Promote temp JSON and rebuild HTML
         if: steps.gate.outputs.skip != 'true'
         working-directory: scripts
         run: |
           mv teemaopas-full.tmp.json teemaopas-full.json
-          mkdir -p ../docs
           python build_teemaopas_cheatsheet.py \
             --input teemaopas-full.json \
             --output ../docs/index.html \
+            --changelog ../docs/changelog.json \
             --updated-at "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           touch ../docs/.nojekyll
 
@@ -101,7 +112,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html docs/.nojekyll scripts/teemaopas-full.json
+          git add docs/index.html docs/changelog.json docs/.nojekyll scripts/teemaopas-full.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

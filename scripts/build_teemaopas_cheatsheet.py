@@ -354,10 +354,29 @@ def format_updated_at(value: str | None) -> str:
     return f"{dt.day}. {months_fi[dt.month - 1]} {dt.year}"
 
 
-def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -> str:
+def build_html(
+    dataset: dict,
+    updated_at_label: str,
+    site_url: str = SITE_URL,
+    changelog: dict | None = None,
+) -> str:
     site_url = site_url.rstrip("/")
     canonical = f"{site_url}/"
     og_image = f"{site_url}/favicon.png"
+    changelog_data = changelog if changelog is not None else {"entries": []}
+    changelog_json = json.dumps(changelog_data, ensure_ascii=False)
+    latest = (changelog_data.get("entries") or [None])[0]
+    has_changelog_updates = bool(
+        latest
+        and (
+            latest.get("added")
+            or latest.get("removed")
+            or latest.get("updated")
+        )
+    )
+    changelog_btn_class = (
+        "changelog-toggle has-updates" if has_changelog_updates else "changelog-toggle"
+    )
     tags = dataset.get("tags_index", [])
     rows = []
     for t in tags:
@@ -521,6 +540,45 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
     .theme-toggle:hover {{
       border-color: var(--accent-soft); background: var(--panel);
     }}
+    .page-head__actions {{
+      display: flex; flex-shrink: 0; align-items: flex-start; gap: 8px;
+    }}
+    .changelog-toggle {{
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 14px; border-radius: 999px; cursor: pointer;
+      font-family: inherit; font-size: 13px; font-weight: 700;
+      background: var(--chip); color: var(--accent); border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      transition: background 120ms ease, border-color 120ms ease;
+    }}
+    .changelog-toggle:hover {{
+      border-color: var(--accent-soft); background: var(--panel);
+    }}
+    .changelog-toggle.has-updates {{
+      border-color: var(--peach-strong); background: var(--peach);
+    }}
+    .changelog-panel {{ max-width: 720px; }}
+    .changelog-entry {{
+      padding: 16px 0; border-bottom: 1px solid var(--line);
+    }}
+    .changelog-entry:last-child {{ border-bottom: none; padding-bottom: 0; }}
+    .changelog-entry__date {{
+      font-size: 12px; font-weight: 900; text-transform: uppercase;
+      letter-spacing: 0.06em; color: var(--muted); margin-bottom: 4px;
+    }}
+    .changelog-entry__summary {{
+      font-size: 16px; font-weight: 900; color: var(--accent); margin-bottom: 12px;
+    }}
+    .changelog-section {{ margin-bottom: 12px; }}
+    .changelog-section h4 {{
+      margin: 0 0 6px; font-size: 13px; font-weight: 900; color: var(--text);
+    }}
+    .changelog-section ul {{
+      margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.5;
+    }}
+    .changelog-section li {{ margin-bottom: 4px; }}
+    .changelog-tag {{ font-family: ui-monospace, monospace; font-weight: 700; }}
+    .changelog-empty {{ color: var(--muted); font-size: 14px; }}
     .theme-toggle:focus-visible {{
       outline: 2px solid var(--peach-strong); outline-offset: 2px;
     }}
@@ -687,10 +745,20 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
           <div class="updated-at">Päivitetty viimeksi: <span class="updated-at__date">{updated_at_label}</span></div>
         </div>
       </div>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false" title="Vaihda tumma / vaalea teema">
-        <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
-        <span class="theme-toggle__label">Tumma tila</span>
-      </button>
+      <div class="page-head__actions">
+        <button
+          type="button"
+          class="{changelog_btn_class}"
+          id="changelogToggle"
+          title="View changes since the last documentation update"
+        >
+          Changelog
+        </button>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-pressed="false" title="Vaihda tumma / vaalea teema">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+          <span class="theme-toggle__label">Tumma tila</span>
+        </button>
+      </div>
     </div>
 
     <div class="toolbar">
@@ -721,8 +789,22 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
     </div>
   </div>
 
+  <div id="changelogModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="changelogModalTitle">
+    <div class="modal changelog-panel">
+      <div class="modal-head">
+        <div>
+          <div class="modal-name" id="changelogModalTitle">Changelog</div>
+          <div class="modal-tag">Changes detected after each weekly documentation scrape</div>
+        </div>
+        <button type="button" class="modal-close" data-changelog-close>Close</button>
+      </div>
+      <div class="modal-body" id="changelogModalBody"></div>
+    </div>
+  </div>
+
   <script>
     const data = {payload};
+    const changelogData = {changelog_json};
     const grid = document.getElementById("grid");
     const purposes = {purpose_payload};
     const q = document.getElementById("q");
@@ -732,6 +814,9 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
     const attrModalName = document.getElementById("attrModalName");
     const attrModalTag = document.getElementById("attrModalTag");
     const attrModalBody = document.getElementById("attrModalBody");
+    const changelogModal = document.getElementById("changelogModal");
+    const changelogModalBody = document.getElementById("changelogModalBody");
+    const changelogToggle = document.getElementById("changelogToggle");
     const themeToggle = document.getElementById("themeToggle");
     const themeToggleLabel = themeToggle.querySelector(".theme-toggle__label");
     const themeToggleIcon = themeToggle.querySelector(".theme-toggle__icon");
@@ -833,6 +918,53 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
       attrModal.classList.remove("open");
     }}
 
+    function renderChangelogHtml() {{
+      const entries = changelogData.entries || [];
+      if (!entries.length) {{
+        return '<p class="changelog-empty">No changes recorded yet. After the next successful weekly scrape that finds differences, updates will appear here.</p>';
+      }}
+      return entries.map(entry => {{
+        const added = (entry.added || []).map(item =>
+          `<li><span class="changelog-tag">${{esc(item.tag)}}</span> — ${{esc(item.message || "New tag")}}</li>`
+        ).join("");
+        const removed = (entry.removed || []).map(item =>
+          `<li><span class="changelog-tag">${{esc(item.tag)}}</span> — ${{esc(item.message || "Removed")}}</li>`
+        ).join("");
+        const updated = (entry.updated || []).map(item => {{
+          const lines = (item.changes || []).map(c => `<li>${{esc(c)}}</li>`).join("");
+          return `<li><span class="changelog-tag">${{esc(item.tag)}}</span><ul>${{lines}}</ul></li>`;
+        }}).join("");
+        const sections = [
+          added ? `<div class="changelog-section"><h4>Added</h4><ul>${{added}}</ul></div>` : "",
+          removed ? `<div class="changelog-section"><h4>Removed</h4><ul>${{removed}}</ul></div>` : "",
+          updated ? `<div class="changelog-section"><h4>Updated</h4><ul>${{updated}}</ul></div>` : "",
+        ].filter(Boolean).join("");
+        return `
+          <article class="changelog-entry">
+            <div class="changelog-entry__date">${{esc(entry.date_label || entry.date || "")}}</div>
+            <div class="changelog-entry__summary">${{esc(entry.summary || "")}}</div>
+            ${{sections}}
+          </article>
+        `;
+      }}).join("");
+    }}
+
+    function openChangelogModal() {{
+      changelogModalBody.innerHTML = renderChangelogHtml();
+      changelogModal.classList.add("open");
+    }}
+
+    function closeChangelogModal() {{
+      changelogModal.classList.remove("open");
+    }}
+
+    changelogToggle.addEventListener("click", openChangelogModal);
+    changelogModal.addEventListener("click", (e) => {{
+      if (e.target === changelogModal || e.target.matches("[data-changelog-close]")) {{
+        closeChangelogModal();
+      }}
+    }});
+
     grid.addEventListener("click", (e) => {{
       const attrBtn = e.target.closest("button.tag-card__attr-trigger");
       if (attrBtn) {{
@@ -896,9 +1028,9 @@ def build_html(dataset: dict, updated_at_label: str, site_url: str = SITE_URL) -
     }});
 
     document.addEventListener("keydown", (e) => {{
-      if (e.key === "Escape" && attrModal.classList.contains("open")) {{
-        closeAttrModal();
-      }}
+      if (e.key !== "Escape") return;
+      if (changelogModal.classList.contains("open")) closeChangelogModal();
+      if (attrModal.classList.contains("open")) closeAttrModal();
     }});
 
     function render() {{
@@ -1000,11 +1132,22 @@ def main() -> None:
         default=SITE_URL,
         help="Published site base URL for canonical and Open Graph (no trailing slash).",
     )
+    ap.add_argument(
+        "--changelog",
+        default=None,
+        help="Path to docs/changelog.json (embedded in the page).",
+    )
     args = ap.parse_args()
 
     in_path = Path(args.input)
     out_path = Path(args.output)
     dataset = json.loads(in_path.read_text(encoding="utf-8"))
+
+    changelog: dict | None = None
+    if args.changelog:
+        changelog_path = Path(args.changelog)
+        if changelog_path.is_file():
+            changelog = json.loads(changelog_path.read_text(encoding="utf-8"))
 
     updated_iso = args.updated_at
     if not updated_iso:
@@ -1019,6 +1162,7 @@ def main() -> None:
         dataset,
         format_updated_at(updated_iso),
         site_url=args.site_url,
+        changelog=changelog,
     )
     out_path.write_text(html, encoding="utf-8")
     print(f"Wrote {out_path}")
