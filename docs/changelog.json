@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "date": "2026-06-01T09:46:40Z",
+      "date_label": "1 June 2026",
+      "summary": "1 new tag",
+      "added": [
+        {
+          "tag": "{MarketingPermissions}",
+          "message": "New tag {MarketingPermissions} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
+    {
       "date": "2026-05-29T11:28:14Z",
       "date_label": "29 May 2026",
       "summary": "1 tag removed",
