@@ -23308,7 +23308,7 @@
       "h1": "{OrderPickupPoint}",
       "tag": "{OrderPickupPoint}",
       "shortdesc": "Tulostaa tilaukselle valitun noutopisteen.",
-      "longdesc": "Tagi on käytettävissä vain, mikäli tilauksen toimitustavalla on käytössä noutopistevalikko. Noutopisteitä käyttäviä toimitustapoja ovat esimerkiksi\nOmaPosti Pro\nja\nDB Schenker\n.",
+      "longdesc": "Tagi on käytettävissä vain, mikäli tilauksen toimitustavalla on käytössä noutopistevalikko. Noutopisteitä käyttäviä toimitustapoja ovat esimerkiksi\nOmaPosti Pro\nja\nDSV\n.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -46188,7 +46188,7 @@
       "tag": "{OrderPickupPoint}",
       "url": "https://support.mycashflow.com/fi/teemaopas/orderpickuppoint",
       "shortdesc": "Tulostaa tilaukselle valitun noutopisteen.",
-      "longdesc": "Tagi on käytettävissä vain, mikäli tilauksen toimitustavalla on käytössä noutopistevalikko. Noutopisteitä käyttäviä toimitustapoja ovat esimerkiksi\nOmaPosti Pro\nja\nDB Schenker\n.",
+      "longdesc": "Tagi on käytettävissä vain, mikäli tilauksen toimitustavalla on käytössä noutopistevalikko. Noutopisteitä käyttäviä toimitustapoja ovat esimerkiksi\nOmaPosti Pro\nja\nDSV\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntilaus",
       "visibility": "Toimii näkyvyydessä:\ntilaus",
       "syntax": "{OrderPickupPoint}",
