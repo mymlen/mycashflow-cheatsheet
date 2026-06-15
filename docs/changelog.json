@@ -1,6 +1,642 @@
 {
   "entries": [
     {
+      "date": "2026-06-15T10:49:07Z",
+      "date_label": "15 June 2026",
+      "summary": "75 tags updated",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: add_on_to:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: brand:",
+            "Attribute removed: campaign:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: compatible_to:",
+            "Attribute removed: crosssales_for:",
+            "Attribute removed: escape:",
+            "Attribute removed: fallback:",
+            "Attribute removed: filters:",
+            "Attribute removed: helper:",
+            "Attribute removed: id:",
+            "Attribute removed: keyword:",
+            "Attribute removed: limit:",
+            "Attribute removed: list_classes:",
+            "Attribute removed: list_type:",
+            "Attribute removed: or:",
+            "Attribute removed: pagination:",
+            "Attribute removed: prelimit:",
+            "Attribute removed: similar_to:",
+            "Attribute removed: sort:",
+            "Attribute removed: spare_part_to:",
+            "Attribute removed: subcategories:",
+            "Attribute removed: timelimit:",
+            "Attribute removed: type:"
+          ]
+        },
+        {
+          "tag": "{AuthorName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowTarget}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowUnit}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowValue}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CartGiftCards}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryCampaignCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CompatibleProducts}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: compatible_to:",
+            "Attribute description updated: crosssales_for:",
+            "Attribute removed: add_on_to:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: brand:",
+            "Attribute removed: campaign:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: escape:",
+            "Attribute removed: fallback:",
+            "Attribute removed: filters:",
+            "Attribute removed: helper:",
+            "Attribute removed: id:",
+            "Attribute removed: keyword:",
+            "Attribute removed: limit:",
+            "Attribute removed: list_classes:",
+            "Attribute removed: list_type:",
+            "Attribute removed: or:",
+            "Attribute removed: pagination:",
+            "Attribute removed: prelimit:",
+            "Attribute removed: similar_to:",
+            "Attribute removed: sort:",
+            "Attribute removed: spare_part_to:",
+            "Attribute removed: subcategories:",
+            "Attribute removed: timelimit:",
+            "Attribute removed: type:"
+          ]
+        },
+        {
+          "tag": "{ConfirmedReview}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CrossSaleProducts}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: compatible_to:",
+            "Attribute description updated: similar_to:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: brand:",
+            "Attribute removed: campaign:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: escape:",
+            "Attribute removed: fallback:",
+            "Attribute removed: filters:",
+            "Attribute removed: helper:",
+            "Attribute removed: id:",
+            "Attribute removed: keyword:",
+            "Attribute removed: limit:",
+            "Attribute removed: list_classes:",
+            "Attribute removed: list_type:",
+            "Attribute removed: or:",
+            "Attribute removed: pagination:",
+            "Attribute removed: prelimit:",
+            "Attribute removed: sort:",
+            "Attribute removed: subcategories:",
+            "Attribute removed: timelimit:",
+            "Attribute removed: type:"
+          ]
+        },
+        {
+          "tag": "{CustomerDiscountCodes}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CustomerGroupID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CustomerGroupName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CustomerGroups}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountAmount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeExpiryDate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeToggle}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountLabel}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{DiscountTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FeaturedBundles}",
+          "changes": [
+            "Long description changed",
+            "Attribute added: :",
+            "Attribute removed: before: / after:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: escape:",
+            "Attribute removed: helper:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{FilterClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterOptionId}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterOptionName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterOptionResultCount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterOptionSelectUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{FilterOptions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{GiftCardCode}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: mask:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: escape:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{GiftCardExpiryDate}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: format:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: escape:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{GiftCardRemoveButton}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute removed: before: / after:",
+            "Attribute removed: escape:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{GiftCardRemoveUrl}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute removed: before: / after:",
+            "Attribute removed: escape:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierDiscount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPointsNeeded}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPoints}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTiers}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDiscounts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeLabel}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValueID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValueLabel}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValues}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCampaignPrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductFeatures}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductListFilters}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductRatingReviewCount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductRating}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: helper:",
+            "Attribute removed: :"
+          ]
+        },
+        {
+          "tag": "{ProductReviews}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: helper:",
+            "Attribute removed: :"
+          ]
+        },
+        {
+          "tag": "{RatingStarClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ResponseCommentAuthorName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ResponseComment}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewComment}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: format:",
+            "Attribute removed: :"
+          ]
+        },
+        {
+          "tag": "{ReviewProductModel}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewProductName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewRating}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewResponseComments}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewTitle}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionId}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionRemoveUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionResultCount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionSelectUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchFilters}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchKeyword}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchPopularTerms}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchSuggestions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SearchUrl}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute removed: before: / after:",
+            "Attribute removed: escape:",
+            "Attribute removed: or:"
+          ]
+        },
+        {
+          "tag": "{SimilarProducts}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: crosssales_for:",
+            "Attribute description updated: similar_to:",
+            "Attribute removed: add_on_to:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: brand:",
+            "Attribute removed: campaign:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: compatible_to:",
+            "Attribute removed: escape:",
+            "Attribute removed: fallback:",
+            "Attribute removed: filters:",
+            "Attribute removed: helper:",
+            "Attribute removed: id:",
+            "Attribute removed: keyword:",
+            "Attribute removed: limit:",
+            "Attribute removed: list_classes:",
+            "Attribute removed: list_type:",
+            "Attribute removed: or:",
+            "Attribute removed: pagination:",
+            "Attribute removed: prelimit:",
+            "Attribute removed: sort:",
+            "Attribute removed: spare_part_to:",
+            "Attribute removed: subcategories:",
+            "Attribute removed: timelimit:",
+            "Attribute removed: type:"
+          ]
+        },
+        {
+          "tag": "{SparePartProducts}",
+          "changes": [
+            "Long description changed",
+            "Visibility updated",
+            "Attribute added: :",
+            "Attribute description updated: spare_part_to:",
+            "Attribute removed: add_on_to:",
+            "Attribute removed: before: / after:",
+            "Attribute removed: brand:",
+            "Attribute removed: campaign:",
+            "Attribute removed: category:",
+            "Attribute removed: classes:",
+            "Attribute removed: compatible_to:",
+            "Attribute removed: crosssales_for:",
+            "Attribute removed: escape:",
+            "Attribute removed: fallback:",
+            "Attribute removed: filters:",
+            "Attribute removed: helper:",
+            "Attribute removed: id:",
+            "Attribute removed: keyword:",
+            "Attribute removed: limit:",
+            "Attribute removed: list_classes:",
+            "Attribute removed: list_type:",
+            "Attribute removed: or:",
+            "Attribute removed: pagination:",
+            "Attribute removed: prelimit:",
+            "Attribute removed: similar_to:",
+            "Attribute removed: sort:",
+            "Attribute removed: subcategories:",
+            "Attribute removed: timelimit:",
+            "Attribute removed: type:"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-06-08T09:15:08Z",
       "date_label": "8 June 2026",
       "summary": "1 tag updated",
