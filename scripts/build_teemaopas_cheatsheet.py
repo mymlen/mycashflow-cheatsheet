@@ -429,6 +429,7 @@ def build_html(
   <meta name="description" content="{SEO_DESCRIPTION}" />
   <meta name="keywords" content="MyCashflow cheat sheet, MyCashflow, Interface, teemaopas, tagit, attribuutit, verkkokauppa" />
   <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="4ns9drzQIZ4g7VSmhKTx6khTEmzkK4a0tGce4tCflps" />
   <meta name="author" content="MyCashflow cheat sheet" />
   <link rel="canonical" href="{canonical}" />
   <meta property="og:type" content="website" />
