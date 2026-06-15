@@ -157,17 +157,80 @@ def extract_longdesc(soup: BeautifulSoup) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+def _clean_attr_label(raw: str) -> str:
+    name = re.sub(r"\s+", " ", (raw or "")).strip().strip("`").rstrip(":").strip()
+    if not name or name == ":":
+        return ""
+    if "/" in name:
+        parts = [p.strip().rstrip(":").strip() for p in name.split("/")]
+        parts = [p for p in parts if p]
+        if parts:
+            name = " / ".join(parts)
+    return name
+
+
+_ATTR_DT_ID_ALIASES = {
+    "after-before": "before / after",
+}
+
+
+def _attribute_name_from_dt(dt) -> str:
+    """Resolve attribute label from dt; MCF docs often render only ':' inside code."""
+    dt_id = (dt.get("id") or "").strip()
+    if dt_id in _ATTR_DT_ID_ALIASES:
+        return _ATTR_DT_ID_ALIASES[dt_id]
+
+    code = dt.select_one("code.interface-attribute, code.keyword, code")
+    if code is not None:
+        code_text = code.get_text(" ", strip=True)
+        cleaned = _clean_attr_label(code_text)
+        if cleaned:
+            return cleaned
+
+    if dt_id:
+        if dt_id in _ATTR_DT_ID_ALIASES:
+            return _ATTR_DT_ID_ALIASES[dt_id]
+        return _clean_attr_label(dt_id.replace("-", "/"))
+
+    return ""
+
+
 def extract_attribute_blocks(soup: BeautifulSoup) -> list[dict]:
-    """Pull attribute blocks from .tag-attributes using .attribute-name / .attribute-desc."""
+    """Pull attribute blocks from .tag-attributes using dt/dd or .attribute-name / .attribute-desc."""
     blocks: list[dict] = []
     container = soup.select_one(".tag-attributes")
     if not container:
         return blocks
 
+    dt_nodes = container.select("dt.attribute-name")
+    if dt_nodes:
+        for dt in dt_nodes:
+            name = _attribute_name_from_dt(dt)
+            if not name:
+                continue
+            desc_node = dt.find_next_sibling("dd")
+            if desc_node is None or "attribute-desc" not in (desc_node.get("class") or []):
+                desc_node = None
+            description = ""
+            if desc_node is not None:
+                cleaned = copy.copy(desc_node)
+                for anchor in cleaned.select(".anchor-link"):
+                    anchor.decompose()
+                description = re.sub(
+                    r"\n{3,}", "\n\n", cleaned.get_text("\n", strip=True)
+                ).strip()
+            blocks.append({"name": name, "description": description})
+        return blocks
+
     name_nodes = container.select(".attribute-name")
     if name_nodes:
         for name_node in name_nodes:
-            name = name_node.get_text(" ", strip=True)
+            if name_node.name == "dt" or name_node.get("id"):
+                name = _attribute_name_from_dt(name_node)
+            else:
+                name = _clean_attr_label(name_node.get_text(" ", strip=True))
+            if not name:
+                continue
             desc_node = None
             for sib in name_node.find_next_siblings():
                 classes = sib.get("class") or []
@@ -350,7 +413,7 @@ def run(
                 dismiss_cookie_banner(page)
                 try:
                     page.wait_for_selector(
-                        ".tag-scope, .shortdesc, .longdesc, .tag-syntax",
+                        ".tag-scope, .shortdesc, .longdesc, .tag-syntax, .tag-attributes dt.attribute-name",
                         timeout=2500,
                     )
                 except Exception:

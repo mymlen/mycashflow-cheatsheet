@@ -32,11 +32,28 @@ def tags_map(dataset: dict) -> dict[str, dict]:
     return out
 
 
+_ATTR_DT_ID_ALIASES = {
+    "after-before": "before / after",
+}
+
+
+def normalize_attr_key(name: str) -> str:
+    """Normalize attribute names for stable changelog diffs."""
+    key = norm(name).strip("`").rstrip(":").strip()
+    if not key or key == ":":
+        return ""
+    if key in _ATTR_DT_ID_ALIASES:
+        return _ATTR_DT_ID_ALIASES[key]
+    if key.replace(" ", "") in {"before/after", "before/ after", "before /after"}:
+        return "before / after"
+    return key
+
+
 def attr_map(item: dict) -> dict[str, str]:
     blocks = item.get("attribute_blocks") or []
     result: dict[str, str] = {}
     for block in blocks:
-        name = norm(block.get("name") or "")
+        name = normalize_attr_key(block.get("name") or "")
         if name:
             result[name] = norm(block.get("description") or "")
     return result
