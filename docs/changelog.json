@@ -1,6 +1,4346 @@
 {
   "entries": [
     {
+      "date": "2026-06-22T10:27:42Z",
+      "date_label": "22 June 2026",
+      "summary": "609 tags updated",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{AdminTools}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{AuthorName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{AvailabilityNotificationForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerImageURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerLinkData}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerText}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BannerURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Banners}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Banner}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Barcode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BodyClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandDiscountProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandHotPicks}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandImageUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandLogoUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandLogo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandNewProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandPreorderProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandRandomProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandTopSellers}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BrandsNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Brands}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleAvailability}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleBuy}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleCategoryID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleComparePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleImageCaption}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleImageUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleImages}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemImageCaption}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemImageUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemModelName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemProductName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemQuantity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemTitle}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleItemUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundlePrices}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundlePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleShortDesc}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleStockBalance}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleStockDeliveryPeriod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleThumbnails}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{BundleUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Bundles}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowTarget}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowUnit}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscountRowValue}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignImageLinkURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignImageURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignTime}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CampaignURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Campaigns}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Campaign}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CanonicalURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartComment}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartCouponCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartDiscountLabel}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartDiscountTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartDiscountTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartDiscountWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartDiscount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartGiftCards}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartItems}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartOpenTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCostsTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCostsTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCostsWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCosts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartPaymentMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductAvailability}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductBundleDetails}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductBundleID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductChoices}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductComparePriceWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductComparePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductCompareTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductDelete}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductDeliveryTime}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductDetails}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductDownload}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductPriceWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductQuantity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductTotalTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductTotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductVariation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProductWeight}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryCampaignCode}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryMessage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryNotificationForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShareForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShareLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShareMessage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShareSenderEmail}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingCostsTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingCostsTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingCostsWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingCosts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingMethods}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartShippingMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartSubtotalTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartSubtotalTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartSubtotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartSubtotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartTotalItems}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartTotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CartWeight}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Cart}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Categories}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryBundles}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryDiscountProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryHotPicks}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryImageUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryNewProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryPreorderProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryRandomProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryTopSellers}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CategoryUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Category}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutAcceptTerms}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutBillingAddress}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethodDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethodInstructions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethodName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethodProcess}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethods}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutRegistrationForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutShippingAddress}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutShippingMethods}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CheckoutShippingMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ColorContrast}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CompatibleProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ConfirmedReview}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactBankAccount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactBusinessID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactCity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactCompany}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactEmail}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactInformation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactInternet}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactPhone}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactStreetAddress1}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactStreetAddress2}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ContactZip}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Content}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CountrySelection}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CrossSaleProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrencyNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrencyNotification}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrencySymbol}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Currency}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentCountryCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentLanguageCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentLanguage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentLocale}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CurrentURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerChangePasswordForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerDiscountCodesCount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerDiscountCodesTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerDiscountCodes}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerEmail}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerFirstName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerGroupID}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerGroupName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerGroups}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerLastBoughtProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerLastName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerLoyaltyPoints}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerResetPasswordForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{CustomerResetPasswordLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Date}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountAmount}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeExpiryDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeToggle}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeValue}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountCode}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountLabel}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountTaxRate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{DiscountTax}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Doctype}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{EmailMessage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{EmailTitle}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Extensions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Favicon}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FeaturedBundles}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FeaturedCategories}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FeedUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Feed}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterClass}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterOptionId}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterOptionName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterOptionResultCount}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterOptionSelectUrl}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{FilterOptions}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalanceLeft}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalanceReserved}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalance}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardExpiryDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardRemoveButton}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GiftCardRemoveUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GoogleAnalyticsScript}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{GoogleTagManagerScript}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Helper}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{HotPicks}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageImageURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageText}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageTitle}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{InfoPageURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{JsonLDScript}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LanguageNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LastSoldProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LastViewedProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LinkAccountResetPassword}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LinkURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Link}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Login}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LogoUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Logo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierClass}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierDiscount}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPointsNeeded}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPoints}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTiers}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountValidPeriod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramInfoPageID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramInfoURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramPointsOnProductReview}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramPointsOnPurchaseRatio}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramPointsOnPurchaseValue}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramPointsOnSignup}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramSignUpForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramTermsPageID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramTermsURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MD5}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MainCategoryID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MarketingPermissions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MetaDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MiniCart}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MinifyCSS}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MinifyJS}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{MyCashflowTextAd}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsBody}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsImageCaption}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsImageUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsOverview}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsSubject}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsUpdatedDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterForward}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterLike}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterMessage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterSubject}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterSubscribeForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterTweet}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterUnsubscribeForm}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterUnsubscribe}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{NewsletterWebversion}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{News}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Notifications}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderAddress}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderBusinessID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCommentAuthor}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCommentDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCommentText}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderComments}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCompany}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCouponCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCurrencyNotification}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCurrency}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCustomerInformation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderCustomerNumber}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDiscountLabel}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDiscounts}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDiscount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDispatchNoteURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDocuments}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadDispatchNote}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadInvoice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadReceipt}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadReturnDocument}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDownloads}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderDueDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderEmailMessage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderEmail}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderExchangeRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderExchangedTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderFirstName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderInfo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderInvoiceURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderLastName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderNumber}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderOpenTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderParcelQuantity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCosts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentInstructions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentReference}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentStatus}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentTransactions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPhone}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderPickupPoint}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductBundleName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductChoices}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductComparePriceWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductComparePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductCountryOfOrigin}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductCustomsTariffCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductDownloadCount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductDownloadLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductDownloadName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductDownloadTime}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductPriceWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductQuantity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductShippingStatus}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotalTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotalWeight}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductVariation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProductWarranty}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderReceiptURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderReturnDocumentURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingAddress}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCompany}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCosts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingEmail}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingFirstName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingInformation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingLastName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingMethodID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingPhone}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingState}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderShippingZip}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderState}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderStatusCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderStatus}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTotalItems}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTotalWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTotalsByTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTrackingCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderTrackingUrl}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderVATDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderWeight}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{OrderZip}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PageTitle}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaginationFormParameters}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaginationLimit}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaginationPages}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaginationSort}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaginationStatus}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Path}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodInstructions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodLogo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PaymentMethodPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PinItbutton}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{PreorderProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAddToCart}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductArticleNumber}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeID}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeLabel}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValueID}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValueLabel}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAttributeValues}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductAvailability}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductBrandLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductBrandName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductBrand}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductBundles}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductBuy}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCampaignPrice}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCampaign}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCategories}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductComparePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductDiscountPercent}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductDiscount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductDocuments}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductEndOfSaleDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductFeatures}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductFullDesc}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductImageCaption}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductImageURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductImages}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductLinkData}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductListFiltersClearURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductListFilters}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductListImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductListPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductLoyaltyPoints}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductOrderLimit}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductOriginCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPriceFrom}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPriceRange}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPriceTo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPriceValidity}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPriceWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPrices}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductPublishTime}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductQuantityDiscounts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductRatingReviewCount}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductRating}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute added: helper",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductReleaseDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductReviews}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute added: helper",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductSet}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductShippingCosts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductShippingMethods}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductShortDesc}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductStockAlarmLevel}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductStockBalance}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductStockDeliveryPeriod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductStockPlace}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductSupplierCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductThumbnails}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductVariations}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductWarranty}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductWeight}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ProductWishlistToggle}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Products}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{RandomProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{RatingStarClass}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReceiptProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReferralCode}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ResponseCommentAuthorName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ResponseComment}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewComment}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute added: format",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewProductModel}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewProductName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewRating}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewResponseComments}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ReviewTitle}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterName}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionId}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionRemoveUrl}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionResultCount}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptionSelectUrl}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilterOptions}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchFilters}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchKeyword}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchPopularTerms}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchSuggestions}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SearchUrl}",
+          "changes": [
+            "Visibility updated",
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Search}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Setting}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShareButtons}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodDescription}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodInstructions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodLogo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShippingMethodPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShopClosedInfo}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShopName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShopOpened}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ShopURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SimilarProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SnoobiScript}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SparePartProducts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SubCategories}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SubInfoNavigation}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{SupportScripts}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowTaxRate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowWithoutTax}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TaxSummary}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TermsAndConditionsURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TermsAndConditions}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Text}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{ThemeURL}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Theme}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{Title}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TopSellers}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionCurrency}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionDate}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionExchangedTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionPaymentLink}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionPaymentMethod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionReference}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionStatus}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{TransactionTotal}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationArticleNumber}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationClass}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationComparePrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationImageCaption}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationImage}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationListPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationName}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationOriginCountry}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationPrice}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationStockAlarmLevel}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationStockBalance}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VariationStockDeliveryPeriod}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VersionID}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VideolyScript}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{VideolyVideos}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        },
+        {
+          "tag": "{WishlistProductCount}",
+          "changes": [
+            "Attribute added: before / after",
+            "Attribute removed: before: / after"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-06-08T09:15:08Z",
       "date_label": "8 June 2026",
       "summary": "1 tag updated",
