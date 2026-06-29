@@ -38,13 +38,20 @@ _ATTR_DT_ID_ALIASES = {
 
 
 def normalize_attr_key(name: str) -> str:
-    """Normalize attribute names for stable changelog diffs."""
+    """Normalize attribute names for stable changelog diffs (matches scrape_teemaopas)."""
     key = norm(name).strip("`").rstrip(":").strip()
     if not key or key == ":":
         return ""
     if key in _ATTR_DT_ID_ALIASES:
         return _ATTR_DT_ID_ALIASES[key]
+    if "/" in key:
+        parts = [p.strip().rstrip(":").strip() for p in key.split("/")]
+        parts = [p for p in parts if p]
+        if parts:
+            key = " / ".join(parts)
     if key.replace(" ", "") in {"before/after", "before/ after", "before /after"}:
+        return "before / after"
+    if key.lower() in {"before", "after"}:
         return "before / after"
     return key
 
@@ -59,12 +66,31 @@ def attr_map(item: dict) -> dict[str, str]:
     return result
 
 
+def normalize_visibility(s: str) -> str:
+    """Ignore English slug vs Finnish label differences in scope text."""
+    text = norm(s)
+    text = re.sub(
+        r"(Toimii näkyvyydessä:\s*)(.+?)(?=\s(?:Tagia|Näkyvyys|Aseta)\b)",
+        r"\1<scope>",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(
+        r"(helper\s+-attribuutissa:\s*)(.+?)(?=\s(?:Voit|Vaadittu|Globaalin|Tagia|Sivupohjat|Tuotesivupohja)\b)",
+        r"\1<helper-scope>",
+        text,
+        flags=re.IGNORECASE,
+    )
+    return text
+
+
 def snapshot(item: dict) -> dict:
+    visibility = norm(item.get("tag_scope") or item.get("visibility") or "")
     return {
         "shortdesc": norm(item.get("shortdesc") or ""),
         "longdesc": norm(item.get("longdesc") or ""),
         "syntax": norm(item.get("syntax_block") or item.get("syntax") or ""),
-        "visibility": norm(item.get("tag_scope") or item.get("visibility") or ""),
+        "visibility": normalize_visibility(visibility),
         "attrs": attr_map(item),
     }
 
