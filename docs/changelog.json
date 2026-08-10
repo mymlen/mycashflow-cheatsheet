@@ -1,6 +1,1375 @@
 {
   "entries": [
     {
+      "date": "2026-08-10T05:56:06Z",
+      "date_label": "10 August 2026",
+      "summary": "1 tag removed, 224 tags updated",
+      "added": [],
+      "removed": [
+        {
+          "tag": "{ProductReleaseDate}",
+          "message": "Tag {ProductReleaseDate} is no longer listed in the theme guide."
+        }
+      ],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{Banners}",
+          "changes": [
+            "Syntax updated",
+            "Attribute added: offset"
+          ]
+        },
+        {
+          "tag": "{BrandDescription}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandHotPicks}",
+          "changes": [
+            "Syntax updated",
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandImageUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandLogoUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandLogo}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandNewProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandPreorderProducts}",
+          "changes": [
+            "Visibility updated",
+            "Attribute removed: brand"
+          ]
+        },
+        {
+          "tag": "{BrandProducts}",
+          "changes": [
+            "Visibility updated",
+            "Attribute removed: brand"
+          ]
+        },
+        {
+          "tag": "{BrandRandomProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandTopSellers}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BrandUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{Brands}",
+          "changes": [
+            "Syntax updated",
+            "Attribute added: brand"
+          ]
+        },
+        {
+          "tag": "{BundleAvailability}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleBuy}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleComparePrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleImageCaption}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleImageUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleImages}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundlePrices}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundlePrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleShortDesc}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleStockBalance}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleStockDeliveryPeriod}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleThumbnails}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{BundleUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignDescription}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignDiscount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignImageLinkURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignImageURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CampaignTime}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{CampaignURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CartShareSenderEmail}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CartTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryBundles}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryDescription}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryDiscountProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryHotPicks}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryImageUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryNewProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryPreorderProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryRandomProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryTopSellers}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CategoryUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CompatibleProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{CrossSaleProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{Date}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeExpiryDate}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{GiftCardExpiryDate}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{InfoPageClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{InfoPageID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{InfoPageName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{InfoPageText}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{InfoPageTitle}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{InfoPageURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{MarketingPermissions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsBody}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{NewsID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsImageCaption}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsImageUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsOverview}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsSubject}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{NewsUpdatedDate}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{NewsUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderAddress}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderBusinessID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCity}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCommentDate}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{OrderComments}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCompany}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCountry}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCouponCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCurrencyNotification}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCurrency}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCustomerInformation}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderCustomerNumber}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{OrderDiscounts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDiscount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDispatchNoteURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDocuments}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadDispatchNote}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadInvoice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadReceipt}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDownloadReturnDocument}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDownloads}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderDueDate}",
+          "changes": [
+            "Visibility updated",
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{OrderEmail}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderExchangeRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderExchangedTotal}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderFirstName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderInfo}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderInvoiceURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderLastName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderNumber}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderOpenTotal}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderParcelQuantity}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsWithoutTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCosts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentInstructions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentMethod}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentReference}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentStatus}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentTransactions}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderPhone}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderReceiptURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderReturnDocumentURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingAddress}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCity}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCompany}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsWithoutTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCosts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCountry}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingEmail}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingFirstName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingInformation}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingLastName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingMethodID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingMethod}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingPhone}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingState}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderShippingZip}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderState}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderStatusCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderStatus}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalWithoutTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotal}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTotalWithoutTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTotalsByTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTotal}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderTrackingUrl}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderVATDescription}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderWeight}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{OrderZip}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAddToCart}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductAvailability}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductBrandLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductBrandName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductBrand}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductBuy}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCampaign}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCategories}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCategoryURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductClass}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductComparePrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductDiscountPercent}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductDiscount}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductEndOfSaleDate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductFullDesc}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductID}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductImageCaption}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductImageURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductImages}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductListImage}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductListPrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductName}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductOriginCountry}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPriceFrom}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPriceRange}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPriceTo}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPriceValidity}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPriceWithoutTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPrices}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPrice}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductPublishTime}",
+          "changes": [
+            "Short description changed",
+            "Long description changed",
+            "Attribute added: date_format",
+            "Attribute added: time_format"
+          ]
+        },
+        {
+          "tag": "{ProductQuantityDiscounts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductShippingCosts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductShippingMethods}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductShortDesc}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductStockAlarmLevel}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductStockBalance}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductStockDeliveryPeriod}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductStockPlace}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductSupplierCode}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductTaxRate}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductTax}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductThumbnails}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductURL}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductWarranty}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ProductWeight}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReceiptProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{ReviewDate}",
+          "changes": [
+            "Attribute description updated: format"
+          ]
+        },
+        {
+          "tag": "{SimilarProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SparePartProducts}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SubCategories}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{SubInfoNavigation}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{TaxSummary}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{TransactionPaymentLink}",
+          "changes": [
+            "Visibility updated"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-06-22T10:27:42Z",
       "date_label": "22 June 2026",
       "summary": "3 tags updated",
