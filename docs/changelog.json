@@ -1,6 +1,46 @@
 {
   "entries": [
     {
+      "date": "2026-08-17T05:10:48Z",
+      "date_label": "17 August 2026",
+      "summary": "6 new tags, 1 tag updated",
+      "added": [
+        {
+          "tag": "{CheckoutPaymentMethodServiceID}",
+          "message": "New tag {CheckoutPaymentMethodServiceID} appeared in the theme guide."
+        },
+        {
+          "tag": "{FilterOptionRemoveUrl}",
+          "message": "New tag {FilterOptionRemoveUrl} appeared in the theme guide."
+        },
+        {
+          "tag": "{OrderProductAvailability}",
+          "message": "New tag {OrderProductAvailability} appeared in the theme guide."
+        },
+        {
+          "tag": "{OrderProductDownload}",
+          "message": "New tag {OrderProductDownload} appeared in the theme guide."
+        },
+        {
+          "tag": "{OrderVAT}",
+          "message": "New tag {OrderVAT} appeared in the theme guide."
+        },
+        {
+          "tag": "{ShippingMethodPickupPoints}",
+          "message": "New tag {ShippingMethodPickupPoints} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Short description changed"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-10T05:56:06Z",
       "date_label": "10 August 2026",
       "summary": "1 tag removed, 224 tags updated",
