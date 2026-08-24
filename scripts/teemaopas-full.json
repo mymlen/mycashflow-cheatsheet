@@ -1,11 +1,39 @@
 {
   "start_url": "https://support.mycashflow.com/fi/teemaopas",
   "page_count": 796,
-  "unique_urls_crawled": 803,
+  "unique_urls_crawled": 810,
   "tag_page_count": 615,
   "errors": [
     {
+      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryParentId",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryLevel",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryPathIds",
+      "error": "HTTP 404"
+    },
+    {
       "url": "https://support.mycashflow.com/fi/teemaopas/CartLoyaltyPoints",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPageParentId",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/MainInfoPageId",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPageLevel",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPagePathIds",
       "error": "HTTP 404"
     },
     {
@@ -3803,7 +3831,7 @@
       "h1": "{CategoryClass}",
       "tag": "{CategoryClass}",
       "shortdesc": "Tulostaa tuoteryhmän luokkanimet.",
-      "longdesc": "Tulostettavia luokkanimiä ovat seuraavat:\nTuoteryhmän ID-numero muodossa\nCategory-n\nKäytettäessä\n{Categories}\n-tagin\nhelper\n-attribuutissa tulostetaan seuraavat luokkanimet:\nListan\nclasses\n-attributissa syötetyt luokat\nEnsimmäiselle ja viimeiselle navigaatioelementille\nFirstNavigationItem\ntai\nLastNavigationItem\nJos asiakas on tuoteryhmäsivulla, joka kuuluu navigaatioon, tulostetaan luokkanimi\nCurrent",
+      "longdesc": "Tulostettavia luokkanimiä ovat seuraavat:\nTuoteryhmän ID-numero muodossa\nCategory-n\nKäytettäessä\n{Categories}\n-tagin\nhelper\n-attribuutissa tulostetaan seuraavat luokkanimet:\nListan\nclasses\n-attributissa syötetyt luokat\nEnsimmäiselle ja viimeiselle navigaatioelementille\nFirstNavigationItem\ntai\nLastNavigationItem\nJos asiakas on tuoteryhmäsivulla, joka kuuluu navigaatioon, tulostetaan luokkanimi\nCurrent\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -3832,7 +3860,7 @@
       "h1": "{CategoryDescription}",
       "tag": "{CategoryDescription}",
       "shortdesc": "Tulostaa tuoteryhmän kuvaustekstin.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -3865,7 +3893,7 @@
       "h1": "{CategoryImage}",
       "tag": "{CategoryImage}",
       "shortdesc": "Tulostaa tuoteryhmäkuvan ja tarvittaessa kampanjalinkin kuvan ympärille.",
-      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nVoit tulostaa pelkän tuoteryhmäkuvan URL-osoitteen käyttämällä\n{CategoryImageUrl}\n-tagia.",
+      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nVoit tulostaa pelkän tuoteryhmäkuvan URL-osoitteen käyttämällä\n{CategoryImageUrl}\n-tagia.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -3918,7 +3946,7 @@
       "h1": "{CategoryImageUrl}",
       "tag": "{CategoryImageUrl}",
       "shortdesc": "Tulostaa tuoteryhmäkuvan URL-osoitteen.",
-      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.",
+      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -3959,7 +3987,7 @@
       "h1": "{CategoryLink}",
       "tag": "{CategoryLink}",
       "shortdesc": "Tulostaa tuoteryhmäkuvaan liitetyn kampanjalinkin URL-osoitteen.",
-      "longdesc": "Kampanjalinkki asetetaan tuoteryhmälomakkeen kohdassa\nKampanjalinkki\n.",
+      "longdesc": "Kampanjalinkki asetetaan tuoteryhmälomakkeen kohdassa\nKampanjalinkki\n.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -3988,7 +4016,7 @@
       "h1": "{CategoryName}",
       "tag": "{CategoryName}",
       "shortdesc": "Tulostaa tuoteryhmän nimen.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -4017,7 +4045,7 @@
       "h1": "{CategoryUrl}",
       "tag": "{CategoryUrl}",
       "shortdesc": "Tulostaa tuoteryhmän URL-osoitteen.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -4046,7 +4074,7 @@
       "h1": "{CategoryID}",
       "tag": "{CategoryID}",
       "shortdesc": "Tulostaa tuoteryhmän yksilöllisen ID-numero.",
-      "longdesc": "ID asetetaan automaattisesti kaikille tuoteryhmille, ja sitä käytetään esimerkiksi valitsemaan haluttu tuoteryhmä\n{Category}\n-tagilla.",
+      "longdesc": "ID asetetaan automaattisesti kaikille tuoteryhmille, ja sitä käytetään esimerkiksi valitsemaan haluttu tuoteryhmä\n{Category}\n-tagilla.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -9016,7 +9044,7 @@
         },
         {
           "name": "preselect",
-          "description": "Määrittää, asettaako verkkokauppa oletukseksi asiakkaan aiemmin valitseman maksutavan.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n.\nMaksutapoihin saattaa liittyä maakohtaisia rajoituksia. Suomen kuluttajansuojalain mukaan verkkokauppa ei saa asettaa oletusmaksutapaa, vaan asiakkaan on valittava maksutapa joka kerta erikseen. EU:ssa sovelletaan kuluttajansuoja-asioissa yleensä kuluttajan kotimaan lainsäädäntöä."
+          "description": "Määrittää, asettaako verkkokauppa oletukseksi asiakkaan aiemmin valitseman maksutavan.\nJos kassalla on valittavissa vain yksi maksutapa, se on aina valmiiksi valittu.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n.\nMaksutapoihin saattaa liittyä maakohtaisia rajoituksia. Suomen kuluttajansuojalain mukaan verkkokauppa ei saa asettaa oletusmaksutapaa, vaan asiakkaan on valittava maksutapa joka kerta erikseen. EU:ssa sovelletaan kuluttajansuoja-asioissa yleensä kuluttajan kotimaan lainsäädäntöä."
         },
         {
           "name": "before / after",
@@ -18717,7 +18745,7 @@
       "h1": "{ProductDiscountPercent}",
       "tag": "{ProductDiscountPercent}",
       "shortdesc": "Tulostaa tuotteen alennusprosentin, mikäli tuote on alennuksessa jonkin kampanjan kautta.",
-      "longdesc": "Alennusprosentti voi määräytyä kahdella tavalla:\nJos tuote on hinnoiteltu kampanjan\nyleisen alennusprosentin\nmukaan, tulostuu kampanjan alennusprosentti.\nJos taas tuotteella on kampanjassa\nyksilöllinen alennushinta\n, alennusprosentti määräytyy tuotteen myynti- ja listahinnan erotuksen mukaan.\nVariaatiollisten tuotteiden\nalennusprosentti tulostuu, mikäli se on tuotteen kaikilla variaatioilla sama. Jos alennusprosentti sen sijaan vaihtelee variaatioittain, tagi ei oletusarvoisesti tulosta mitään. Käyttämällä\nmode\n-attribuuttia voit kuitenkin määrittää, tulostuuko siinä tapauksessa variaatioiden pienin vai suurin alennusprosentti vai niiden vaihteluväli.",
+      "longdesc": "Alennusprosentti voi määräytyä kahdella tavalla:\nJos tuote on hinnoiteltu kampanjan\nyleisen alennusprosentin\nmukaan, tulostuu kampanjan alennusprosentti.\nJos taas tuotteella on kampanjassa\nyksilöllinen alennushinta\n, alennusprosentti määräytyy tuotteen myynti- ja listahinnan erotuksen mukaan.\nVariaatiollisten tuotteiden\nalennusprosentti tulostuu, mikäli se on tuotteen kaikilla variaatioilla sama. Jos alennusprosentti sen sijaan vaihtelee variaatioittain, tagi ei oletusarvoisesti tulosta mitään. Käyttämällä\nmode\n-attribuuttia voit kuitenkin määrittää, tulostuuko siinä tapauksessa variaatioiden pienin vai suurin alennusprosentti vai niiden vaihteluväli.\nJos alennus jää alle prosenttiin tuotteen hinnasta, tagi ei tulosta mitään. Tällöin tagi ei tulosta myöskään\nbefore\n- tai\nafter\n-attribuuttien sisältöjä.",
       "sections": {},
       "attribute_blocks": [
         {
@@ -28087,7 +28115,7 @@
       "tag": "{CategoryClass}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryclass",
       "shortdesc": "Tulostaa tuoteryhmän luokkanimet.",
-      "longdesc": "Tulostettavia luokkanimiä ovat seuraavat:\nTuoteryhmän ID-numero muodossa\nCategory-n\nKäytettäessä\n{Categories}\n-tagin\nhelper\n-attribuutissa tulostetaan seuraavat luokkanimet:\nListan\nclasses\n-attributissa syötetyt luokat\nEnsimmäiselle ja viimeiselle navigaatioelementille\nFirstNavigationItem\ntai\nLastNavigationItem\nJos asiakas on tuoteryhmäsivulla, joka kuuluu navigaatioon, tulostetaan luokkanimi\nCurrent",
+      "longdesc": "Tulostettavia luokkanimiä ovat seuraavat:\nTuoteryhmän ID-numero muodossa\nCategory-n\nKäytettäessä\n{Categories}\n-tagin\nhelper\n-attribuutissa tulostetaan seuraavat luokkanimet:\nListan\nclasses\n-attributissa syötetyt luokat\nEnsimmäiselle ja viimeiselle navigaatioelementille\nFirstNavigationItem\ntai\nLastNavigationItem\nJos asiakas on tuoteryhmäsivulla, joka kuuluu navigaatioon, tulostetaan luokkanimi\nCurrent\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nToimii näkymässä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nToimii näkymässä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryClass}",
@@ -28115,7 +28143,7 @@
       "tag": "{CategoryDescription}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categorydescription",
       "shortdesc": "Tulostaa tuoteryhmän kuvaustekstin.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryDescription(\n    maxlength: int\n)}",
@@ -28147,7 +28175,7 @@
       "tag": "{CategoryImage}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryimage",
       "shortdesc": "Tulostaa tuoteryhmäkuvan ja tarvittaessa kampanjalinkin kuvan ympärille.",
-      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nVoit tulostaa pelkän tuoteryhmäkuvan URL-osoitteen käyttämällä\n{CategoryImageUrl}\n-tagia.",
+      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nVoit tulostaa pelkän tuoteryhmäkuvan URL-osoitteen käyttämällä\n{CategoryImageUrl}\n-tagia.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryImage(\n    link: boolean,\n    id: string,\n    class: string,\n    imagesize: int,\n    height: int,\n    width: int\n)}",
@@ -28199,7 +28227,7 @@
       "tag": "{CategoryImageUrl}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryimageurl",
       "shortdesc": "Tulostaa tuoteryhmäkuvan URL-osoitteen.",
-      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.",
+      "longdesc": "Jos käytät kuvakokoattribuutteja\nwidth\n,\nheight\ntai\nimagesize\n, tuotekuva näkyy kävijälle attribuutin kokomääritystä vastaavana pienennöksenä.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryImageUrl(\n    inherit: \n    imagesize: string,\n    height: int,\n    width: int\n)}",
@@ -28239,7 +28267,7 @@
       "tag": "{CategoryLink}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categorylink",
       "shortdesc": "Tulostaa tuoteryhmäkuvaan liitetyn kampanjalinkin URL-osoitteen.",
-      "longdesc": "Kampanjalinkki asetetaan tuoteryhmälomakkeen kohdassa\nKampanjalinkki\n.",
+      "longdesc": "Kampanjalinkki asetetaan tuoteryhmälomakkeen kohdassa\nKampanjalinkki\n.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryLink}",
@@ -28267,7 +28295,7 @@
       "tag": "{CategoryName}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryname",
       "shortdesc": "Tulostaa tuoteryhmän nimen.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryName}",
@@ -28295,7 +28323,7 @@
       "tag": "{CategoryUrl}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryurl",
       "shortdesc": "Tulostaa tuoteryhmän URL-osoitteen.",
-      "longdesc": "",
+      "longdesc": "Tuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryUrl}",
@@ -28323,7 +28351,7 @@
       "tag": "{CategoryID}",
       "url": "https://support.mycashflow.com/fi/teemaopas/categoryid",
       "shortdesc": "Tulostaa tuoteryhmän yksilöllisen ID-numero.",
-      "longdesc": "ID asetetaan automaattisesti kaikille tuoteryhmille, ja sitä käytetään esimerkiksi valitsemaan haluttu tuoteryhmä\n{Category}\n-tagilla.",
+      "longdesc": "ID asetetaan automaattisesti kaikille tuoteryhmille, ja sitä käytetään esimerkiksi valitsemaan haluttu tuoteryhmä\n{Category}\n-tagilla.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryID}",
@@ -33103,7 +33131,7 @@
         },
         {
           "name": "preselect",
-          "description": "Määrittää, asettaako verkkokauppa oletukseksi asiakkaan aiemmin valitseman maksutavan.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n.\nMaksutapoihin saattaa liittyä maakohtaisia rajoituksia. Suomen kuluttajansuojalain mukaan verkkokauppa ei saa asettaa oletusmaksutapaa, vaan asiakkaan on valittava maksutapa joka kerta erikseen. EU:ssa sovelletaan kuluttajansuoja-asioissa yleensä kuluttajan kotimaan lainsäädäntöä."
+          "description": "Määrittää, asettaako verkkokauppa oletukseksi asiakkaan aiemmin valitseman maksutavan.\nJos kassalla on valittavissa vain yksi maksutapa, se on aina valmiiksi valittu.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n.\nMaksutapoihin saattaa liittyä maakohtaisia rajoituksia. Suomen kuluttajansuojalain mukaan verkkokauppa ei saa asettaa oletusmaksutapaa, vaan asiakkaan on valittava maksutapa joka kerta erikseen. EU:ssa sovelletaan kuluttajansuoja-asioissa yleensä kuluttajan kotimaan lainsäädäntöä."
         },
         {
           "name": "before / after",
@@ -41874,7 +41902,7 @@
       "tag": "{ProductDiscountPercent}",
       "url": "https://support.mycashflow.com/fi/teemaopas/productdiscountpercent",
       "shortdesc": "Tulostaa tuotteen alennusprosentin, mikäli tuote on alennuksessa jonkin kampanjan kautta.",
-      "longdesc": "Alennusprosentti voi määräytyä kahdella tavalla:\nJos tuote on hinnoiteltu kampanjan\nyleisen alennusprosentin\nmukaan, tulostuu kampanjan alennusprosentti.\nJos taas tuotteella on kampanjassa\nyksilöllinen alennushinta\n, alennusprosentti määräytyy tuotteen myynti- ja listahinnan erotuksen mukaan.\nVariaatiollisten tuotteiden\nalennusprosentti tulostuu, mikäli se on tuotteen kaikilla variaatioilla sama. Jos alennusprosentti sen sijaan vaihtelee variaatioittain, tagi ei oletusarvoisesti tulosta mitään. Käyttämällä\nmode\n-attribuuttia voit kuitenkin määrittää, tulostuuko siinä tapauksessa variaatioiden pienin vai suurin alennusprosentti vai niiden vaihteluväli.",
+      "longdesc": "Alennusprosentti voi määräytyä kahdella tavalla:\nJos tuote on hinnoiteltu kampanjan\nyleisen alennusprosentin\nmukaan, tulostuu kampanjan alennusprosentti.\nJos taas tuotteella on kampanjassa\nyksilöllinen alennushinta\n, alennusprosentti määräytyy tuotteen myynti- ja listahinnan erotuksen mukaan.\nVariaatiollisten tuotteiden\nalennusprosentti tulostuu, mikäli se on tuotteen kaikilla variaatioilla sama. Jos alennusprosentti sen sijaan vaihtelee variaatioittain, tagi ei oletusarvoisesti tulosta mitään. Käyttämällä\nmode\n-attribuuttia voit kuitenkin määrittää, tulostuuko siinä tapauksessa variaatioiden pienin vai suurin alennusprosentti vai niiden vaihteluväli.\nJos alennus jää alle prosenttiin tuotteen hinnasta, tagi ei tulosta mitään. Tällöin tagi ei tulosta myöskään\nbefore\n- tai\nafter\n-attribuuttien sisältöjä.",
       "tag_scope": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
       "visibility": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
       "syntax": "{ProductDiscountPercent(\n    mode: string,\n    percentagesymbol: boolean\n)}",

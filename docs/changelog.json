@@ -1,6 +1,75 @@
 {
   "entries": [
     {
+      "date": "2026-08-24T05:13:38Z",
+      "date_label": "24 August 2026",
+      "summary": "10 tags updated",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{CategoryClass}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryDescription}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryID}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryImageUrl}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryImage}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryLink}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryName}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryUrl}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CheckoutPaymentMethods}",
+          "changes": [
+            "Attribute description updated: preselect"
+          ]
+        },
+        {
+          "tag": "{ProductDiscountPercent}",
+          "changes": [
+            "Long description changed"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-17T05:10:48Z",
       "date_label": "17 August 2026",
       "summary": "6 new tags, 1 tag updated",
