@@ -1,6 +1,71 @@
 {
   "entries": [
     {
+      "date": "2026-08-31T11:03:30Z",
+      "date_label": "31 August 2026",
+      "summary": "14 new tags",
+      "added": [
+        {
+          "tag": "{BannerIndex}",
+          "message": "New tag {BannerIndex} appeared in the theme guide."
+        },
+        {
+          "tag": "{CartLoyaltyPoints}",
+          "message": "New tag {CartLoyaltyPoints} appeared in the theme guide."
+        },
+        {
+          "tag": "{CategoryLevel}",
+          "message": "New tag {CategoryLevel} appeared in the theme guide."
+        },
+        {
+          "tag": "{CategoryParentId}",
+          "message": "New tag {CategoryParentId} appeared in the theme guide."
+        },
+        {
+          "tag": "{CategoryPathIds}",
+          "message": "New tag {CategoryPathIds} appeared in the theme guide."
+        },
+        {
+          "tag": "{InfoPageLevel}",
+          "message": "New tag {InfoPageLevel} appeared in the theme guide."
+        },
+        {
+          "tag": "{InfoPageParentId}",
+          "message": "New tag {InfoPageParentId} appeared in the theme guide."
+        },
+        {
+          "tag": "{InfoPagePathIds}",
+          "message": "New tag {InfoPagePathIds} appeared in the theme guide."
+        },
+        {
+          "tag": "{MainInfoPageId}",
+          "message": "New tag {MainInfoPageId} appeared in the theme guide."
+        },
+        {
+          "tag": "{ProductReleaseDate}",
+          "message": "New tag {ProductReleaseDate} appeared in the theme guide."
+        },
+        {
+          "tag": "{StockItemLocationCode}",
+          "message": "New tag {StockItemLocationCode} appeared in the theme guide."
+        },
+        {
+          "tag": "{StockItemLocationName}",
+          "message": "New tag {StockItemLocationName} appeared in the theme guide."
+        },
+        {
+          "tag": "{StockItemLocationQuantity}",
+          "message": "New tag {StockItemLocationQuantity} appeared in the theme guide."
+        },
+        {
+          "tag": "{StockItemLocations}",
+          "message": "New tag {StockItemLocations} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": []
+    },
+    {
       "date": "2026-08-24T05:13:38Z",
       "date_label": "24 August 2026",
       "summary": "10 tags updated",

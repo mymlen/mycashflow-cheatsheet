@@ -1,66 +1,9 @@
 {
   "start_url": "https://support.mycashflow.com/fi/teemaopas",
-  "page_count": 796,
+  "page_count": 810,
   "unique_urls_crawled": 810,
-  "tag_page_count": 615,
-  "errors": [
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryParentId",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryLevel",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CategoryPathIds",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CartLoyaltyPoints",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPageParentId",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/MainInfoPageId",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPageLevel",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/InfoPagePathIds",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/BannerIndex",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductReleaseDate",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/StockItemLocations",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/StockItemLocationCode",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/StockItemLocationName",
-      "error": "HTTP 404"
-    },
-    {
-      "url": "https://support.mycashflow.com/fi/teemaopas/StockItemLocationQuantity",
-      "error": "HTTP 404"
-    }
-  ],
+  "tag_page_count": 629,
+  "errors": [],
   "pages": [
     {
       "url": "https://support.mycashflow.com/fi/teemaopas",
@@ -1330,7 +1273,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductSet",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productset",
       "title": "{ProductSet} | MyCashflow Ohjekeskus",
       "h1": "{ProductSet}",
       "tag": "{ProductSet}",
@@ -2122,7 +2065,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/Setting",
+      "url": "https://support.mycashflow.com/fi/teemaopas/setting",
       "title": "{Setting} | MyCashflow Ohjekeskus",
       "h1": "{Setting}",
       "tag": "{Setting}",
@@ -3303,7 +3246,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/FilterOptionId",
+      "url": "https://support.mycashflow.com/fi/teemaopas/filteroptionid",
       "title": "{FilterOptionId} | MyCashflow Ohjekeskus",
       "h1": "{FilterOptionId}",
       "tag": "{FilterOptionId}",
@@ -4092,6 +4035,93 @@
       ],
       "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax_block": "{CategoryID}",
+      "tables_text": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/categoryparentid",
+      "title": "{CategoryParentId} | MyCashflow Ohjekeskus",
+      "h1": "{CategoryParentId}",
+      "tag": "{CategoryParentId}",
+      "shortdesc": "Tulostaa tuoteryhmän yläryhmän ID-numeron.",
+      "longdesc": "Tagi ei tulosta mitään ylimmän tason tuoteryhmissä eikä etusivulla.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax_block": "{CategoryParentId}",
+      "tables_text": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/categorylevel",
+      "title": "{CategoryLevel} | MyCashflow Ohjekeskus",
+      "h1": "{CategoryLevel}",
+      "tag": "{CategoryLevel}",
+      "shortdesc": "Tulostaa tuoteryhmän syvyystason tuoteryhmävalikossa kokonaislukuna.",
+      "longdesc": "Ylimmän tason tuoteryhmän syvyystaso on\n1\n. Etusivulla tagi ei tulosta mitään.\nSyvyystason avulla voit esimerkiksi tulostaa tuoteryhmän otsikon eri tavalla sen mukaan, kuinka syvällä ryhmärakenteessa ollaan.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax_block": "{CategoryLevel}",
+      "tables_text": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/categorypathids",
+      "title": "{CategoryPathIds} | MyCashflow Ohjekeskus",
+      "h1": "{CategoryPathIds}",
+      "tag": "{CategoryPathIds}",
+      "shortdesc": "Tulostaa tuoteryhmän koko sijaintipolun ID-numerot ylimmän tason ryhmästä alkaen.",
+      "longdesc": "Tagi tulostaa ID-numerot putkimerkillä eroteltuina, esimerkiksi\n12|34|56\n. Tuoteryhmän oma ID-numero on mukana listassa. Etusivulla tagi ei tulosta mitään.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax_block": "{CategoryPathIds}",
       "tables_text": [
         "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
       ],
@@ -6372,7 +6402,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/VariationListPrice",
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationlistprice",
       "title": "{VariationListPrice} | MyCashflow Ohjekeskus",
       "h1": "{VariationListPrice}",
       "tag": "{VariationListPrice}",
@@ -6454,7 +6484,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/VariationOriginCountry",
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationorigincountry",
       "title": "{VariationOriginCountry} | MyCashflow Ohjekeskus",
       "h1": "{VariationOriginCountry}",
       "tag": "{VariationOriginCountry}",
@@ -6928,7 +6958,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ReviewResponseComments",
+      "url": "https://support.mycashflow.com/fi/teemaopas/reviewresponsecomments",
       "title": "{ReviewResponseComments} | MyCashflow Ohjekeskus",
       "h1": "{ReviewResponseComments}",
       "tag": "{ReviewResponseComments}",
@@ -6959,7 +6989,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ResponseCommentAuthorName",
+      "url": "https://support.mycashflow.com/fi/teemaopas/responsecommentauthorname",
       "title": "{ResponseCommentAuthorName} | MyCashflow Ohjekeskus",
       "h1": "{ResponseCommentAuthorName}",
       "tag": "{ResponseCommentAuthorName}",
@@ -6986,7 +7016,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ResponseComment",
+      "url": "https://support.mycashflow.com/fi/teemaopas/responsecomment",
       "title": "{ResponseComment} | MyCashflow Ohjekeskus",
       "h1": "{ResponseComment}",
       "tag": "{ResponseComment}",
@@ -7521,7 +7551,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramSignUpForm",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramsignupform",
       "title": "{LoyaltyProgramSignUpForm} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramSignUpForm}",
       "tag": "{LoyaltyProgramSignUpForm}",
@@ -7552,7 +7582,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTiers",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttiers",
       "title": "{LoyaltyProgramDiscountTiers} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTiers}",
       "tag": "{LoyaltyProgramDiscountTiers}",
@@ -7587,7 +7617,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierClass",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierclass",
       "title": "{LoyaltyProgramDiscountTierClass} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTierClass}",
       "tag": "{LoyaltyProgramDiscountTierClass}",
@@ -7614,7 +7644,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierDiscount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierdiscount",
       "title": "{LoyaltyProgramDiscountTierDiscount} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTierDiscount}",
       "tag": "{LoyaltyProgramDiscountTierDiscount}",
@@ -7669,7 +7699,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpoints",
       "title": "{LoyaltyProgramDiscountTierPoints} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTierPoints}",
       "tag": "{LoyaltyProgramDiscountTierPoints}",
@@ -7696,7 +7726,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPointsNeeded",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpointsneeded",
       "title": "{LoyaltyProgramDiscountTierPointsNeeded} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTierPointsNeeded}",
       "tag": "{LoyaltyProgramDiscountTierPointsNeeded}",
@@ -7723,7 +7753,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPurchasesNeeded",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpurchasesneeded",
       "title": "{LoyaltyProgramDiscountTierPurchasesNeeded} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
       "tag": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
@@ -7774,7 +7804,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountValidPeriod",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscountvalidperiod",
       "title": "{LoyaltyProgramDiscountValidPeriod} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramDiscountValidPeriod}",
       "tag": "{LoyaltyProgramDiscountValidPeriod}",
@@ -7801,7 +7831,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnSignup",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonsignup",
       "title": "{LoyaltyProgramPointsOnSignup} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramPointsOnSignup}",
       "tag": "{LoyaltyProgramPointsOnSignup}",
@@ -7828,7 +7858,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnPurchaseRatio",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonpurchaseratio",
       "title": "{LoyaltyProgramPointsOnPurchaseRatio} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramPointsOnPurchaseRatio}",
       "tag": "{LoyaltyProgramPointsOnPurchaseRatio}",
@@ -7855,7 +7885,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnPurchaseValue",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonpurchasevalue",
       "title": "{LoyaltyProgramPointsOnPurchaseValue} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramPointsOnPurchaseValue}",
       "tag": "{LoyaltyProgramPointsOnPurchaseValue}",
@@ -7906,7 +7936,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnProductReview",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonproductreview",
       "title": "{LoyaltyProgramPointsOnProductReview} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramPointsOnProductReview}",
       "tag": "{LoyaltyProgramPointsOnProductReview}",
@@ -7933,7 +7963,34 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductLoyaltyPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/cartloyaltypoints",
+      "title": "{CartLoyaltyPoints} | MyCashflow Ohjekeskus",
+      "h1": "{CartLoyaltyPoints}",
+      "tag": "{CartLoyaltyPoints}",
+      "shortdesc": "Tulostaa ostoskorin sisällön perusteella asiakkaalle kertyvien kanta-asiakasohjelman pisteiden määrän.",
+      "longdesc": "Tulostettava arvo määräytyy automaattisesti asiakkaan ostoskorin sisällön ja kanta-asiakasohjelman asetuksien kohdan\nKertyminen\n>\nOstoista\nperusteella.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
+      "syntax_block": "{\nCartLoyaltyPoints\n}",
+      "tables_text": [],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/productloyaltypoints",
       "title": "{ProductLoyaltyPoints} | MyCashflow Ohjekeskus",
       "h1": "{ProductLoyaltyPoints}",
       "tag": "{ProductLoyaltyPoints}",
@@ -7966,7 +8023,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerLoyaltyPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerloyaltypoints",
       "title": "{CustomerLoyaltyPoints} | MyCashflow Ohjekeskus",
       "h1": "{CustomerLoyaltyPoints}",
       "tag": "{CustomerLoyaltyPoints}",
@@ -7993,7 +8050,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodes",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodes",
       "title": "{CustomerDiscountCodes} | MyCashflow Ohjekeskus",
       "h1": "{CustomerDiscountCodes}",
       "tag": "{CustomerDiscountCodes}",
@@ -8026,7 +8083,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodesCount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodescount",
       "title": "{CustomerDiscountCodesCount} | MyCashflow Ohjekeskus",
       "h1": "{CustomerDiscountCodesCount}",
       "tag": "{CustomerDiscountCodesCount}",
@@ -8055,7 +8112,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodesTotal",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodestotal",
       "title": "{CustomerDiscountCodesTotal} | MyCashflow Ohjekeskus",
       "h1": "{CustomerDiscountCodesTotal}",
       "tag": "{CustomerDiscountCodesTotal}",
@@ -8084,7 +8141,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCode",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcode",
       "title": "{DiscountCode} | MyCashflow Ohjekeskus",
       "h1": "{DiscountCode}",
       "tag": "{DiscountCode}",
@@ -8111,7 +8168,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeToggle",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodetoggle",
       "title": "{DiscountCodeToggle} | MyCashflow Ohjekeskus",
       "h1": "{DiscountCodeToggle}",
       "tag": "{DiscountCodeToggle}",
@@ -8138,7 +8195,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeValue",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodevalue",
       "title": "{DiscountCodeValue} | MyCashflow Ohjekeskus",
       "h1": "{DiscountCodeValue}",
       "tag": "{DiscountCodeValue}",
@@ -8189,7 +8246,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeExpiryDate",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodeexpirydate",
       "title": "{DiscountCodeExpiryDate} | MyCashflow Ohjekeskus",
       "h1": "{DiscountCodeExpiryDate}",
       "tag": "{DiscountCodeExpiryDate}",
@@ -8222,7 +8279,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramInfoPageID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprograminfopageid",
       "title": "{LoyaltyProgramInfoPageID} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramInfoPageID}",
       "tag": "{LoyaltyProgramInfoPageID}",
@@ -8249,7 +8306,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramInfoURL",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprograminfourl",
       "title": "{LoyaltyProgramInfoURL} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramInfoURL}",
       "tag": "{LoyaltyProgramInfoURL}",
@@ -8276,7 +8333,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramTermsPageID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramtermspageid",
       "title": "{LoyaltyProgramTermsPageID} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramTermsPageID}",
       "tag": "{LoyaltyProgramTermsPageID}",
@@ -8303,7 +8360,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramTermsURL",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramtermsurl",
       "title": "{LoyaltyProgramTermsURL} | MyCashflow Ohjekeskus",
       "h1": "{LoyaltyProgramTermsURL}",
       "tag": "{LoyaltyProgramTermsURL}",
@@ -8669,7 +8726,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductWishlistToggle",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productwishlisttoggle",
       "title": "{ProductWishlistToggle} | MyCashflow Ohjekeskus",
       "h1": "{ProductWishlistToggle}",
       "tag": "{ProductWishlistToggle}",
@@ -8698,7 +8755,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/WishlistProducts",
+      "url": "https://support.mycashflow.com/fi/teemaopas/wishlistproducts",
       "title": "{WishlistProducts} | MyCashflow Ohjekeskus",
       "h1": "{WishlistProducts}",
       "tag": "{WishlistProducts}",
@@ -8717,7 +8774,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/WishlistProductCount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/wishlistproductcount",
       "title": "{WishlistProductCount} | MyCashflow Ohjekeskus",
       "h1": "{WishlistProductCount}",
       "tag": "{WishlistProductCount}",
@@ -9767,6 +9824,122 @@
       "error": null
     },
     {
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopageparentid",
+      "title": "{InfoPageParentId} | MyCashflow Ohjekeskus",
+      "h1": "{InfoPageParentId}",
+      "tag": "{InfoPageParentId}",
+      "shortdesc": "Tulostaa sisältösivun yläsivun ID-numeron.",
+      "longdesc": "Jos sisältösivu on valikossa ylimmän tason sivu, tagi ei tulosta mitään.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax_block": "{InfoPageParentId}",
+      "tables_text": [
+        "Sivupohjat\nSisältösivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/maininfopageid",
+      "title": "{MainInfoPageId} | MyCashflow Ohjekeskus",
+      "h1": "{MainInfoPageId}",
+      "tag": "{MainInfoPageId}",
+      "shortdesc": "Tulostaa sen ylimmän tason sisältösivun ID-numeron, jonka alle tietty sivu kuuluu.",
+      "longdesc": "Ylimmän tason sivulla tagi tulostaa sivun oman ID-numeron.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax_block": "{MainInfoPageId}",
+      "tables_text": [
+        "Sivupohjat\nSisältösivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopagelevel",
+      "title": "{InfoPageLevel} | MyCashflow Ohjekeskus",
+      "h1": "{InfoPageLevel}",
+      "tag": "{InfoPageLevel}",
+      "shortdesc": "Tulostaa sisältösivun syvyystason sivuvalikossa.",
+      "longdesc": "Ylimmän tason sivun syvyystaso on\n1\n.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax_block": "{InfoPageLevel}",
+      "tables_text": [
+        "Sivupohjat\nSisältösivu"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopagepathids",
+      "title": "{InfoPagePathIds} | MyCashflow Ohjekeskus",
+      "h1": "{InfoPagePathIds}",
+      "tag": "{InfoPagePathIds}",
+      "shortdesc": "Tulostaa sisältösivun koko sijaintipolun ID-numerot ylimmän tason sivulta alkaen.",
+      "longdesc": "Tagi tulostaa ID-numerot putkimerkillä eroteltuina, esim.\n12|34|56\n. Sivun oma ID-numero on mukana listassa.\nTagilla\n{MainInfoPageId}\nvoit tulostaa pelkän ylimmän tason ID-numeron, ja tagilla\n{InfoPageID}\nsivun oman ID-numeron.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax_block": "{InfoPagePathIds}",
+      "tables_text": [
+        "Sivupohjat\nSisältösivu"
+      ],
+      "error": null
+    },
+    {
       "url": "https://support.mycashflow.com/fi/teemaopas/infopagename",
       "title": "{InfoPageName} | MyCashflow Ohjekeskus",
       "h1": "{InfoPageName}",
@@ -10593,6 +10766,33 @@
       "error": null
     },
     {
+      "url": "https://support.mycashflow.com/fi/teemaopas/bannerindex",
+      "title": "{BannerIndex} | MyCashflow Ohjekeskus",
+      "h1": "{BannerIndex}",
+      "tag": "{BannerIndex}",
+      "shortdesc": "Tulostaa bannerin järjestysnumeron banneriryhmässä.",
+      "longdesc": "Järjestysnumero alkaa arvosta\n1\n. Numerointi ottaa huomioon\n{Banners}\n-tagin\noffset\n-attribuutin, joten esimerkiksi kutsussa\noffset:\n'1'\nensimmäisen tulostuvan bannerin järjestysnumero on\n2\n.\n{Banner}\n-tagin\nhelper\n-attribuutissa tagi ei tee mitään (yksittäin tulostettaessa bannerilla ei ole järjestysnumeroa).",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nbanneri\nTagia käytetään vain\n{Banners}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax_block": "{BannerIndex}",
+      "tables_text": [],
+      "error": null
+    },
+    {
       "url": "https://support.mycashflow.com/fi/teemaopas/bannerclass",
       "title": "{BannerClass} | MyCashflow Ohjekeskus",
       "h1": "{BannerClass}",
@@ -11137,7 +11337,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductOriginCountry",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productorigincountry",
       "title": "{ProductOriginCountry} | MyCashflow Ohjekeskus",
       "h1": "{ProductOriginCountry}",
       "tag": "{ProductOriginCountry}",
@@ -13377,7 +13577,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/ColorContrast",
+      "url": "https://support.mycashflow.com/fi/teemaopas/colorcontrast",
       "title": "{ColorContrast} | MyCashflow Ohjekeskus",
       "h1": "{ColorContrast}",
       "tag": "{ColorContrast}",
@@ -18238,6 +18438,48 @@
       "error": null
     },
     {
+      "url": "https://support.mycashflow.com/fi/teemaopas/productreleasedate",
+      "title": "{ProductReleaseDate} | MyCashflow Ohjekeskus",
+      "h1": "{ProductReleaseDate}",
+      "tag": "{ProductReleaseDate}",
+      "shortdesc": "Tulostaa tuotteen julkaisupäivämäärän.",
+      "longdesc": "Julkaisupäivä asetetaan\ntuotelomakkeen\nkohdassa\nRajoitettu saatavuus\n. Jos julkaisupäivä puuttuu, tagi ei tulosta mitään.\nTagi tulostaa myös\nhtml\n-attribuutin arvosta riippuvan selitetekstin julkaisuajalle.\nTuotteen voi julkaista ennakkotilattavaksi jo ennen kuin se tulee myyntiin. Tulostaaksesi myynnin aloitusajan käytä\n{ProductPublishTime}\n‑tagia.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "date_format",
+          "description": "Määrittää päivämäärän tulostusmuodon.\nSallitut arvot:\nKoodi\nKuvaus\nEsimerkki\nd\nkuukauden päivä aina kaksinumeroisena\n06\nj\nkuukauden päivä ilman etunollaa\n6\nm\nkuukausi aina kaksinumeroisena\n03\nn\nkuukausi ilman etunollaa\n3\nY\nvuosi nelinumeroisena\n2025\ny\nvuosi kaksinumeroisena\n25\nAikayksikkökoodien kanssa voit käyttää soveltuvia välimerkkejä.\nEsimerkiksi\n1.1.2025\n‑mallisen päivämäärän saat aikaan attribuutilla\ndate_format:\n'j.n.Y'\n.\nLisätietoa aikayksikkökoodeista on esimerkiksi\nphp.net-ohjeissa\n."
+        },
+        {
+          "name": "html",
+          "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue\n(oletus): Tagi tulostaa oletusarvoisen merkkauksen ja sanakirjasta\nReleaseDate\n-tekstin\nfalse\n: Tagi tulostaa julkaisuajankohdasta riippuen joko tekstin\nWasReleased\ntai\nToBeReleased\n."
+        },
+        {
+          "name": "released",
+          "description": "Määrittää tulostaako tagi julkaisupäivämäärän myös julkaisun jälkeen.\nSallitut arvot:\ntrue\n(oletus)\nfalse"
+        },
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "syntax_block": "{ProductReleaseDate(\n    date_format: string,\n    html: boolean,\n    released: boolean\n)}",
+      "tables_text": [
+        "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+        "Koodi\nKuvaus\nEsimerkki\nd\nkuukauden päivä aina kaksinumeroisena\n06\nj\nkuukauden päivä ilman etunollaa\n6\nm\nkuukausi aina kaksinumeroisena\n03\nn\nkuukausi ilman etunollaa\n3\nY\nvuosi nelinumeroisena\n2025\ny\nvuosi kaksinumeroisena\n25"
+      ],
+      "error": null
+    },
+    {
       "url": "https://support.mycashflow.com/fi/teemaopas/productpublishtime",
       "title": "{ProductPublishTime} | MyCashflow Ohjekeskus",
       "h1": "{ProductPublishTime}",
@@ -18422,6 +18664,128 @@
       "tables_text": [
         "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat"
       ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocations",
+      "title": "{StockItemLocations} | MyCashflow Ohjekeskus",
+      "h1": "{StockItemLocations}",
+      "tag": "{StockItemLocations}",
+      "shortdesc": "Tulostaa listan sijainneista, joissa tuotteen varastonimike on saatavilla.",
+      "longdesc": "Varastonimike muodostuu automaattisesti, kun tuotteelle tai variaatiolle annetaan viivakoodi tai varastopaikka ja otetaan käyttöön varastoseuranta.\nJos tuotteella ei ole varastonimikettä, tagi tu tulosta mitään.\nVarastopaikan sijainti on joko kaupan oletusvarastopaikka tai\nPostin varastopalvelun\nvarasto, jos laajennus on käytössä kaupassa.\nVoit määrittää listan rakenteen ja sisällön\nhelper\n-attribuutin ja sen sisällä käytettävien varastopaikkatagien avulla:\n{StockItemLocationCode}\n{StockItemLocationName}\n{StockItemLocationQuantity}\nVarastopaikkoja voi tällä hetkellä hallita vain\nMyCashflow API\n:n kautta.\nOta yhteyttä MyCashflow'n asiakaspalveluun, jos tarvitset lisätietoja varastopaikkojen käyttöönottamisesta.\nLue myös varastonhallinnan käyttöohjeet.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "helper",
+          "description": "Määrittää yksittäisen listaelementin sisällön ja tulostusmuodon.\nSallitut arvot:\nTeksti, jossa voi olla Interface- ja HTML-merkkausta.\nhelper\n-attribuuttia on mahdollista käyttää kahdella tavalla:\nvoit kirjoittaa halutun merkkauksen suoraan attribuutin arvoksi\ntai\nvoit antaa attribuutin arvoksi viittauksen tiedostoon, joka sisältää halutun merkkauksen. Anna viittaus suhteessa teeman juurihakemistoon.\nKatso myös\nhelper\n-attribuutin tarkemmat käyttöohjeet\n."
+        },
+        {
+          "name": "filter",
+          "description": "Rajaa tulostettavat sijainnit niiden ID-numerojen perusteella. Jos attribuuttia ei anneta, tagi tulostaa kaikki varastopaikat.\nSallitut arvot:\nvarastopaikkojen tunnisteet putkimerkeillä (\n|\n) erotettuina."
+        },
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "between",
+          "description": "Määrittää sisällön, jonka tagi tulostaa jokaisen listaelementin väliin.\nAttribuutti esimerkiksi mahdollistaa\ntuotelistan muotoilun JSON-objektiksi\nkäyttämällä attribuutin arvona pilkkua.\nSallitut arvot:\nmerkkijono ja/tai HTML/Interface-merkkaus"
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuote\nNäkyvyys\nhelper\n-attribuutissa:\nvarastosijainti\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "syntax_block": "{StockItemLocations(\n    helper: string,\n    filter: string\n)}",
+      "tables_text": [
+        "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat"
+      ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationcode",
+      "title": "{StockItemLocationCode} | MyCashflow Ohjekeskus",
+      "h1": "{StockItemLocationCode}",
+      "tag": "{StockItemLocationCode}",
+      "shortdesc": "Tulostaa varastopaikan tunnisteen.",
+      "longdesc": "",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax_block": "{StockItemLocationCode}",
+      "tables_text": [],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationname",
+      "title": "{StockItemLocationName} | MyCashflow Ohjekeskus",
+      "h1": "{StockItemLocationName}",
+      "tag": "{StockItemLocationName}",
+      "shortdesc": "Tulostaa varastopaikan nimen.",
+      "longdesc": "",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax_block": "{StockItemLocationName}",
+      "tables_text": [],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationquantity",
+      "title": "{StockItemLocationQuantity} | MyCashflow Ohjekeskus",
+      "h1": "{StockItemLocationQuantity}",
+      "tag": "{StockItemLocationQuantity}",
+      "shortdesc": "Tulostaa varastonimikkeen kappalemäärän varastopaikassa.",
+      "longdesc": "Jos nimikettä ei ole kyseisessä varastopaikassa, tagi ei tulosta mitään.",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax_block": "{StockItemLocationQuantity}",
+      "tables_text": [],
       "error": null
     },
     {
@@ -20530,7 +20894,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderProductCustomsTariffCode",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderproductcustomstariffcode",
       "title": "{OrderProductCustomsTariffCode} | MyCashflow Ohjekeskus",
       "h1": "{OrderProductCustomsTariffCode}",
       "tag": "{OrderProductCustomsTariffCode}",
@@ -20557,7 +20921,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderProductCountryOfOrigin",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderproductcountryoforigin",
       "title": "{OrderProductCountryOfOrigin} | MyCashflow Ohjekeskus",
       "h1": "{OrderProductCountryOfOrigin}",
       "tag": "{OrderProductCountryOfOrigin}",
@@ -23439,7 +23803,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderShippingMethodID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/ordershippingmethodid",
       "title": "{OrderShippingMethodID} | MyCashflow Ohjekeskus",
       "h1": "{OrderShippingMethodID}",
       "tag": "{OrderShippingMethodID}",
@@ -24787,7 +25151,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderDiscounts",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderdiscounts",
       "title": "{OrderDiscounts} | MyCashflow Ohjekeskus",
       "h1": "{OrderDiscounts}",
       "tag": "{OrderDiscounts}",
@@ -24820,7 +25184,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountLabel",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountlabel",
       "title": "{DiscountLabel} | MyCashflow Ohjekeskus",
       "h1": "{DiscountLabel}",
       "tag": "{DiscountLabel}",
@@ -24847,7 +25211,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountName",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountname",
       "title": "{DiscountName} | MyCashflow Ohjekeskus",
       "h1": "{DiscountName}",
       "tag": "{DiscountName}",
@@ -24874,7 +25238,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountAmount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountamount",
       "title": "{DiscountAmount} | MyCashflow Ohjekeskus",
       "h1": "{DiscountAmount}",
       "tag": "{DiscountAmount}",
@@ -24929,7 +25293,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountTaxRate",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discounttaxrate",
       "title": "{DiscountTaxRate} | MyCashflow Ohjekeskus",
       "h1": "{DiscountTaxRate}",
       "tag": "{DiscountTaxRate}",
@@ -24956,7 +25320,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountTax",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discounttax",
       "title": "{DiscountTax} | MyCashflow Ohjekeskus",
       "h1": "{DiscountTax}",
       "tag": "{DiscountTax}",
@@ -25914,7 +26278,7 @@
       "error": null
     },
     {
-      "url": "https://support.mycashflow.com/fi/teemaopas/SearchFilterOptionId",
+      "url": "https://support.mycashflow.com/fi/teemaopas/searchfilteroptionid",
       "title": "{SearchFilterOptionId} | MyCashflow Ohjekeskus",
       "h1": "{SearchFilterOptionId}",
       "tag": "{SearchFilterOptionId}",
@@ -26359,7 +26723,7 @@
     },
     {
       "tag": "{ProductSet}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductSet",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productset",
       "shortdesc": "Tulostaa tuotelistan, jonka sisältöä ja merkkausta voi muokata hyvin joustavasti.",
       "longdesc": "Tagi ei oletusarvoisesti tulosta mitään, vaan tulostettavat tuotteet on valikoitava käyttäen soveltuvia attribuutteja (esim.\ncategories\n).\nKun olet määrittänyt tuotteet, tagi tulostaa jokaisesta tuotteesta oletusarvoisesti seuraavat tiedot:\nnimi\ntuotekuva\nhinnat\nostopainike\nVoit\nhelper\n-attribuuttia käyttäen korvata oletustiedot haluamillasi tuotetiedoilla ja määrittää HTML-merkkauksen.\nTagi ei ole yhteensopiva\ntuotesuodattimien\nkanssa, sillä se ei ota arvoja vastaan selaimen osoiteriviltä.\nUseimmat\ntuotelistatagit\novat\n{ProductSet}\n-tagin valmiiksi rajattuja pikakomentoja (esim.\n{CampaignProducts}\ntulostaa aina kampanjasivulla oletusarvoisesti kampanjatuotteet). Voit siis valita, käytätkö tietyntyyppisen tuotelistan ennalta määritettyä tagia vai\n{ProductSet}\n-tagia, jonka tulostaman sisällön määrität kokonaan itse asettamillasi attribuuteilla.",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nNäkyvyys\nhelper\n-attribuutissa:\ntuote\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -27123,7 +27487,7 @@
     },
     {
       "tag": "{Setting}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/Setting",
+      "url": "https://support.mycashflow.com/fi/teemaopas/setting",
       "shortdesc": "Tulostaa teema-asetukselle tallennetun arvon.",
       "longdesc": "Tagin\nname\n-attribuutti määrittää asetuksen, jonka arvon tagi tulostaa. Tagin tulostus riippuu asetuksen tyypistä ja sisällöstä:\nboolean\n:\n1\ntai ei mitään\nselect\n: asetusvalikosta valitun\n<Option/>\n-elementin\nvalue\ninteger\n: asetuksiin syötetty numero\ncolor\n: asetuksissa määritetty värikoodi (esim.\n#378940\n)\nLue myös:\nVapaavalintaisten teema-asetuksien rakenteen kuvaus\nEsimerkkejä vapaavalintaisten teema-asetuksien käyttämisestä",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -27605,7 +27969,7 @@
     },
     {
       "tag": "{FilterOptionId}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/FilterOptionId",
+      "url": "https://support.mycashflow.com/fi/teemaopas/filteroptionid",
       "shortdesc": "Tulostaa tuotelistasuodattimen yksilöivän tunnisteen.",
       "longdesc": "Tagin avulla voit esim. laatia tuotesuodatinvalinnalle HTML-luokkanimen, jonka avulla siihen on helppo kohdistaa CSS-määrityksiä.\nJos haluat tulostaa tuoteominaisuuden tunnisteen, käytä\n{ProductAttributeID}\n-tagia.\nTagi on käytössä alkaen Basic-paketista.\nLue myös\ntarkemmat ohjeet tuotesuodattimien toteuttamiseen teemassa\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntuotelistan suodatinvaihtoehto\nTagia käytetään vain\n{\nFilterOptions}\n-tagin\nhelper\n-attribuutissa.",
@@ -28356,6 +28720,90 @@
       "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
       "syntax": "{CategoryID}",
       "syntax_block": "{CategoryID}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ]
+    },
+    {
+      "tag": "{CategoryParentId}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/categoryparentid",
+      "shortdesc": "Tulostaa tuoteryhmän yläryhmän ID-numeron.",
+      "longdesc": "Tagi ei tulosta mitään ylimmän tason tuoteryhmissä eikä etusivulla.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax": "{CategoryParentId}",
+      "syntax_block": "{CategoryParentId}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ]
+    },
+    {
+      "tag": "{CategoryLevel}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/categorylevel",
+      "shortdesc": "Tulostaa tuoteryhmän syvyystason tuoteryhmävalikossa kokonaislukuna.",
+      "longdesc": "Ylimmän tason tuoteryhmän syvyystaso on\n1\n. Etusivulla tagi ei tulosta mitään.\nSyvyystason avulla voit esimerkiksi tulostaa tuoteryhmän otsikon eri tavalla sen mukaan, kuinka syvällä ryhmärakenteessa ollaan.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax": "{CategoryLevel}",
+      "syntax_block": "{CategoryLevel}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nTuotelista\nNäyteikkuna\nEtusivu"
+      ]
+    },
+    {
+      "tag": "{CategoryPathIds}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/categorypathids",
+      "shortdesc": "Tulostaa tuoteryhmän koko sijaintipolun ID-numerot ylimmän tason ryhmästä alkaen.",
+      "longdesc": "Tagi tulostaa ID-numerot putkimerkillä eroteltuina, esimerkiksi\n12|34|56\n. Tuoteryhmän oma ID-numero on mukana listassa. Etusivulla tagi ei tulosta mitään.\nTuotesivulla tagin tulostama sisältö riippuu polusta, jonka kautta asiakas on saapunut tuotteeseen.",
+      "tag_scope": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "visibility": "Toimii näkyvyydessä:\ntuoteryhmä\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nTuotelista\nNäyteikkuna\nEtusivu",
+      "syntax": "{CategoryPathIds}",
+      "syntax_block": "{CategoryPathIds}",
       "attributes": "",
       "attribute_blocks": [
         {
@@ -30617,7 +31065,7 @@
     },
     {
       "tag": "{VariationListPrice}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/VariationListPrice",
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationlistprice",
       "shortdesc": "Tulostaa tuotevariaation listahinnan.",
       "longdesc": "Listahinta on tuotevariaation normaali hinta ilman mahdollisia kampanja-alennuksia.\nAjankohtaiset alennukset sisältävän myyntihinnan voit tulostaa käyttämällä\n{VariationPrice}\n-tagia.\n{VariationComparePrice}\n-tagin avulla taas voit tulostaa tilanteen mukaisen vertailuhinnan, jos variaatiolla on aktiivisia alennuksia.\nTutustu tuotevariaatioiden käyttöohjeisiin.\nLue myös\ntarkemmat ohjeet tuotevariaatioiden toteuttamiseen verkkokaupan teemassa\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
@@ -30697,7 +31145,7 @@
     },
     {
       "tag": "{VariationOriginCountry}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/VariationOriginCountry",
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationorigincountry",
       "shortdesc": "Tulostaa tuotevariaation alkuperämaan nimen.",
       "longdesc": "Alkuperämaan voi valita variaatiokohtaisesti\ntuotteen varastoasetuksista\n.\nTagi toimii\n{ProductVariations}\n-tagin avulla laadittavassa tuotevariaatioiden listauksessa.\nTutustu tuotevariaatioiden käyttöohjeisiin.\nLue myös\ntarkemmat ohjeet tuotevariaatioiden toteuttamiseen verkkokaupan teemassa\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
@@ -31155,7 +31603,7 @@
     },
     {
       "tag": "{ReviewResponseComments}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ReviewResponseComments",
+      "url": "https://support.mycashflow.com/fi/teemaopas/reviewresponsecomments",
       "shortdesc": "Tulostaa listan tuotearvosteluun jätetyistä vastauksista.",
       "longdesc": "Tagi ei tulosta oletusarvoisesti mitään, vaan listan sisältö määritetään käyttämällä\nhelper\n-attribuutissa seuraavia tageja:\n{ResponseCommentAuthorName}\n{ResponseComment}\nKatso myös\ntuotearvostelujen käyttöohjeet\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntuotearvostelu\nNäkyvyys\nhelper\n-attribuutissa:\narvostelukommentti\nTagia käytetään vain\n{ProductReviews}\n-tagin\nhelper\n-attribuutissa.",
@@ -31185,7 +31633,7 @@
     },
     {
       "tag": "{ResponseCommentAuthorName}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ResponseCommentAuthorName",
+      "url": "https://support.mycashflow.com/fi/teemaopas/responsecommentauthorname",
       "shortdesc": "Tulostaa arvostelukommentin jättäjän nimen.",
       "longdesc": "Kommentoijan nimeksi tulee automaattisesti sen\nkauppaversion\nnimi, josta asiakas on tilannut tuotteen.\nKatso myös\ntuotearvostelujen käyttöohjeet\n.",
       "tag_scope": "Toimii näkyvyydessä:\narvostelukommentti\nTagia käytetään vain\n{ReviewResponseComments}\n-tagin\nhelper\n-attribuutissa.",
@@ -31211,7 +31659,7 @@
     },
     {
       "tag": "{ResponseComment}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ResponseComment",
+      "url": "https://support.mycashflow.com/fi/teemaopas/responsecomment",
       "shortdesc": "Tulostaa tuotearvostelun vastauksen sisällön.",
       "longdesc": "Katso myös\ntuotearvostelujen käyttöohjeet\n.",
       "tag_scope": "Toimii näkyvyydessä:\narvostelukommentti\nTagia käytetään vain\n{ReviewResponseComments}\n-tagin\nhelper\n-attribuutissa.",
@@ -31705,7 +32153,7 @@
     },
     {
       "tag": "{LoyaltyProgramSignUpForm}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramSignUpForm",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramsignupform",
       "shortdesc": "Tulostaa lomakkeen, jonka avulla verkkokauppaan rekisteröitynyt ja sisäänkirjautunut asiakas voi liittyä kanta-asiakasohjelmaan.",
       "longdesc": "Tagi tulostaa sisältöä vain, mikäli kanta-asiakasohjelma on käytössä asiakkaan selaamassa kauppaversiossa.\nOletusarvoisesti tagi tulostaa liittymislomakkeen lisäksi myös seuraavat\nsanakirjatekstit\n, jotka sisältävät tietoa kanta-asiakasohjelmasta:\nLoyaltyProgramJoinTitle\nLoyaltyProgramJoinInfo\nLoyaltyProgramJoinTerms\nVoit tarvittaessa poistaa tekstit tulostuksesta\nonlyform: true\n-attribuutin avulla\nOletusteemassa tagi on käytössä\naccount.html\n-sivupohjassa.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -31735,7 +32183,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTiers}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTiers",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttiers",
       "shortdesc": "Tulostaa listan kanta-asiakasohjelman palkintotasoista.",
       "longdesc": "Tagi tulostaa sisältöä vain, mikäli kanta-asiakasohjelma on käytössä asiakkaan selaamassa kauppaversiossa.\nTagilla ei ole oletusarvoista sisältöä, vaan listan sisältö riippuu\nhelper\n-attribuutista, jossa voi käyttää seuraavia tageja:\n{LoyaltyProgramDiscountTierClass}\n{LoyaltyProgramDiscountTierDiscount}\n{LoyaltyProgramDiscountTierPoints}\n{LoyaltyProgramDiscountTierPointsNeeded}\n{LoyaltyProgramDiscountTierPurchasesNeeded}\nTagi listaa\nhelper\n-attribuuttiin sisältyvät tiedot palkintotasoittain. Käyttämällä lisäksi\nfilter\n-attribuuttia tulostuksen voi rajata koskemaan asiakkaan nykyistä tai seuraavaa palkintotasoa.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nNäkyvyys\nhelper\n-attribuutissa:\nkanta-asiakasohjelman alennustaso\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -31769,7 +32217,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTierClass}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierClass",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierclass",
       "shortdesc": "Tulostaa luokkanimen Current tai Next , joka viittaa asiakkaan nykyiseen tai seuraavaan palkintotasoon kanta-asiakasohjelmassa.",
       "longdesc": "Tagi toimii\n{LoyaltyProgramDiscountTiers}\n-tagin avulla laadittavassa kanta-asiakasohjelman palkintotasolistauksessa.\nSiinä käytettävä\nfilter\n-attribuutti vaikuttaa osaltaan luokkanimen tulostumiseen:\nAsiakkaan nykyiseen palkintotasoon viittaava luokkanimi\nCurrent\ntulostuu, kun attribuutin arvo on\ncurrent\ntai kun attribuuttia ei ole lainkaan. Asiakkaan on oltava kirjautuneena verkkokauppaan ja vähintään kanta-asiakasohjelman alimmalla palkintotasolla.\nAsiakkaan seuraavaan palkintotasoon viittaava luokkanimi\nNext\ntulostuu, kun attribuutin arvo on\nnext\n.\nJos asiakas on jo kanta-asiakasohjelman ylimmällä palkintotasolla, tagi ei tulosta mitään.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nkanta-asiakasohjelman alennustaso\nTagia käytetään vain\n{LoyaltyProgramDiscountTiers}\n-tagin\nhelper\n-attribuutissa.",
@@ -31795,7 +32243,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTierDiscount}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierDiscount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierdiscount",
       "shortdesc": "Tulostaa kanta-asiakasohjelman palkintotason mukaisen alennuskoodin arvon.",
       "longdesc": "Tagi toimii\n{LoyaltyProgramDiscountTiers}\n-tagin avulla laadittavassa kanta-asiakasohjelman palkintotasolistauksessa.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nkanta-asiakasohjelman alennustaso\nTagia käytetään vain\n{LoyaltyProgramDiscountTiers}\n-tagin\nhelper\n-attribuutissa.",
@@ -31849,7 +32297,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTierPoints}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpoints",
       "shortdesc": "Tulostaa kokonaispistemäärän, joka oikeuttaa kanta-asiakasohjelman palkintotason mukaiseen alennukseen.",
       "longdesc": "Tagi toimii\n{LoyaltyProgramDiscountTiers}\n-tagin avulla laadittavassa kanta-asiakasohjelman palkintotasolistauksessa.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nkanta-asiakasohjelman alennustaso\nTagia käytetään vain\n{LoyaltyProgramDiscountTiers}\n-tagin\nhelper\n-attribuutissa.",
@@ -31875,7 +32323,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTierPointsNeeded}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPointsNeeded",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpointsneeded",
       "shortdesc": "Tulostaa pistemäärän, joka asiakkaalta puuttuu kanta-asiakasohjelman palkintotasosta.",
       "longdesc": "Tagi toimii\n{LoyaltyProgramDiscountTiers}\n-tagin avulla laadittavassa kanta-asiakasohjelman palkintotasolistauksessa.\nTagi tulostaa palkintotasoon tarvittavan määrän vain, jos asiakas ei ole vielä saavuttanut kyseistä palkintotasoa. Voit kuitenkin\nor\n-attribuuttia käyttäen määrittää tagille vaihtoehtoisen sisällön, joka tulostuu asiakkaan nykyisen ja sitä alempien palkintotasojen kohdalla.\nTagi laskee kanta-asiakkaan oikeaan pistesaldoon perustuvan arvon, mikäli asiakas on\nkirjautuneena verkkokauppaan\n. Muuten oletuksenmukainen pistesaldo on nolla.\nJotta kirjautumisen myötä muuttuva arvo ei hämmentäisi asiakasta, voit määrittää kirjautumattomille kävijöille eri sisällön kuin kirjautuneille käyttämällä\n{Helper}\n-tagia ja\ncase: 'CustomerNotLogged'\n‑attribuuttia.\nJos haluat tulostaa palkintotason edellyttämän kokonaispistemäärän riippumatta asiakkaan pistesaldosta, käytä\n{LoyaltyProgramDiscountTierPoints}\n-tagia.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nkanta-asiakasohjelman alennustaso\nTagia käytetään vain\n{LoyaltyProgramDiscountTiers}\n-tagin\nhelper\n-attribuutissa.",
@@ -31901,7 +32349,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountTierPurchasesNeeded",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscounttierpurchasesneeded",
       "shortdesc": "Tulostaa rahamäärän, joka kanta-asiakkaan tarvitsee vielä käyttää verkkokaupan tuotteisiin palkintotason saavuttamiseksi.",
       "longdesc": "Tagi toimii\n{LoyaltyProgramDiscountTiers}\n-tagin avulla laadittavassa kanta-asiakasohjelman palkintotasolistauksessa.\nTagi tulostaa palkintotasoon tarvittavan määrän vain, jos asiakas ei ole vielä saavuttanut kyseistä palkintotasoa. Voit kuitenkin\nor\n-attribuuttia käyttäen määrittää tagille vaihtoehtoisen sisällön, joka tulostuu asiakkaan nykyisen ja sitä alempien palkintotasojen kohdalla.\nTagi laskee kanta-asiakkaan oikeaan pistesaldoon perustuvan arvon, mikäli asiakas on\nkirjautuneena verkkokauppaan\n. Muuten oletuksenmukainen pistesaldo on nolla.\nJotta kirjautumisen myötä muuttuva arvo ei hämmentäisi asiakasta, voit määrittää kirjautumattomille kävijöille eri sisällön kuin kirjautuneille käyttämällä\n{Helper}\n-tagia ja\ncase: 'CustomerNotLogged'\n‑attribuuttia.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nkanta-asiakasohjelman alennustaso\nTagia käytetään vain\n{LoyaltyProgramDiscountTiers}\n-tagin\nhelper\n-attribuutissa.",
@@ -31951,7 +32399,7 @@
     },
     {
       "tag": "{LoyaltyProgramDiscountValidPeriod}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramDiscountValidPeriod",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramdiscountvalidperiod",
       "shortdesc": "Tulostaa kanta-asiakasohjelman etujen voimassaoloajan kuukausina.",
       "longdesc": "Lue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -31977,7 +32425,7 @@
     },
     {
       "tag": "{LoyaltyProgramPointsOnSignup}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnSignup",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonsignup",
       "shortdesc": "Tulostaa pistemäärän, jonka asiakas kerryttää itselleen liittymällä kanta-asiakasohjelmaan.",
       "longdesc": "Tagin tulostama arvo määritetään kanta-asiakasohjelman asetuksien kohdassa\nKertyminen\n>\nLiittymisestä\n.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32003,7 +32451,7 @@
     },
     {
       "tag": "{LoyaltyProgramPointsOnPurchaseRatio}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnPurchaseRatio",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonpurchaseratio",
       "shortdesc": "Tulostaa prosentuaalisen alennuskertoimen, johon kanta-asiakas on oikeutettu sen perusteella, mille ohjelman palkintotasolle hän kuuluu.",
       "longdesc": "Tagin tulostama arvo määräytyy automaattisesti kanta-asiakasohjelman asetuksien kohdan\nPalkinnot\n>\nAlennuskoodien tasot\nperusteella.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32029,7 +32477,7 @@
     },
     {
       "tag": "{LoyaltyProgramPointsOnPurchaseValue}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnPurchaseValue",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonpurchasevalue",
       "shortdesc": "Tulostaa euromääräisen arvon, joka oikeuttaa tilaajan yhteen kanta-asiakasohjelman pisteeseen (esim. 1 € = 1 piste).",
       "longdesc": "Tagin tulostama arvo määritetään kanta-asiakasohjelman asetuksien kohdassa\nKertyminen\n>\nOstoista\n.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32079,7 +32527,7 @@
     },
     {
       "tag": "{LoyaltyProgramPointsOnProductReview}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramPointsOnProductReview",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogrampointsonproductreview",
       "shortdesc": "Tulostaa pistemäärän, johon kanta-asiakas on oikeutettu yksittäisen tuotearvostelun perusteella.",
       "longdesc": "Tagin käyttö edellyttää, että verkkokaupassa on käytössä\nTuotearvostelut-laajennus\n.\nTagin tulostama arvo määräytyy automaattisesti kanta-asiakasohjelman asetuksien kohdan\nKertyminen\n>\nTuotearvosteluista\nperusteella.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32104,8 +32552,34 @@
       "tables_preview": []
     },
     {
+      "tag": "{CartLoyaltyPoints}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/cartloyaltypoints",
+      "shortdesc": "Tulostaa ostoskorin sisällön perusteella asiakkaalle kertyvien kanta-asiakasohjelman pisteiden määrän.",
+      "longdesc": "Tulostettava arvo määräytyy automaattisesti asiakkaan ostoskorin sisällön ja kanta-asiakasohjelman asetuksien kohdan\nKertyminen\n>\nOstoista\nperusteella.",
+      "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
+      "visibility": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
+      "syntax": "{\nCartLoyaltyPoints\n}",
+      "syntax_block": "{\nCartLoyaltyPoints\n}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
+    },
+    {
       "tag": "{ProductLoyaltyPoints}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductLoyaltyPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productloyaltypoints",
       "shortdesc": "Tulostaa pistemäärän, jonka tuotteen ostaminen kerryttää kanta-asiakkaalle.",
       "longdesc": "Tagin tulostama arvo määräytyy automaattisesti tuotteen hinnan ja kanta-asiakasohjelman asetuksien kohdan\nKertyminen\n>\nOstoista\nperusteella.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\ntuote\nTuotteen sivupohja\nthemes/shop/THEME/product.html",
@@ -32137,7 +32611,7 @@
     },
     {
       "tag": "{CustomerLoyaltyPoints}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerLoyaltyPoints",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerloyaltypoints",
       "shortdesc": "Tulostaa asiakkaalle kertyneiden kanta-asiakasohjelmapisteiden määrän.",
       "longdesc": "Tagi tulostaa sisältöä vain, kun asiakas on kirjautunut sisään ja kuuluu kanta-asiakasohjelmaan.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32163,7 +32637,7 @@
     },
     {
       "tag": "{CustomerDiscountCodes}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodes",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodes",
       "shortdesc": "Tulostaa listan asiakkaalle kertyneistä kanta-asiakasohjelman alennuskoodeista.",
       "longdesc": "Tagilla ei ole oletusarvoista sisältöä, vaan listan sisältö riippuu\nhelper\n-attribuutista, jossa voi käyttää seuraavia tageja:\n{DiscountCode}\n{DiscountCodeExpiryDate}\n{DiscountCodeToggle}\n{DiscountCodeValue}\nTagi listaa\nhelper\n-attribuuttiin sisältyvät tiedot alennuskoodeittain.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nNäkyvyys\nhelper\n-attribuutissa:\nalennuskoodi\nVoit käyttää tagia missä tahansa, mutta seuraavat teeman sivupohjat ovat usein hyviä sijainteja:\nAsiakastilin sivupohja\nthemes/shop/THEME/account.html\nTuotekuvien sivupohja\nthemes/shop/THEME/product-images.html\nKanta-asiakassähköpostin sivupohja\nthemes/email/THEME/customer/campaign-codes.html",
@@ -32195,7 +32669,7 @@
     },
     {
       "tag": "{CustomerDiscountCodesCount}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodesCount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodescount",
       "shortdesc": "Tulostaa kanta-asiakkaalle kertyneiden alennuskoodien kokonaismäärän.",
       "longdesc": "Lue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nVoit käyttää tagia missä tahansa, mutta seuraavat teeman sivupohjat ovat usein hyviä sijainteja:\nAsiakastilin sivupohja\nthemes/shop/THEME/account.html\nTuotekuvien sivupohja\nthemes/shop/THEME/product-images.html\nKanta-asiakassähköpostin sivupohja\nthemes/email/THEME/customer/campaign-codes.html",
@@ -32223,7 +32697,7 @@
     },
     {
       "tag": "{CustomerDiscountCodesTotal}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/CustomerDiscountCodesTotal",
+      "url": "https://support.mycashflow.com/fi/teemaopas/customerdiscountcodestotal",
       "shortdesc": "Tulostaa kanta-asiakkaalle kertyneiden alennuskoodien yhteenlasketun euromääräisen kokonaisarvon.",
       "longdesc": "Lue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nVoit käyttää tagia missä tahansa, mutta seuraavat teeman sivupohjat ovat usein hyviä sijainteja:\nAsiakastilin sivupohja\nthemes/shop/THEME/account.html\nTuotekuvien sivupohja\nthemes/shop/THEME/product-images.html\nKanta-asiakassähköpostin sivupohja\nthemes/email/THEME/customer/campaign-codes.html",
@@ -32251,7 +32725,7 @@
     },
     {
       "tag": "{DiscountCode}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCode",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcode",
       "shortdesc": "Tulostaa kanta-asiakkaalle myönnetyn alennuskoodin.",
       "longdesc": "Tagi toimii\n{CustomerDiscountCodes}\n-tagin avulla laadittavassa asiakkaan alennuskoodilistauksessa.",
       "tag_scope": "Toimii näkyvyydessä:\nalennuskoodi\nTagia käytetään vain\n{CustomerDiscountCodes}\n-tagin\nhelper\n-attribuutissa.",
@@ -32277,7 +32751,7 @@
     },
     {
       "tag": "{DiscountCodeToggle}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeToggle",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodetoggle",
       "shortdesc": "Tulostaa painikkeen, jolla asiakas voi ottaa alennuskoodin käyttöön ostoskorissa tai poistaa sen käytöstä.",
       "longdesc": "Tagi toimii\n{CustomerDiscountCodes}\n-tagin avulla laadittavassa asiakkaan alennuskoodilistauksessa.\nTagi tulostaa\n<form>\n-elementin, jonka attribuutit, luokkanimet ja\ntekstit\nvaihtuvat sen mukaan, onko alennuskoodi käytössä ostoskorissa vai ei:\nAlennuskoodi\nei ole käytössä\n:\nvalue\n-kenttä: alennuskoodi\nLuokkanimi:\nCustomerDiscountCodeApply\nPainikkeen luokkanimi:\nAddToCart\nPainiketeksti:\nAddDiscountCodeToCart\nAlennuskoodi\non käytössä\n:\nvalue\n-kenttä: tyhjä\nLuokkanimi:\nCustomerDiscountCodeRemove\nPainikkeen luokkanimi:\nRemoveFromCart\nPainiketeksti:\nRemoveDiscountCodeFromCart",
       "tag_scope": "Toimii näkyvyydessä:\nalennuskoodi\nTagia käytetään vain\n{CustomerDiscountCodes}\n-tagin\nhelper\n-attribuutissa.",
@@ -32303,7 +32777,7 @@
     },
     {
       "tag": "{DiscountCodeValue}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeValue",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodevalue",
       "shortdesc": "Tulostaa alennuskoodin arvon.",
       "longdesc": "",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nTagia käytetään vain\n{CustomerDiscountCodes}\n-tagin\nhelper\n-attribuutissa.",
@@ -32353,7 +32827,7 @@
     },
     {
       "tag": "{DiscountCodeExpiryDate}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountCodeExpiryDate",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountcodeexpirydate",
       "shortdesc": "Tulostaa kanta-asiakkaalle myönnetyn alennuskoodin vanhenemispäivämäärän.",
       "longdesc": "Tagi toimii\n{CustomerDiscountCodes}\n-tagin avulla laadittavassa asiakkaan alennuskoodilistauksessa.",
       "tag_scope": "Toimii näkyvyydessä:\nalennuskoodi\nTagia käytetään vain\n{CustomerDiscountCodes}\n-tagin\nhelper\n-attribuutissa.",
@@ -32385,7 +32859,7 @@
     },
     {
       "tag": "{LoyaltyProgramInfoPageID}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramInfoPageID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprograminfopageid",
       "shortdesc": "Tulostaa kanta-asiakasohjelman esittelysivun ID-numeron.",
       "longdesc": "Esittelysivu valitaan kanta-asiakasohjelman asetuksien kohdassa\nEsittelysivu\n.\nTagin tulostama arvo on\nsisältösivun\ntunniste.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32411,7 +32885,7 @@
     },
     {
       "tag": "{LoyaltyProgramInfoURL}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramInfoURL",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprograminfourl",
       "shortdesc": "Tulostaa kanta-asiakasohjelman esittelysivun suhteellisen URL-osoitteen.",
       "longdesc": "Tagin tulostama osoite on\n/loyalty\n, mutta se toimii 301-ohjauksena asetuksissa valitulle\nsisältösivulle\n.\nEsittelysivu valitaan kanta-asiakasohjelman asetuksien kohdassa\nEsittelysivu\n.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32437,7 +32911,7 @@
     },
     {
       "tag": "{LoyaltyProgramTermsPageID}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramTermsPageID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramtermspageid",
       "shortdesc": "Tulostaa kanta-asiakasohjelman ehdot sisältävän sivun ID-numeron.",
       "longdesc": "Ehdot sisältävä sivu valitaan kanta-asiakasohjelman asetuksien kohdassa\nKanta-asiakasohjelman ehdot\n.\nTagin tulostama arvo on\nsisältösivun\ntunniste.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32463,7 +32937,7 @@
     },
     {
       "tag": "{LoyaltyProgramTermsURL}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/LoyaltyProgramTermsURL",
+      "url": "https://support.mycashflow.com/fi/teemaopas/loyaltyprogramtermsurl",
       "shortdesc": "Tulostaa kanta-asiakasohjelman ehdot sisältävän sivun suhteellisen URL-osoitteen.",
       "longdesc": "Tagin tulostama osoite on\n/loyalty/terms\n, mutta se toimii 301-ohjauksena asetuksissa valitulle\nsisältösivulle\n.\nEsittelysivu valitaan kanta-asiakasohjelman asetuksien kohdassa\nEsittelysivu\n.\nLue myös:\nKanta-asiakasohjelman käyttöohjeet\nKanta-asiakasohjelman esittely\nOhjeet kanta-asiakasohjelman toteuttamiseen verkkokaupan teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32820,7 +33294,7 @@
     },
     {
       "tag": "{ProductWishlistToggle}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductWishlistToggle",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productwishlisttoggle",
       "shortdesc": "Tulostaa painikkeen, jolla tuotteen voi lisätä toivelistalle tai poistaa sen sieltä.",
       "longdesc": "Tagi tulostaa sisältöä vain, kun asiakas on kirjautunut sisään verkkokauppaan.\nTagi tulostaa <form>-elementin, jonka lähetys suorittaa lisäys- tai poistotoiminnon.\nLomakkeella on aina luokkanimi\nProductWishlistToggle\nsekä lisäluokkanimi\nProductWishlistAdd\ntai\nProductWishlistRemove\n, joka vaihtuu sen mukaan, onko tuote jo toivelistalla.\nLomakkeen painiketeksti on tilanteesta riippuen joko\nsanakirjan\nrivi\nProductAddToWishlist\ntai\nProductRemoveFromWishlist\n.\nLomake lähetetään\nPOST\n-pyyntönä joko osoitteeseen\n/account/wishlist/add\ntai\n/account/wishlist/remove\n, ja se sisältää lisättävän tai poistettavan tuotteen ID:n.\nVastauksena lisäys- tai poistopyyntöön tapahtuu uudelleenohjaus takaisin lomakkeen sisältävälle sivulle.\nLue myös:\nToivelistojen käyttöohjeet\nToivelistojen esittely\nOhjeet toivelistojen toteuttamiseen teemassa",
       "tag_scope": "Toimii näkyvyydessä:\ntuote\nVoit käyttää tagia tuotelistatagien\nhelper\n-attribuuteissa sekä tuotesivujen sivupohjissa:\nTuotteen sivupohja\nthemes/shop/THEME/product.html",
@@ -32848,7 +33322,7 @@
     },
     {
       "tag": "{WishlistProducts}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/WishlistProducts",
+      "url": "https://support.mycashflow.com/fi/teemaopas/wishlistproducts",
       "shortdesc": "Tulostaa listan toivelistalla olevista tuotteista.",
       "longdesc": "Tagi tulostaa sisältöä vain, kun asiakas on kirjautunut sisään verkkokauppaan.\nTagi ei tulosta oletusarvoisesti mitään, vaan listan sisältö määritetään käyttämällä\nhelper\n-attribuutissa\ntuotteiden tageja\n.\nVerkkokaupasta poistettujen tuotteiden osalta toivelistalla on mahdollista näyttää\nnimi\n,\ntuotenumero\nja\nkuva\n. Tämän lisäksi jokaisella poistetun tuotteen listaelementillä on luokkanimi\nRemovedProduct\n.\nLue myös:\nToivelistojen käyttöohjeet\nToivelistojen esittely\nOhjeet toivelistojen toteuttamiseen teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nNäkyvyys\nhelper\n-attribuutissa:\ntuote\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -32866,7 +33340,7 @@
     },
     {
       "tag": "{WishlistProductCount}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/WishlistProductCount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/wishlistproductcount",
       "shortdesc": "Tulostaa toivelistan tuotteiden lukumäärän.",
       "longdesc": "Tagi tulostaa sisältöä vain, kun asiakas on kirjautunut sisään verkkokauppaan.\nLue myös:\nToivelistojen käyttöohjeet\nToivelistojen esittely\nOhjeet toivelistojen toteuttamiseen teemassa",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -33691,6 +34165,118 @@
       ]
     },
     {
+      "tag": "{InfoPageParentId}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopageparentid",
+      "shortdesc": "Tulostaa sisältösivun yläsivun ID-numeron.",
+      "longdesc": "Jos sisältösivu on valikossa ylimmän tason sivu, tagi ei tulosta mitään.",
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "visibility": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax": "{InfoPageParentId}",
+      "syntax_block": "{InfoPageParentId}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nSisältösivu"
+      ]
+    },
+    {
+      "tag": "{MainInfoPageId}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/maininfopageid",
+      "shortdesc": "Tulostaa sen ylimmän tason sisältösivun ID-numeron, jonka alle tietty sivu kuuluu.",
+      "longdesc": "Ylimmän tason sivulla tagi tulostaa sivun oman ID-numeron.",
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "visibility": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax": "{MainInfoPageId}",
+      "syntax_block": "{MainInfoPageId}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nSisältösivu"
+      ]
+    },
+    {
+      "tag": "{InfoPageLevel}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopagelevel",
+      "shortdesc": "Tulostaa sisältösivun syvyystason sivuvalikossa.",
+      "longdesc": "Ylimmän tason sivun syvyystaso on\n1\n.",
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "visibility": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax": "{InfoPageLevel}",
+      "syntax_block": "{InfoPageLevel}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nSisältösivu"
+      ]
+    },
+    {
+      "tag": "{InfoPagePathIds}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/infopagepathids",
+      "shortdesc": "Tulostaa sisältösivun koko sijaintipolun ID-numerot ylimmän tason sivulta alkaen.",
+      "longdesc": "Tagi tulostaa ID-numerot putkimerkillä eroteltuina, esim.\n12|34|56\n. Sivun oma ID-numero on mukana listassa.\nTagilla\n{MainInfoPageId}\nvoit tulostaa pelkän ylimmän tason ID-numeron, ja tagilla\n{InfoPageID}\nsivun oman ID-numeron.",
+      "tag_scope": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "visibility": "Toimii näkyvyydessä:\nsisältösivu\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nSisältösivu\nTagia käytetään pääasiassa\n{InfoNavigation}\n-tagin\nhelper\n-attribuutissa tai\nsisältösivun\nsivupohjassa.",
+      "syntax": "{InfoPagePathIds}",
+      "syntax_block": "{InfoPagePathIds}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nSisältösivu"
+      ]
+    },
+    {
       "tag": "{InfoPageName}",
       "url": "https://support.mycashflow.com/fi/teemaopas/infopagename",
       "shortdesc": "Tulostaa sisältösivun nimen.",
@@ -34494,6 +35080,32 @@
       "tables_preview": []
     },
     {
+      "tag": "{BannerIndex}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/bannerindex",
+      "shortdesc": "Tulostaa bannerin järjestysnumeron banneriryhmässä.",
+      "longdesc": "Järjestysnumero alkaa arvosta\n1\n. Numerointi ottaa huomioon\n{Banners}\n-tagin\noffset\n-attribuutin, joten esimerkiksi kutsussa\noffset:\n'1'\nensimmäisen tulostuvan bannerin järjestysnumero on\n2\n.\n{Banner}\n-tagin\nhelper\n-attribuutissa tagi ei tee mitään (yksittäin tulostettaessa bannerilla ei ole järjestysnumeroa).",
+      "tag_scope": "Toimii näkyvyydessä:\nbanneri\nTagia käytetään vain\n{Banners}\n-tagin\nhelper\n-attribuutissa.",
+      "visibility": "Toimii näkyvyydessä:\nbanneri\nTagia käytetään vain\n{Banners}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax": "{BannerIndex}",
+      "syntax_block": "{BannerIndex}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
+    },
+    {
       "tag": "{BannerClass}",
       "url": "https://support.mycashflow.com/fi/teemaopas/bannerclass",
       "shortdesc": "Tulostaa bannerin luokkanimet.",
@@ -34901,7 +35513,7 @@
     },
     {
       "tag": "{ProductOriginCountry}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ProductOriginCountry",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productorigincountry",
       "shortdesc": "Tulostaa tuotteen alkuperämaan nimen.",
       "longdesc": "Alkuperämaan voi valita\ntuotteen varastoasetuksista\n.",
       "tag_scope": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
@@ -37035,7 +37647,7 @@
     },
     {
       "tag": "{ColorContrast}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/ColorContrast",
+      "url": "https://support.mycashflow.com/fi/teemaopas/colorcontrast",
       "shortdesc": "Tagi, jonka avulla voit määrittää kontrastivärin toiselle värille.",
       "longdesc": "Tagin tulostus määritetään antamalla\nhex\n-attribuutille HEX-väriarvo, jonka perusteella tagi arvioi, tarvitseeko kyseinen väri vaalean vai tumman kontrastivärin. Arvioinnin perusteella tagi tulostaa joko\nlight\n- tai\ndark\n-attribuutissa määritetyn sisällön (tai oletuksena arvot\nwhite\n/\nblack\n).\nEsimerkiksi:\n{ColorContrast(hex:'#000000')} // Väri on musta -> Tulostuu light-attribuutin arvo\n{ColorContrast(hex:'#FFFFFF')} // Väri on valkea -> Tulostuu dark-attribuutin arvo",
       "tag_scope": "Toimii näkyvyydessä:\nglobaali\nGlobaalin näkyvyyden tageja on mahdollista käyttää missä tahansa sivupohjassa ja minkä tahansa tagin sisällä.",
@@ -41410,6 +42022,47 @@
       ]
     },
     {
+      "tag": "{ProductReleaseDate}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productreleasedate",
+      "shortdesc": "Tulostaa tuotteen julkaisupäivämäärän.",
+      "longdesc": "Julkaisupäivä asetetaan\ntuotelomakkeen\nkohdassa\nRajoitettu saatavuus\n. Jos julkaisupäivä puuttuu, tagi ei tulosta mitään.\nTagi tulostaa myös\nhtml\n-attribuutin arvosta riippuvan selitetekstin julkaisuajalle.\nTuotteen voi julkaista ennakkotilattavaksi jo ennen kuin se tulee myyntiin. Tulostaaksesi myynnin aloitusajan käytä\n{ProductPublishTime}\n‑tagia.",
+      "tag_scope": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "visibility": "Toimii näkyvyydessä:\ntuote\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "syntax": "{ProductReleaseDate(\n    date_format: string,\n    html: boolean,\n    released: boolean\n)}",
+      "syntax_block": "{ProductReleaseDate(\n    date_format: string,\n    html: boolean,\n    released: boolean\n)}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "date_format",
+          "description": "Määrittää päivämäärän tulostusmuodon.\nSallitut arvot:\nKoodi\nKuvaus\nEsimerkki\nd\nkuukauden päivä aina kaksinumeroisena\n06\nj\nkuukauden päivä ilman etunollaa\n6\nm\nkuukausi aina kaksinumeroisena\n03\nn\nkuukausi ilman etunollaa\n3\nY\nvuosi nelinumeroisena\n2025\ny\nvuosi kaksinumeroisena\n25\nAikayksikkökoodien kanssa voit käyttää soveltuvia välimerkkejä.\nEsimerkiksi\n1.1.2025\n‑mallisen päivämäärän saat aikaan attribuutilla\ndate_format:\n'j.n.Y'\n.\nLisätietoa aikayksikkökoodeista on esimerkiksi\nphp.net-ohjeissa\n."
+        },
+        {
+          "name": "html",
+          "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue\n(oletus): Tagi tulostaa oletusarvoisen merkkauksen ja sanakirjasta\nReleaseDate\n-tekstin\nfalse\n: Tagi tulostaa julkaisuajankohdasta riippuen joko tekstin\nWasReleased\ntai\nToBeReleased\n."
+        },
+        {
+          "name": "released",
+          "description": "Määrittää tulostaako tagi julkaisupäivämäärän myös julkaisun jälkeen.\nSallitut arvot:\ntrue\n(oletus)\nfalse"
+        },
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+        "Koodi\nKuvaus\nEsimerkki\nd\nkuukauden päivä aina kaksinumeroisena\n06\nj\nkuukauden päivä ilman etunollaa\n6\nm\nkuukausi aina kaksinumeroisena\n03\nn\nkuukausi ilman etunollaa\n3\nY\nvuosi nelinumeroisena\n2025\ny\nvuosi kaksinumeroisena\n25"
+      ]
+    },
+    {
       "tag": "{ProductPublishTime}",
       "url": "https://support.mycashflow.com/fi/teemaopas/productpublishtime",
       "shortdesc": "Tulostaa päivämäärän ja kellonajan, jolloin tuote tulee myyntiin.",
@@ -41589,6 +42242,124 @@
       "tables_preview": [
         "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat"
       ]
+    },
+    {
+      "tag": "{StockItemLocations}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocations",
+      "shortdesc": "Tulostaa listan sijainneista, joissa tuotteen varastonimike on saatavilla.",
+      "longdesc": "Varastonimike muodostuu automaattisesti, kun tuotteelle tai variaatiolle annetaan viivakoodi tai varastopaikka ja otetaan käyttöön varastoseuranta.\nJos tuotteella ei ole varastonimikettä, tagi tu tulosta mitään.\nVarastopaikan sijainti on joko kaupan oletusvarastopaikka tai\nPostin varastopalvelun\nvarasto, jos laajennus on käytössä kaupassa.\nVoit määrittää listan rakenteen ja sisällön\nhelper\n-attribuutin ja sen sisällä käytettävien varastopaikkatagien avulla:\n{StockItemLocationCode}\n{StockItemLocationName}\n{StockItemLocationQuantity}\nVarastopaikkoja voi tällä hetkellä hallita vain\nMyCashflow API\n:n kautta.\nOta yhteyttä MyCashflow'n asiakaspalveluun, jos tarvitset lisätietoja varastopaikkojen käyttöönottamisesta.\nLue myös varastonhallinnan käyttöohjeet.",
+      "tag_scope": "Toimii näkyvyydessä:\ntuote\nNäkyvyys\nhelper\n-attribuutissa:\nvarastosijainti\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "visibility": "Toimii näkyvyydessä:\ntuote\nNäkyvyys\nhelper\n-attribuutissa:\nvarastosijainti\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat",
+      "syntax": "{StockItemLocations(\n    helper: string,\n    filter: string\n)}",
+      "syntax_block": "{StockItemLocations(\n    helper: string,\n    filter: string\n)}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "helper",
+          "description": "Määrittää yksittäisen listaelementin sisällön ja tulostusmuodon.\nSallitut arvot:\nTeksti, jossa voi olla Interface- ja HTML-merkkausta.\nhelper\n-attribuuttia on mahdollista käyttää kahdella tavalla:\nvoit kirjoittaa halutun merkkauksen suoraan attribuutin arvoksi\ntai\nvoit antaa attribuutin arvoksi viittauksen tiedostoon, joka sisältää halutun merkkauksen. Anna viittaus suhteessa teeman juurihakemistoon.\nKatso myös\nhelper\n-attribuutin tarkemmat käyttöohjeet\n."
+        },
+        {
+          "name": "filter",
+          "description": "Rajaa tulostettavat sijainnit niiden ID-numerojen perusteella. Jos attribuuttia ei anneta, tagi tulostaa kaikki varastopaikat.\nSallitut arvot:\nvarastopaikkojen tunnisteet putkimerkeillä (\n|\n) erotettuina."
+        },
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "between",
+          "description": "Määrittää sisällön, jonka tagi tulostaa jokaisen listaelementin väliin.\nAttribuutti esimerkiksi mahdollistaa\ntuotelistan muotoilun JSON-objektiksi\nkäyttämällä attribuutin arvona pilkkua.\nSallitut arvot:\nmerkkijono ja/tai HTML/Interface-merkkaus"
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": [
+        "Sivupohjat\nYksittäisen tuotteen sivupohja\nTuotekuvat"
+      ]
+    },
+    {
+      "tag": "{StockItemLocationCode}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationcode",
+      "shortdesc": "Tulostaa varastopaikan tunnisteen.",
+      "longdesc": "",
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "visibility": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax": "{StockItemLocationCode}",
+      "syntax_block": "{StockItemLocationCode}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
+    },
+    {
+      "tag": "{StockItemLocationName}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationname",
+      "shortdesc": "Tulostaa varastopaikan nimen.",
+      "longdesc": "",
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "visibility": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax": "{StockItemLocationName}",
+      "syntax_block": "{StockItemLocationName}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
+    },
+    {
+      "tag": "{StockItemLocationQuantity}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/stockitemlocationquantity",
+      "shortdesc": "Tulostaa varastonimikkeen kappalemäärän varastopaikassa.",
+      "longdesc": "Jos nimikettä ei ole kyseisessä varastopaikassa, tagi ei tulosta mitään.",
+      "tag_scope": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "visibility": "Toimii näkyvyydessä:\nvarastosijainti\nTagia käytetään vain\n{StockItemLocations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax": "{StockItemLocationQuantity}",
+      "syntax_block": "{StockItemLocationQuantity}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
     },
     {
       "tag": "{ProductSupplierCode}",
@@ -43642,7 +44413,7 @@
     },
     {
       "tag": "{OrderProductCustomsTariffCode}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderProductCustomsTariffCode",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderproductcustomstariffcode",
       "shortdesc": "Tulostaa tilaustuotteen tullitariffinimikkeen (CN-koodin).",
       "longdesc": "Tullitariffikoodi asetetaan tilaustuotteille\nlähetystiedoissa\ntai\ntilausasetuksissa\n.\nLue lisää tullaustietojen käyttämisestä.",
       "tag_scope": "Toimii näkyvyydessä:\ntilaustuote\nTagia käytetään niissä\ntilausdokumenttien\nja -\nsähköpostien\nsivupohjissa, joihin tullitiedot on jo asetettu (esim. tilausvahvistuksessa niitä ei vielä ole).",
@@ -43668,7 +44439,7 @@
     },
     {
       "tag": "{OrderProductCountryOfOrigin}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderProductCountryOfOrigin",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderproductcountryoforigin",
       "shortdesc": "Tulostaa tilaustuotteen alkuperämaan kaksikirjaimisen koodin (esim. Suomi = fi ).",
       "longdesc": "Alkuperämaa asetetaan tilaustuotteille\nlähetystiedoissa\ntai\ntilausasetuksissa\n.\nLue lisää tullaustietojen käyttämisestä.",
       "tag_scope": "Toimii näkyvyydessä:\ntilaustuote\nTagia käytetään niissä\ntilausdokumenttien\nja -\nsähköpostien\nsivupohjissa, joihin tullitiedot on jo asetettu (esim. tilausvahvistuksessa niitä ei vielä ole).",
@@ -46463,7 +47234,7 @@
     },
     {
       "tag": "{OrderShippingMethodID}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderShippingMethodID",
+      "url": "https://support.mycashflow.com/fi/teemaopas/ordershippingmethodid",
       "shortdesc": "Tulostaa tilauksen toimitustavan yksilöllisen ID-numeron.",
       "longdesc": "",
       "tag_scope": "Toimii näkyvyydessä:\ntilaus\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nKiitos tilauksesta -sivu\nTilausvahvistus\nToimitusvahvistus\nToimitus viivästyy -ilmoitus\nValmis noudettavaksi -ilmoitus\nMaksuvahvistus\nOdotamme maksuasi -muistutus\nTilaus on peruttu -ilmoitus\nKuitti\nLähetyslista\nOsoitekortti",
@@ -47780,7 +48551,7 @@
     },
     {
       "tag": "{OrderDiscounts}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/OrderDiscounts",
+      "url": "https://support.mycashflow.com/fi/teemaopas/orderdiscounts",
       "shortdesc": "Tulostaa muotoiltavan listan tilaukseen kohdistuvista alennuksista.",
       "longdesc": "Alennuslista rakennetaan käyttämällä tagin\nhelper\n-attribuutissa seuraavia tageja:\n{DiscountLabel}\n{DiscountName}\n{DiscountAmount}\n{DiscountTaxRate}\n{DiscountTax}\n{OrderDiscount}\n-tagin avulla voit tulostaa alennuksen summan, johon sisältyvät myös toimituskulualennukset.",
       "tag_scope": "Toimii näkyvyydessä:\ntilaus\nNäkyvyys\nhelper\n-attribuutissa:\ntilauksen alennus\nVaadittu näkyvyys on aina asetettuna seuraavissa sivupohjissa:\nSivupohjat\nKiitos tilauksesta -sivu\nTilausvahvistus\nToimitusvahvistus\nToimitus viivästyy -ilmoitus\nValmis noudettavaksi -ilmoitus\nMaksuvahvistus\nOdotamme maksuasi -muistutus\nTilaus on peruttu -ilmoitus\nKuitti\nLähetyslista\nOsoitekortti",
@@ -47812,7 +48583,7 @@
     },
     {
       "tag": "{DiscountLabel}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountLabel",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountlabel",
       "shortdesc": "Tulostaa tilauksella käytössä olevan alennuksen tyypin (kampanja tai alennuskuponki).",
       "longdesc": "Tagi tulostaa\nsanakirjasta\njoko rivin\nCoupon\ntai\nCampaign\nriippuen alennuksen tyypistä.",
       "tag_scope": "Toimii näkyvyydessä:\ntilauksen alennus\nTagia käytetään vain\n{OrderDiscounts}\n-tagin\nhelper\n-attribuutissa.",
@@ -47838,7 +48609,7 @@
     },
     {
       "tag": "{DiscountName}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountName",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountname",
       "shortdesc": "Tulostaa tilaukseen kohdistuvan alennuksen nimen (kampanjan tai alennuskupongin nimi).",
       "longdesc": "",
       "tag_scope": "Toimii näkyvyydessä:\ntilauksen alennus\nTagia käytetään vain\n{OrderDiscounts}\n-tagin\nhelper\n-attribuutissa.",
@@ -47864,7 +48635,7 @@
     },
     {
       "tag": "{DiscountAmount}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountAmount",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discountamount",
       "shortdesc": "Tulostaa tilaukseen kohdistuvan yksittäisen alennuksen euromääräisen summan.",
       "longdesc": "",
       "tag_scope": "Toimii näkyvyydessä:\ntilauksen alennus\nTagia käytetään vain\n{OrderDiscounts}\n-tagin\nhelper\n-attribuutissa.",
@@ -47918,7 +48689,7 @@
     },
     {
       "tag": "{DiscountTaxRate}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountTaxRate",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discounttaxrate",
       "shortdesc": "Tulostaa tilaukseen kohdistuvan yksittäisen alennuksen veroprosentin.",
       "longdesc": "{DiscountTax}\n-tagin avulla voit tulostaa veron euromääräisen osuuden alennuksesta.",
       "tag_scope": "Toimii näkyvyydessä:\ntilauksen alennus\nTagia käytetään vain\n{OrderDiscounts}\n-tagin\nhelper\n-attribuutissa.",
@@ -47944,7 +48715,7 @@
     },
     {
       "tag": "{DiscountTax}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/DiscountTax",
+      "url": "https://support.mycashflow.com/fi/teemaopas/discounttax",
       "shortdesc": "Tulostaa veron euromääräisen osuuden tilaukseen kohdistuvasta yksittäisestä alennuksesta.",
       "longdesc": "{DiscountTaxRate}\n-tagin avulla voit tulostaa alennuksen veroprosentin.",
       "tag_scope": "Toimii näkyvyydessä:\ntilauksen alennus\nTagia käytetään vain\n{OrderDiscounts}\n-tagin\nhelper\n-attribuutissa.",
@@ -48870,7 +49641,7 @@
     },
     {
       "tag": "{SearchFilterOptionId}",
-      "url": "https://support.mycashflow.com/fi/teemaopas/SearchFilterOptionId",
+      "url": "https://support.mycashflow.com/fi/teemaopas/searchfilteroptionid",
       "shortdesc": "Tulostaa tuotehakusuodattimen yksilöivän tunnisteen.",
       "longdesc": "Tämä tagi on käytössä vain maksullisissa MyCashflow-palvelupaketeissa.\nTagin avulla voit esimerkiksi laatia tuotesuodatinvalinnalle HTML-luokkanimen, jonka avulla siihen on helppo kohdistaa CSS-määrityksiä.\nMyCashflow'n maksullisten palvelupakettien\nhakukone\nsisältää seuraavat hakusuodattimet:\nHintaluokka\nTuoteryhmä\nTuotemerkki\nKatso myös\ntarkemmat ohjeet\nhakutyökalujen toteuttamiseen verkkokaupan teemassa.",
       "tag_scope": "Toimii näkyvyydessä:\nhakusuodatinvaihtoehto\nTagia käytetään vain\n{SearchFilterOptions}\n-tagin\nhelper\n-attribuutissa.",
