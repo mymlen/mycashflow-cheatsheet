@@ -1,6 +1,33 @@
 {
   "entries": [
     {
+      "date": "2026-09-21T10:07:31Z",
+      "date_label": "21 September 2026",
+      "summary": "3 tags updated",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{BrandNewProducts}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CategoryNewProducts}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{NewProducts}",
+          "changes": [
+            "Long description changed"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-31T11:03:30Z",
       "date_label": "31 August 2026",
       "summary": "14 new tags",
