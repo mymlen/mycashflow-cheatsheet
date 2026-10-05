@@ -1,8 +1,8 @@
 {
   "start_url": "https://support.mycashflow.com/fi/teemaopas",
-  "page_count": 810,
-  "unique_urls_crawled": 810,
-  "tag_page_count": 629,
+  "page_count": 811,
+  "unique_urls_crawled": 811,
+  "tag_page_count": 630,
   "errors": [],
   "pages": [
     {
@@ -1997,6 +1997,10 @@
       "longdesc": "Lyhyt kuvaus määritellään hallintatyökalun käyttöliittymässä\nTuotekuvaus\n-kentässä.\nJos\nteeman asetuksissa\non määritetty arvo\n<ProductBundles supported=\"false\" />\n,\n{ProductShortDesc}\n-tagi tulostaa listan\ntuotepaketeista\njoihin tuote kuuluu.\nMikäli teeman asetuksissa on arvo\n<ProductBundles supported=\"true\" />\n,\n{ProductShortDesc}\nei tulosta tuotepaketteja, jolloin listaus on lisättävä teemaan\n{ProductBundles}\n-tagin avulla.",
       "sections": {},
       "attribute_blocks": [
+        {
+          "name": "plain",
+          "description": "Tulostaa lyhyen kuvauksen ilman HTML-merkkausta. Käytä attribuuttia, kun lisäät kuvauksen paikkaan, jossa merkkaus ei ole sallittua (esim. metatiedot sivun\n<head>\n-osiossa).\nSallitut arvot:\ntrue\ntai\nfalse"
+        },
         {
           "name": "language",
           "description": "Määrittää kielet, joilla sisältö tulostetaan.\nSallitut arvot:\nputkimerkeillä erotellut kaksikirjaimiset kielikoodit (esim.\n'fi|en|de'\n)\ncurrent\n-avainsanaa käyttämällä tulostetaan sisältö käytössä olevan kauppaversion kielellä."
@@ -6694,6 +6698,33 @@
       "tables_text": [
         "Tuotesivupohja\nproduct.html"
       ],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/productreviewunsubscribeurl",
+      "title": "{ProductReviewUnsubscribeUrl} | MyCashflow Ohjekeskus",
+      "h1": "{ProductReviewUnsubscribeUrl}",
+      "tag": "{ProductReviewUnsubscribeUrl}",
+      "shortdesc": "Tulostaa sähköpostiviestiin linkin, jonka kautta asiakas voi perua tuotearvosteluja varten antamansa markkinointiluvan.",
+      "longdesc": "",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Tagia käytetään vain tuotearvostelupyyntöjen sähköpostiviesteissä.",
+      "syntax_block": "{\nProductReviewUnsubscribeUrl\n}",
+      "tables_text": [],
       "error": null
     },
     {
@@ -12546,7 +12577,7 @@
         },
         {
           "name": "similar_to",
-          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
         },
         {
           "name": "compatible_to",
@@ -12562,7 +12593,7 @@
         },
         {
           "name": "crosssales_for",
-          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nHuomio\n!\nSamankaltaiset tuotteet määritellään automaattisesti\nkäyttöympäristön\nnäkyvyyden perusteella."
+          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nHuomio\n!\nSamankaltaiset tuotteet määritellään automaattisesti\nkäyttöympäristön\nnäkyvyyden perusteella.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:"
         },
         {
           "name": "fallback",
@@ -12667,7 +12698,7 @@
         },
         {
           "name": "compatible_to",
-          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\ncompatible_to:\n'1|34|2'\ntai\ncompatible_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\ncompatible_to:\n'1|34|2'\ntai\ncompatible_to:\n'cart'"
         },
         {
           "name": "similar_to",
@@ -12683,7 +12714,7 @@
         },
         {
           "name": "crosssales_for",
-          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncrosssales_for: '1|2|3'\ntai\ncrosssales_for: 'last_viewed'"
+          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncrosssales_for: '1|2|3'\ntai\ncrosssales_for: 'last_viewed'"
         },
         {
           "name": "fallback",
@@ -12796,7 +12827,7 @@
         },
         {
           "name": "add_on_to",
-          "description": "Määrittää tuotteet, joiden lisäosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nadd_on_to:\n'1|34|2'\ntai\nadd_on_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden lisäosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nadd_on_to:\n'1|34|2'\ntai\nadd_on_to:\n'cart'"
         },
         {
           "name": "spare_part_to",
@@ -12921,7 +12952,7 @@
         },
         {
           "name": "spare_part_to",
-          "description": "Määrittää tuotteet, joiden varaosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nspare_part_to:\n'1|34|2'\ntai\nspare_part_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden varaosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nspare_part_to:\n'1|34|2'\ntai\nspare_part_to:\n'cart'"
         },
         {
           "name": "crosssales_for",
@@ -13030,11 +13061,11 @@
         },
         {
           "name": "similar_to",
-          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
         },
         {
           "name": "compatible_to",
-          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncompatible_to: '1|3|4'\ntai\ncompatible_to: 'last_bought'"
+          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncompatible_to: '1|3|4'\ntai\ncompatible_to: 'last_bought'"
         },
         {
           "name": "fallback",
@@ -16954,7 +16985,7 @@
       "attribute_blocks": [
         {
           "name": "type",
-          "description": "Määrittää tulostettavan viivakoodin tyypin.\nSallitut arvot:\ncode128\nean\n(\nvalue\n-attribuutissa määritetty viivakoodi määrittää, tulostaako tagi EAN13- vai EAN8-koodin)\nqr"
+          "description": "Määrittää tulostettavan viivakoodin tyypin.\nSallitut arvot:\ncode128\nean\n(\nvalue\n-attribuutissa määritetyn viivakoodin pituus määrittää, tulostaako tagi EAN8-, EAN13- vai ITF-14-koodin: 8 numeroa tuottaa EAN8-koodin, 13 numeroa EAN13-koodin ja 14 numeroa GTIN-14-koodin ITF-14-muodossa)\nqr"
         },
         {
           "name": "value",
@@ -21556,6 +21587,22 @@
         {
           "name": "helper",
           "description": "Määrittää yksittäisen listaelementin sisällön ja tulostusmuodon.\nSallitut arvot:\nTeksti, jossa voi olla Interface- ja HTML-merkkausta.\nhelper\n-attribuuttia on mahdollista käyttää kahdella tavalla:\nvoit kirjoittaa halutun merkkauksen suoraan attribuutin arvoksi\ntai\nvoit antaa attribuutin arvoksi viittauksen tiedostoon, joka sisältää halutun merkkauksen. Anna viittaus suhteessa teeman juurihakemistoon.\nKatso myös\nhelper\n-attribuutin tarkemmat käyttöohjeet\n."
+        },
+        {
+          "name": "limit",
+          "description": "Asettaa tulostuvan listan enimmäispituuden.\nSallitut arvot:\nkokonaisluvut\n.\nEsim.\nlimit:\n3"
+        },
+        {
+          "name": "product",
+          "description": "Määrittää ID-numeron perusteella tuotteen, jonka on kuuluttava haettaviin tuotepaketteihin.\nSallitut arvot:\nkokonaisluvut\n.\nEsim.\nproduct:\n1"
+        },
+        {
+          "name": "sort",
+          "description": "Määrittää listan lajitteluperusteet.\nSallitut arvot:\n'name_asc'\n: aakkosjärjestys nimien mukaan (A-Ö)\n'name_desc'\n: käänteinen aakkosjärjestys nimien mukaan (Ö-A)\n'released_asc'\n: uutuusjärjestys (vanhimmat ensin)\n'released_desc'\n: uutuusjärjestys (uusimmat ensin)\n'random'\n: satunnainen järjestys\n'sales_asc'\n: myyntimäärän mukaan nouseva järjestys\n'sales_desc'\n: myyntimäärän mukaan laskeva järjestys"
+        },
+        {
+          "name": "type",
+          "description": "Määrittää listan tulostusmuodon.\nAttribuuttia käytetään vain, mikäli\nhelper\n-attribuuttia ei ole asetettu. Tällöin\ntype\n-attribuuttia ei tarvitse asettaa erikseen, vaan se tulee automaattisesti käyttöön.\nSallitut arvot:\n'normal'"
         },
         {
           "name": "before / after",
@@ -27423,6 +27470,10 @@
       "attributes": "",
       "attribute_blocks": [
         {
+          "name": "plain",
+          "description": "Tulostaa lyhyen kuvauksen ilman HTML-merkkausta. Käytä attribuuttia, kun lisäät kuvauksen paikkaan, jossa merkkaus ei ole sallittua (esim. metatiedot sivun\n<head>\n-osiossa).\nSallitut arvot:\ntrue\ntai\nfalse"
+        },
+        {
           "name": "language",
           "description": "Määrittää kielet, joilla sisältö tulostetaan.\nSallitut arvot:\nputkimerkeillä erotellut kaksikirjaimiset kielikoodit (esim.\n'fi|en|de'\n)\ncurrent\n-avainsanaa käyttämällä tulostetaan sisältö käytössä olevan kauppaversion kielellä."
         },
@@ -31348,6 +31399,32 @@
       "tables_preview": [
         "Tuotesivupohja\nproduct.html"
       ]
+    },
+    {
+      "tag": "{ProductReviewUnsubscribeUrl}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/productreviewunsubscribeurl",
+      "shortdesc": "Tulostaa sähköpostiviestiin linkin, jonka kautta asiakas voi perua tuotearvosteluja varten antamansa markkinointiluvan.",
+      "longdesc": "",
+      "tag_scope": "Tagia käytetään vain tuotearvostelupyyntöjen sähköpostiviesteissä.",
+      "visibility": "Tagia käytetään vain tuotearvostelupyyntöjen sähköpostiviesteissä.",
+      "syntax": "{\nProductReviewUnsubscribeUrl\n}",
+      "syntax_block": "{\nProductReviewUnsubscribeUrl\n}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
     },
     {
       "tag": "{AuthorName}",
@@ -36652,7 +36729,7 @@
         },
         {
           "name": "similar_to",
-          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
         },
         {
           "name": "compatible_to",
@@ -36668,7 +36745,7 @@
         },
         {
           "name": "crosssales_for",
-          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nHuomio\n!\nSamankaltaiset tuotteet määritellään automaattisesti\nkäyttöympäristön\nnäkyvyyden perusteella."
+          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nHuomio\n!\nSamankaltaiset tuotteet määritellään automaattisesti\nkäyttöympäristön\nnäkyvyyden perusteella.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:"
         },
         {
           "name": "fallback",
@@ -36772,7 +36849,7 @@
         },
         {
           "name": "compatible_to",
-          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\ncompatible_to:\n'1|34|2'\ntai\ncompatible_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\ncompatible_to:\n'1|34|2'\ntai\ncompatible_to:\n'cart'"
         },
         {
           "name": "similar_to",
@@ -36788,7 +36865,7 @@
         },
         {
           "name": "crosssales_for",
-          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncrosssales_for: '1|2|3'\ntai\ncrosssales_for: 'last_viewed'"
+          "description": "Määrittää tuotteet, joiden kanssa yhdessä ostettuja tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncrosssales_for: '1|2|3'\ntai\ncrosssales_for: 'last_viewed'"
         },
         {
           "name": "fallback",
@@ -36900,7 +36977,7 @@
         },
         {
           "name": "add_on_to",
-          "description": "Määrittää tuotteet, joiden lisäosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nadd_on_to:\n'1|34|2'\ntai\nadd_on_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden lisäosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nadd_on_to:\n'1|34|2'\ntai\nadd_on_to:\n'cart'"
         },
         {
           "name": "spare_part_to",
@@ -37024,7 +37101,7 @@
         },
         {
           "name": "spare_part_to",
-          "description": "Määrittää tuotteet, joiden varaosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nspare_part_to:\n'1|34|2'\ntai\nspare_part_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden varaosia listalle halutaan hakea.\nAttribuutin arvo määritetään automaattisesti käyttöympäristön perusteella.\nTagi hakee oletusarvoisesti näkyvyyden tuotteiden kanssa ristiinmyytävät tuotteet\nKäytä tätä attribuuttia vain, mikäli haluat korvata oletuksena asetetun arvon.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nJos valmiit suodattimet eivät tuota tuloksia, attribuutti yrittää hakea ristiinmyyntejä näkyvyyden tuotteiden perusteella. Voit estää tämän attribuuttimäärityksellä\nfallback:\nfalse\n.\nEsim.\nspare_part_to:\n'1|34|2'\ntai\nspare_part_to:\n'cart'"
         },
         {
           "name": "crosssales_for",
@@ -37132,11 +37209,11 @@
         },
         {
           "name": "similar_to",
-          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
+          "description": "Määrittää tuotteet, joiden kanssa samankaltaisiksi merkittyjä tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.:\nsimilar_to:\n'1|14|24'\ntai\nsimilar_to:\n'cart'"
         },
         {
           "name": "compatible_to",
-          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncompatible_to: '1|3|4'\ntai\ncompatible_to: 'last_bought'"
+          "description": "Määrittää tuotteet, joiden kanssa yhteensopivia tuotteita listalle halutaan hakea.\nSallitut arvot:\npystyviivoilla erotetut tuotteiden ID-numerot\ntai\njokin valmiista suodattimista:\n'cart'\n: valikoidaan ristiinmyynnit ostoskorissa olevien tuotteiden perusteella\n'last_viewed'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi katsomien tuotteiden perusteella\n'last_bought'\n: valikoidaan ristiinmyynnit asiakkaan viimeksi ostamien tuotteiden perusteella (asiakkaan on oltava kirjautunut sisään)\nEsim.\ncompatible_to: '1|3|4'\ntai\ncompatible_to: 'last_bought'"
         },
         {
           "name": "fallback",
@@ -40590,7 +40667,7 @@
       "attribute_blocks": [
         {
           "name": "type",
-          "description": "Määrittää tulostettavan viivakoodin tyypin.\nSallitut arvot:\ncode128\nean\n(\nvalue\n-attribuutissa määritetty viivakoodi määrittää, tulostaako tagi EAN13- vai EAN8-koodin)\nqr"
+          "description": "Määrittää tulostettavan viivakoodin tyypin.\nSallitut arvot:\ncode128\nean\n(\nvalue\n-attribuutissa määritetyn viivakoodin pituus määrittää, tulostaako tagi EAN8-, EAN13- vai ITF-14-koodin: 8 numeroa tuottaa EAN8-koodin, 13 numeroa EAN13-koodin ja 14 numeroa GTIN-14-koodin ITF-14-muodossa)\nqr"
         },
         {
           "name": "value",
@@ -45061,6 +45138,22 @@
         {
           "name": "helper",
           "description": "Määrittää yksittäisen listaelementin sisällön ja tulostusmuodon.\nSallitut arvot:\nTeksti, jossa voi olla Interface- ja HTML-merkkausta.\nhelper\n-attribuuttia on mahdollista käyttää kahdella tavalla:\nvoit kirjoittaa halutun merkkauksen suoraan attribuutin arvoksi\ntai\nvoit antaa attribuutin arvoksi viittauksen tiedostoon, joka sisältää halutun merkkauksen. Anna viittaus suhteessa teeman juurihakemistoon.\nKatso myös\nhelper\n-attribuutin tarkemmat käyttöohjeet\n."
+        },
+        {
+          "name": "limit",
+          "description": "Asettaa tulostuvan listan enimmäispituuden.\nSallitut arvot:\nkokonaisluvut\n.\nEsim.\nlimit:\n3"
+        },
+        {
+          "name": "product",
+          "description": "Määrittää ID-numeron perusteella tuotteen, jonka on kuuluttava haettaviin tuotepaketteihin.\nSallitut arvot:\nkokonaisluvut\n.\nEsim.\nproduct:\n1"
+        },
+        {
+          "name": "sort",
+          "description": "Määrittää listan lajitteluperusteet.\nSallitut arvot:\n'name_asc'\n: aakkosjärjestys nimien mukaan (A-Ö)\n'name_desc'\n: käänteinen aakkosjärjestys nimien mukaan (Ö-A)\n'released_asc'\n: uutuusjärjestys (vanhimmat ensin)\n'released_desc'\n: uutuusjärjestys (uusimmat ensin)\n'random'\n: satunnainen järjestys\n'sales_asc'\n: myyntimäärän mukaan nouseva järjestys\n'sales_desc'\n: myyntimäärän mukaan laskeva järjestys"
+        },
+        {
+          "name": "type",
+          "description": "Määrittää listan tulostusmuodon.\nAttribuuttia käytetään vain, mikäli\nhelper\n-attribuuttia ei ole asetettu. Tällöin\ntype\n-attribuuttia ei tarvitse asettaa erikseen, vaan se tulee automaattisesti käyttöön.\nSallitut arvot:\n'normal'"
         },
         {
           "name": "before / after",

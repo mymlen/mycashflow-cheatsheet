@@ -1,6 +1,74 @@
 {
   "entries": [
     {
+      "date": "2026-10-05T11:41:13Z",
+      "date_label": "5 October 2026",
+      "summary": "1 new tag, 8 tags updated",
+      "added": [
+        {
+          "tag": "{ProductReviewUnsubscribeUrl}",
+          "message": "New tag {ProductReviewUnsubscribeUrl} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Attribute description updated: add_on_to"
+          ]
+        },
+        {
+          "tag": "{Barcode}",
+          "changes": [
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CompatibleProducts}",
+          "changes": [
+            "Attribute description updated: compatible_to",
+            "Attribute description updated: crosssales_for"
+          ]
+        },
+        {
+          "tag": "{CrossSaleProducts}",
+          "changes": [
+            "Attribute description updated: compatible_to",
+            "Attribute description updated: similar_to"
+          ]
+        },
+        {
+          "tag": "{FeaturedBundles}",
+          "changes": [
+            "Attribute added: limit",
+            "Attribute added: product",
+            "Attribute added: sort",
+            "Attribute added: type"
+          ]
+        },
+        {
+          "tag": "{ProductShortDesc}",
+          "changes": [
+            "Attribute added: plain"
+          ]
+        },
+        {
+          "tag": "{SimilarProducts}",
+          "changes": [
+            "Attribute description updated: crosssales_for",
+            "Attribute description updated: similar_to"
+          ]
+        },
+        {
+          "tag": "{SparePartProducts}",
+          "changes": [
+            "Attribute description updated: spare_part_to"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-09-21T10:07:31Z",
       "date_label": "21 September 2026",
       "summary": "3 tags updated",
