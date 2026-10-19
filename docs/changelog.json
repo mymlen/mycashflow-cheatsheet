@@ -1,6 +1,39 @@
 {
   "entries": [
     {
+      "date": "2026-10-19T10:05:49Z",
+      "date_label": "19 October 2026",
+      "summary": "4 tags updated",
+      "added": [],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{BrandHotPicks}",
+          "changes": [
+            "Syntax updated"
+          ]
+        },
+        {
+          "tag": "{CanonicalURL}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{ColorContrast}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{ProductDocuments}",
+          "changes": [
+            "Long description changed"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-05T11:41:13Z",
       "date_label": "5 October 2026",
       "summary": "1 new tag, 8 tags updated",
