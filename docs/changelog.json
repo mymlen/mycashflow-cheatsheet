@@ -1,6 +1,32 @@
 {
   "entries": [
     {
+      "date": "2026-11-02T12:34:51Z",
+      "date_label": "2 November 2026",
+      "summary": "1 new tag, 2 tags updated",
+      "added": [
+        {
+          "tag": "{VariationAvailability}",
+          "message": "New tag {VariationAvailability} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{BundleAvailability}",
+          "changes": [
+            "Attribute added: type"
+          ]
+        },
+        {
+          "tag": "{ProductAvailability}",
+          "changes": [
+            "Attribute added: type"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-19T10:05:49Z",
       "date_label": "19 October 2026",
       "summary": "4 tags updated",

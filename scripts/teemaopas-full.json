@@ -1,8 +1,8 @@
 {
   "start_url": "https://support.mycashflow.com/fi/teemaopas",
-  "page_count": 811,
-  "unique_urls_crawled": 811,
-  "tag_page_count": 630,
+  "page_count": 812,
+  "unique_urls_crawled": 812,
+  "tag_page_count": 631,
   "errors": [],
   "pages": [
     {
@@ -6511,6 +6511,45 @@
       ],
       "tag_scope": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
       "syntax_block": "{VariationOriginCountry}",
+      "tables_text": [],
+      "error": null
+    },
+    {
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationavailability",
+      "title": "{VariationAvailability} | MyCashflow Ohjekeskus",
+      "h1": "{VariationAvailability}",
+      "tag": "{VariationAvailability}",
+      "shortdesc": "Tulostaa tuotevariaation saatavuustiedot.",
+      "longdesc": "Tagi tulostaa seuraavat saatavuustiedot:\nSaatavuus\nVarastosaldo (attribuutilla\nstock:\ntrue\n)\nTagi tulostaa varastosaldon ilman käsittelemättömiin tilauksiin liittyviä varauksia.\nVarastonseuranta pitää ottaa käyttöön tuotevariaation\nvarastoasetuksista\n, muuten tagi ei tulosta mitään.\nPelkän variaation varastosaldon voit tulostaa\n{VariationStockBalance}\n-tagilla.\nToimitusaika (mikäli asetettu)",
+      "sections": {},
+      "attribute_blocks": [
+        {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
+        {
+          "name": "html",
+          "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false\n. Oletusarvo\ntrue\n."
+        },
+        {
+          "name": "stock",
+          "description": "Määrittää, tulostuuko tuotteen varastosaldo.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n."
+        },
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tag_scope": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax_block": "{VariationAvailability(\n    type: string,\n    html: boolean,\n    stock: boolean\n)}",
       "tables_text": [],
       "error": null
     },
@@ -18404,6 +18443,10 @@
       "sections": {},
       "attribute_blocks": [
         {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\nvaries_by_model\n: saatavuus vaihtelee\nvariaation\nmukaan\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
+        {
           "name": "html",
           "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false\n. Oletusarvo\ntrue\n."
         },
@@ -21968,6 +22011,10 @@
       "longdesc": "Saatavuustiedot pitävät sisällään seuraavat tiedot:\nSaatavuus\nToimitusaika (mikäli asetettu)\nVoit tulostaa pelkän toimitusajan käyttämällä\n{BundleStockDeliveryPeriod}\n-tagia.\nstock\n-attribuutin avulla voit asettaa tagin tulostamaan vain tuotepaketin varastosaldon. Voit tulostaa pelkän varastosaldon myös\n{BundleStockBalance}\n-tagilla.\nLue käyttöoppaasta lisää tuotepaketin saatavuudesta.",
       "sections": {},
       "attribute_blocks": [
+        {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\nvaries_by_product\n: tuotepaketin tuotteiden saatavuus vaihtelee keskenään tai asiakkaan variaatiovalinnan mukaan\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
         {
           "name": "html",
           "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false"
@@ -31205,6 +31252,44 @@
       "syntax_block": "{VariationOriginCountry}",
       "attributes": "",
       "attribute_blocks": [
+        {
+          "name": "before / after",
+          "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
+        },
+        {
+          "name": "escape",
+          "description": "Lisää tagin tulostamaan sisältöön pakomerkit, jotta sisältöä on helpompi käyttää\nJavaScript-koodissa\ntai JSON-objekteissa.\nSallitut arvot:\ntrue\n: attribuutti lisää pakomerkit ennen lainausmerkkejä\nfalse\n: attribuutti ei tee mitään\njson\n: attribuutti lisää tulostukseen pakomerkit, joiden avulla sisältöä voi käyttää JSON-merkkauksessa."
+        },
+        {
+          "name": "or",
+          "description": "Määrittää vaihtoehtoisen sisällön, joka näkyy, jos tagi ei itse tuota mitään sisältöä.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.\nor:\n'Sisältöä ei löytynyt.'"
+        }
+      ],
+      "tables_preview": []
+    },
+    {
+      "tag": "{VariationAvailability}",
+      "url": "https://support.mycashflow.com/fi/teemaopas/variationavailability",
+      "shortdesc": "Tulostaa tuotevariaation saatavuustiedot.",
+      "longdesc": "Tagi tulostaa seuraavat saatavuustiedot:\nSaatavuus\nVarastosaldo (attribuutilla\nstock:\ntrue\n)\nTagi tulostaa varastosaldon ilman käsittelemättömiin tilauksiin liittyviä varauksia.\nVarastonseuranta pitää ottaa käyttöön tuotevariaation\nvarastoasetuksista\n, muuten tagi ei tulosta mitään.\nPelkän variaation varastosaldon voit tulostaa\n{VariationStockBalance}\n-tagilla.\nToimitusaika (mikäli asetettu)",
+      "tag_scope": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
+      "visibility": "Toimii näkyvyydessä:\ntuotevariaatio\nTagia käytetään vain\n{ProductVariations}\n-tagin\nhelper\n-attribuutissa.",
+      "syntax": "{VariationAvailability(\n    type: string,\n    html: boolean,\n    stock: boolean\n)}",
+      "syntax_block": "{VariationAvailability(\n    type: string,\n    html: boolean,\n    stock: boolean\n)}",
+      "attributes": "",
+      "attribute_blocks": [
+        {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
+        {
+          "name": "html",
+          "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false\n. Oletusarvo\ntrue\n."
+        },
+        {
+          "name": "stock",
+          "description": "Määrittää, tulostuuko tuotteen varastosaldo.\nSallitut arvot:\ntrue/false\n. Oletusarvo\nfalse\n."
+        },
         {
           "name": "before / after",
           "description": "Näillä kahdella attribuutilla voit määrittää sisällön, joka tulostuu ennen tagin tuottamaa sisältöä tai sen jälkeen.\nSallitut arvot:\nteksti, jossa voi olla HTML- ja Interface-merkkausta.\nEsim.:\nbefore:\n'<p>Tämä merkkaus näkyy ennen tagin omaa sisältöä.</p>'\nafter:\n'<p>Tämä taas näkyy tagin oman sisällön jälkeen.</p>'\nJos tagi ei tuota mitään sisältöä, myöskään\nbefore\n- ja\nafter\n-attribuuttien sisältö ei tulostu."
@@ -42038,6 +42123,10 @@
       "attributes": "",
       "attribute_blocks": [
         {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\nvaries_by_model\n: saatavuus vaihtelee\nvariaation\nmukaan\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
+        {
           "name": "html",
           "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false\n. Oletusarvo\ntrue\n."
         },
@@ -45509,6 +45598,10 @@
       "syntax_block": "{BundleAvailability(\n    html: boolean,\n    stock: boolean\n)}",
       "attributes": "",
       "attribute_blocks": [
+        {
+          "name": "type",
+          "description": "Määrittää, missä muodossa tagi tulostaa saatavuustiedon.\nSallitut arvot:\n'text'\n: Tagi tulostaa saatavuustiedon asiakkaalle näytettävänä tekstinä. Tämä on oletusarvo.\n'value'\n: Tagi tulostaa saatavuustiedon kiinteänä tunnisteena, jota voit käyttää teemassa ehtona esimerkiksi\nwhen\n-attribuutin kanssa. Tunniste ei käänny kaupan kielen mukaan, joten voit verrata siihen suoraan.\nArvolla\n'value'\ntagi tulostaa jonkin seuraavista tunnisteista:\nin_stock\n: tuotetta on varastossa\nout_of_stock\n: tuote on loppunut\nbackorder\n: tuote toimitetaan\njälkitoimituksena\npreorder\n: tuote on\nennakkotilattavissa\npartly_in_stock\n: tilausmäärää ei ole kokonaan varastossa, mutta osa siitä on\nvaries_by_product\n: tuotepaketin tuotteiden saatavuus vaihtelee keskenään tai asiakkaan variaatiovalinnan mukaan\ndiscontinued\n: tuotetta ei enää toimiteta (sen myyntiaika on loppunut)\nJos tuote on ennakkotilattavissa ja myynnissä, tagi tulostaa arvon\npreorder\nvarastotilanteesta riippumatta. Vain\ndiscontinued\nohittaa sen.\nJos\nvarastonhallinta\nei ole käytössä, tagi ei tulosta arvolla\n'value'\nmitään. Varaudu teemassa siihen, ettei ehtolauseeseen välity tunnistetta."
+        },
         {
           "name": "html",
           "description": "Määrittää, tulostaako tagi sisällön ympärille oletusarvoisen HTML-merkkauksen.\nSallitut arvot:\ntrue/false"
