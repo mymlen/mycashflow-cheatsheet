@@ -1,6 +1,863 @@
 {
   "entries": [
     {
+      "date": "2026-11-16T13:00:03Z",
+      "date_label": "16 November 2026",
+      "summary": "9 new tags, 117 tags updated",
+      "added": [
+        {
+          "tag": "{PaginationHasNextPage}",
+          "message": "New tag {PaginationHasNextPage} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationItemCount}",
+          "message": "New tag {PaginationItemCount} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationItemFrom}",
+          "message": "New tag {PaginationItemFrom} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationItemTo}",
+          "message": "New tag {PaginationItemTo} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationNextItemCount}",
+          "message": "New tag {PaginationNextItemCount} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationPageCount}",
+          "message": "New tag {PaginationPageCount} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationPageSize}",
+          "message": "New tag {PaginationPageSize} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationPage}",
+          "message": "New tag {PaginationPage} appeared in the theme guide."
+        },
+        {
+          "tag": "{PaginationSortValue}",
+          "message": "New tag {PaginationSortValue} appeared in the theme guide."
+        }
+      ],
+      "removed": [],
+      "updated": [
+        {
+          "tag": "{AddOnProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandDiscountProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandHotPicks}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandNewProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandPreorderProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandRandomProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BrandTopSellers}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{BundleComparePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{BundlePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CampaignProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CartDiscountTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartDiscountWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartDiscount}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartOpenTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCostsTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCostsWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartPaymentCosts}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductComparePriceWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductComparePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductCompareTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductPriceWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductTotalTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductTotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartProductTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryCampaignCode}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryMessage}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CartRecoveryNotificationForm}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{CartShippingCostsTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartShippingCostsWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartShippingCosts}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartSubtotalTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartSubtotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartSubtotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartTotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CartTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{Cart}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{CategoryDiscountProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryHotPicks}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryNewProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryPreorderProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryRandomProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CategoryTopSellers}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CompatibleProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CrossSaleProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{CustomerLastBoughtProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{DiscountAmount}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{DiscountCodeValue}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{DiscountProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{DiscountTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalanceLeft}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalanceReserved}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{GiftCardBalance}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{Helper}",
+          "changes": [
+            "Attribute description updated: case"
+          ]
+        },
+        {
+          "tag": "{HotPicks}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{LastSoldProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{LastViewedProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierDiscount}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramDiscountTierPurchasesNeeded}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{LoyaltyProgramPointsOnPurchaseValue}",
+          "changes": [
+            "Attribute description updated: decimalsep"
+          ]
+        },
+        {
+          "tag": "{NewProducts}",
+          "changes": [
+            "Long description changed",
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{OrderDiscount}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderExchangedTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderOpenTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCostsWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderPaymentCosts}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductComparePriceWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductComparePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductPriceWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotalTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderProductTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCostsWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderShippingCosts}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderSubtotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderTotalWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{OrderTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{PaginationFormParameters}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{PaginationPages}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{PaginationSort}",
+          "changes": [
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{PaginationStatus}",
+          "changes": [
+            "Short description changed",
+            "Long description changed",
+            "Visibility updated"
+          ]
+        },
+        {
+          "tag": "{PreorderProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{ProductCampaignPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductClass}",
+          "changes": [
+            "Long description changed"
+          ]
+        },
+        {
+          "tag": "{ProductComparePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductDiscount}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductListPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductPriceFrom}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductPriceRange}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductPriceTo}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductPrices}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{ProductSet}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{ProductTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{Products}",
+          "changes": [
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{RandomProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{SearchProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{SimilarProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{SparePartProducts}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowTotal}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{TaxSummaryRowWithoutTax}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{TopSellers}",
+          "changes": [
+            "Attribute description updated: pagination",
+            "Attribute description updated: type"
+          ]
+        },
+        {
+          "tag": "{VariationComparePrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{VariationListPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        },
+        {
+          "tag": "{VariationPrice}",
+          "changes": [
+            "Attribute description updated: decimalsep",
+            "Attribute description updated: thousandssep"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-02T12:34:51Z",
       "date_label": "2 November 2026",
       "summary": "1 new tag, 2 tags updated",
